@@ -4,7 +4,7 @@
 
 > **pointConversion**(`point`): `object`
 
-定義於: [packages/board/src/utils/coorindate-conversion.ts:50](https://github.com/ue-too/ue-too/blob/68da915137a31a45d7ce8043b13275ff7283045d/packages/board/src/utils/coorindate-conversion.ts#L50)
+定義於: [packages/board/src/utils/coorindate-conversion.ts:50](https://github.com/ue-too/ue-too/blob/3358b0ff9b18cc8206e49089d5071b18926b4244/packages/board/src/utils/coorindate-conversion.ts#L50)
 
 Converts an isometric 3D point to a flat 2D world point.
 

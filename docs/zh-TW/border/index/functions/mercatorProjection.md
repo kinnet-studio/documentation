@@ -4,7 +4,7 @@
 
 > **mercatorProjection**(`interestPoint`, `centerLongitude`): `Point`
 
-定義於: [projection.ts:49](https://github.com/ue-too/ue-too/blob/68da915137a31a45d7ce8043b13275ff7283045d/packages/border/src/projection.ts#L49)
+定義於: [projection.ts:49](https://github.com/ue-too/ue-too/blob/3358b0ff9b18cc8206e49089d5071b18926b4244/packages/border/src/projection.ts#L49)
 
 Projects a geographic coordinate to Mercator projection.
 

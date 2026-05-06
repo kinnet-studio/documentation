@@ -2,7 +2,7 @@
 
 # クラス: VisaulCircleBody
 
-定義: [rigidbody.ts:359](https://github.com/ue-too/ue-too/blob/68da915137a31a45d7ce8043b13275ff7283045d/packages/dynamics/src/rigidbody.ts#L359)
+定義: [rigidbody.ts:365](https://github.com/ue-too/ue-too/blob/3358b0ff9b18cc8206e49089d5071b18926b4244/packages/dynamics/src/rigidbody.ts#L365)
 
 Rigid body interface for 2D physics simulation.
 
@@ -25,7 +25,7 @@ Implemented by [Circle](Circle.md) and [Polygon](Polygon.md) classes.
 
 > **new VisaulCircleBody**(`center`, `radius`, `drawingContext`, `_orientationAngle`, `mass`, `isStatic`, `frictionEnabled`): `VisaulCircleBody`
 
-定義: [rigidbody.ts:372](https://github.com/ue-too/ue-too/blob/68da915137a31a45d7ce8043b13275ff7283045d/packages/dynamics/src/rigidbody.ts#L372)
+定義: [rigidbody.ts:378](https://github.com/ue-too/ue-too/blob/3358b0ff9b18cc8206e49089d5071b18926b4244/packages/dynamics/src/rigidbody.ts#L378)
 
 #### パラメータ
 
@@ -67,7 +67,7 @@ Implemented by [Circle](Circle.md) and [Polygon](Polygon.md) classes.
 
 > **collisionFilter**: [`CollisionFilter`](../interfaces/CollisionFilter.md)
 
-定義: [rigidbody.ts:364](https://github.com/ue-too/ue-too/blob/68da915137a31a45d7ce8043b13275ff7283045d/packages/dynamics/src/rigidbody.ts#L364)
+定義: [rigidbody.ts:370](https://github.com/ue-too/ue-too/blob/3358b0ff9b18cc8206e49089d5071b18926b4244/packages/dynamics/src/rigidbody.ts#L370)
 
 Collision filtering configuration
 
@@ -81,7 +81,7 @@ Collision filtering configuration
 
 > **isSleeping**: `boolean` = `false`
 
-定義: [rigidbody.ts:367](https://github.com/ue-too/ue-too/blob/68da915137a31a45d7ce8043b13275ff7283045d/packages/dynamics/src/rigidbody.ts#L367)
+定義: [rigidbody.ts:373](https://github.com/ue-too/ue-too/blob/3358b0ff9b18cc8206e49089d5071b18926b4244/packages/dynamics/src/rigidbody.ts#L373)
 
 #### の実装
 
@@ -93,7 +93,7 @@ Collision filtering configuration
 
 > **sleepThreshold**: `number` = `0.01`
 
-定義: [rigidbody.ts:368](https://github.com/ue-too/ue-too/blob/68da915137a31a45d7ce8043b13275ff7283045d/packages/dynamics/src/rigidbody.ts#L368)
+定義: [rigidbody.ts:374](https://github.com/ue-too/ue-too/blob/3358b0ff9b18cc8206e49089d5071b18926b4244/packages/dynamics/src/rigidbody.ts#L374)
 
 #### の実装
 
@@ -105,7 +105,7 @@ Collision filtering configuration
 
 > **sleepTime**: `number` = `0.5`
 
-定義: [rigidbody.ts:369](https://github.com/ue-too/ue-too/blob/68da915137a31a45d7ce8043b13275ff7283045d/packages/dynamics/src/rigidbody.ts#L369)
+定義: [rigidbody.ts:375](https://github.com/ue-too/ue-too/blob/3358b0ff9b18cc8206e49089d5071b18926b4244/packages/dynamics/src/rigidbody.ts#L375)
 
 #### の実装
 
@@ -117,7 +117,7 @@ Collision filtering configuration
 
 > **timeAtRest**: `number` = `0`
 
-定義: [rigidbody.ts:370](https://github.com/ue-too/ue-too/blob/68da915137a31a45d7ce8043b13275ff7283045d/packages/dynamics/src/rigidbody.ts#L370)
+定義: [rigidbody.ts:376](https://github.com/ue-too/ue-too/blob/3358b0ff9b18cc8206e49089d5071b18926b4244/packages/dynamics/src/rigidbody.ts#L376)
 
 #### の実装
 
@@ -131,7 +131,7 @@ Collision filtering configuration
 
 > **get** **AABB**(): `object`
 
-定義: [rigidbody.ts:429](https://github.com/ue-too/ue-too/blob/68da915137a31a45d7ce8043b13275ff7283045d/packages/dynamics/src/rigidbody.ts#L429)
+定義: [rigidbody.ts:435](https://github.com/ue-too/ue-too/blob/3358b0ff9b18cc8206e49089d5071b18926b4244/packages/dynamics/src/rigidbody.ts#L435)
 
 Axis-Aligned Bounding Box for broad phase collision
 
@@ -161,7 +161,7 @@ Axis-Aligned Bounding Box for broad phase collision
 
 > **get** **angularVelocity**(): `number`
 
-定義: [rigidbody.ts:477](https://github.com/ue-too/ue-too/blob/68da915137a31a45d7ce8043b13275ff7283045d/packages/dynamics/src/rigidbody.ts#L477)
+定義: [rigidbody.ts:483](https://github.com/ue-too/ue-too/blob/3358b0ff9b18cc8206e49089d5071b18926b4244/packages/dynamics/src/rigidbody.ts#L483)
 
 Angular velocity (radians/second)
 
@@ -173,7 +173,7 @@ Angular velocity (radians/second)
 
 > **set** **angularVelocity**(`angularVelocity`): `void`
 
-定義: [rigidbody.ts:473](https://github.com/ue-too/ue-too/blob/68da915137a31a45d7ce8043b13275ff7283045d/packages/dynamics/src/rigidbody.ts#L473)
+定義: [rigidbody.ts:479](https://github.com/ue-too/ue-too/blob/3358b0ff9b18cc8206e49089d5071b18926b4244/packages/dynamics/src/rigidbody.ts#L479)
 
 Angular velocity (radians/second)
 
@@ -201,7 +201,7 @@ Angular velocity (radians/second)
 
 > **get** **center**(): `Point`
 
-定義: [rigidbody.ts:449](https://github.com/ue-too/ue-too/blob/68da915137a31a45d7ce8043b13275ff7283045d/packages/dynamics/src/rigidbody.ts#L449)
+定義: [rigidbody.ts:455](https://github.com/ue-too/ue-too/blob/3358b0ff9b18cc8206e49089d5071b18926b4244/packages/dynamics/src/rigidbody.ts#L455)
 
 Center position in world coordinates
 
@@ -213,7 +213,7 @@ Center position in world coordinates
 
 > **set** **center**(`dest`): `void`
 
-定義: [rigidbody.ts:453](https://github.com/ue-too/ue-too/blob/68da915137a31a45d7ce8043b13275ff7283045d/packages/dynamics/src/rigidbody.ts#L453)
+定義: [rigidbody.ts:459](https://github.com/ue-too/ue-too/blob/3358b0ff9b18cc8206e49089d5071b18926b4244/packages/dynamics/src/rigidbody.ts#L459)
 
 Center position in world coordinates
 
@@ -241,7 +241,7 @@ Center position in world coordinates
 
 > **get** **linearVelocity**(): `Point`
 
-定義: [rigidbody.ts:457](https://github.com/ue-too/ue-too/blob/68da915137a31a45d7ce8043b13275ff7283045d/packages/dynamics/src/rigidbody.ts#L457)
+定義: [rigidbody.ts:463](https://github.com/ue-too/ue-too/blob/3358b0ff9b18cc8206e49089d5071b18926b4244/packages/dynamics/src/rigidbody.ts#L463)
 
 Linear velocity (pixels/second)
 
@@ -253,7 +253,7 @@ Linear velocity (pixels/second)
 
 > **set** **linearVelocity**(`dest`): `void`
 
-定義: [rigidbody.ts:461](https://github.com/ue-too/ue-too/blob/68da915137a31a45d7ce8043b13275ff7283045d/packages/dynamics/src/rigidbody.ts#L461)
+定義: [rigidbody.ts:467](https://github.com/ue-too/ue-too/blob/3358b0ff9b18cc8206e49089d5071b18926b4244/packages/dynamics/src/rigidbody.ts#L467)
 
 Linear velocity (pixels/second)
 
@@ -281,7 +281,7 @@ Linear velocity (pixels/second)
 
 > **get** **mass**(): `number`
 
-定義: [rigidbody.ts:481](https://github.com/ue-too/ue-too/blob/68da915137a31a45d7ce8043b13275ff7283045d/packages/dynamics/src/rigidbody.ts#L481)
+定義: [rigidbody.ts:487](https://github.com/ue-too/ue-too/blob/3358b0ff9b18cc8206e49089d5071b18926b4244/packages/dynamics/src/rigidbody.ts#L487)
 
 Mass in arbitrary units (affects force response)
 
@@ -303,7 +303,7 @@ Mass in arbitrary units (affects force response)
 
 > **get** **momentOfInertia**(): `number`
 
-定義: [rigidbody.ts:504](https://github.com/ue-too/ue-too/blob/68da915137a31a45d7ce8043b13275ff7283045d/packages/dynamics/src/rigidbody.ts#L504)
+定義: [rigidbody.ts:510](https://github.com/ue-too/ue-too/blob/3358b0ff9b18cc8206e49089d5071b18926b4244/packages/dynamics/src/rigidbody.ts#L510)
 
 Moment of inertia (rotational mass)
 
@@ -325,7 +325,7 @@ Moment of inertia (rotational mass)
 
 > **get** **orientationAngle**(): `number`
 
-定義: [rigidbody.ts:465](https://github.com/ue-too/ue-too/blob/68da915137a31a45d7ce8043b13275ff7283045d/packages/dynamics/src/rigidbody.ts#L465)
+定義: [rigidbody.ts:471](https://github.com/ue-too/ue-too/blob/3358b0ff9b18cc8206e49089d5071b18926b4244/packages/dynamics/src/rigidbody.ts#L471)
 
 Rotation angle in radians
 
@@ -347,7 +347,7 @@ Rotation angle in radians
 
 > **get** **staticFrictionCoeff**(): `number`
 
-定義: [rigidbody.ts:489](https://github.com/ue-too/ue-too/blob/68da915137a31a45d7ce8043b13275ff7283045d/packages/dynamics/src/rigidbody.ts#L489)
+定義: [rigidbody.ts:495](https://github.com/ue-too/ue-too/blob/3358b0ff9b18cc8206e49089d5071b18926b4244/packages/dynamics/src/rigidbody.ts#L495)
 
 Static friction coefficient (0-1)
 
@@ -359,7 +359,7 @@ Static friction coefficient (0-1)
 
 > **set** **staticFrictionCoeff**(`coeff`): `void`
 
-定義: [rigidbody.ts:493](https://github.com/ue-too/ue-too/blob/68da915137a31a45d7ce8043b13275ff7283045d/packages/dynamics/src/rigidbody.ts#L493)
+定義: [rigidbody.ts:499](https://github.com/ue-too/ue-too/blob/3358b0ff9b18cc8206e49089d5071b18926b4244/packages/dynamics/src/rigidbody.ts#L499)
 
 Static friction coefficient (0-1)
 
@@ -385,7 +385,7 @@ Static friction coefficient (0-1)
 
 > **applyForce**(`force`): `void`
 
-定義: [rigidbody.ts:425](https://github.com/ue-too/ue-too/blob/68da915137a31a45d7ce8043b13275ff7283045d/packages/dynamics/src/rigidbody.ts#L425)
+定義: [rigidbody.ts:431](https://github.com/ue-too/ue-too/blob/3358b0ff9b18cc8206e49089d5071b18926b4244/packages/dynamics/src/rigidbody.ts#L431)
 
 #### パラメータ
 
@@ -407,7 +407,7 @@ Static friction coefficient (0-1)
 
 > **applyForceInOrientation**(`force`): `void`
 
-定義: [rigidbody.ts:437](https://github.com/ue-too/ue-too/blob/68da915137a31a45d7ce8043b13275ff7283045d/packages/dynamics/src/rigidbody.ts#L437)
+定義: [rigidbody.ts:443](https://github.com/ue-too/ue-too/blob/3358b0ff9b18cc8206e49089d5071b18926b4244/packages/dynamics/src/rigidbody.ts#L443)
 
 #### パラメータ
 
@@ -429,7 +429,7 @@ Static friction coefficient (0-1)
 
 > **draw**(`ctx`): `void`
 
-定義: [rigidbody.ts:392](https://github.com/ue-too/ue-too/blob/68da915137a31a45d7ce8043b13275ff7283045d/packages/dynamics/src/rigidbody.ts#L392)
+定義: [rigidbody.ts:398](https://github.com/ue-too/ue-too/blob/3358b0ff9b18cc8206e49089d5071b18926b4244/packages/dynamics/src/rigidbody.ts#L398)
 
 #### パラメータ
 
@@ -451,7 +451,7 @@ Static friction coefficient (0-1)
 
 > **getAdjacentFaces**(`collisionNormal`): `object`[]
 
-定義: [rigidbody.ts:497](https://github.com/ue-too/ue-too/blob/68da915137a31a45d7ce8043b13275ff7283045d/packages/dynamics/src/rigidbody.ts#L497)
+定義: [rigidbody.ts:503](https://github.com/ue-too/ue-too/blob/3358b0ff9b18cc8206e49089d5071b18926b4244/packages/dynamics/src/rigidbody.ts#L503)
 
 #### パラメータ
 
@@ -473,7 +473,7 @@ Static friction coefficient (0-1)
 
 > **getCollisionAxes**(`relativeBody`): `Point`[]
 
-定義: [rigidbody.ts:421](https://github.com/ue-too/ue-too/blob/68da915137a31a45d7ce8043b13275ff7283045d/packages/dynamics/src/rigidbody.ts#L421)
+定義: [rigidbody.ts:427](https://github.com/ue-too/ue-too/blob/3358b0ff9b18cc8206e49089d5071b18926b4244/packages/dynamics/src/rigidbody.ts#L427)
 
 #### パラメータ
 
@@ -495,7 +495,7 @@ Static friction coefficient (0-1)
 
 > **getMass**(): `number`
 
-定義: [rigidbody.ts:433](https://github.com/ue-too/ue-too/blob/68da915137a31a45d7ce8043b13275ff7283045d/packages/dynamics/src/rigidbody.ts#L433)
+定義: [rigidbody.ts:439](https://github.com/ue-too/ue-too/blob/3358b0ff9b18cc8206e49089d5071b18926b4244/packages/dynamics/src/rigidbody.ts#L439)
 
 #### 戻り値
 
@@ -507,7 +507,7 @@ Static friction coefficient (0-1)
 
 > **getMinMaxProjection**(`unitvector`): `object`
 
-定義: [rigidbody.ts:417](https://github.com/ue-too/ue-too/blob/68da915137a31a45d7ce8043b13275ff7283045d/packages/dynamics/src/rigidbody.ts#L417)
+定義: [rigidbody.ts:423](https://github.com/ue-too/ue-too/blob/3358b0ff9b18cc8206e49089d5071b18926b4244/packages/dynamics/src/rigidbody.ts#L423)
 
 #### パラメータ
 
@@ -537,7 +537,7 @@ Static friction coefficient (0-1)
 
 > **getNormalOfSignificantFace**(`collisionNormal`): `Point`
 
-定義: [rigidbody.ts:485](https://github.com/ue-too/ue-too/blob/68da915137a31a45d7ce8043b13275ff7283045d/packages/dynamics/src/rigidbody.ts#L485)
+定義: [rigidbody.ts:491](https://github.com/ue-too/ue-too/blob/3358b0ff9b18cc8206e49089d5071b18926b4244/packages/dynamics/src/rigidbody.ts#L491)
 
 #### パラメータ
 
@@ -559,7 +559,7 @@ Static friction coefficient (0-1)
 
 > **getSignificantVertices**(`collisionNormal`): `Point`[]
 
-定義: [rigidbody.ts:445](https://github.com/ue-too/ue-too/blob/68da915137a31a45d7ce8043b13275ff7283045d/packages/dynamics/src/rigidbody.ts#L445)
+定義: [rigidbody.ts:451](https://github.com/ue-too/ue-too/blob/3358b0ff9b18cc8206e49089d5071b18926b4244/packages/dynamics/src/rigidbody.ts#L451)
 
 #### パラメータ
 
@@ -581,7 +581,7 @@ Static friction coefficient (0-1)
 
 > **isMovingStatic**(): `boolean`
 
-定義: [rigidbody.ts:413](https://github.com/ue-too/ue-too/blob/68da915137a31a45d7ce8043b13275ff7283045d/packages/dynamics/src/rigidbody.ts#L413)
+定義: [rigidbody.ts:419](https://github.com/ue-too/ue-too/blob/3358b0ff9b18cc8206e49089d5071b18926b4244/packages/dynamics/src/rigidbody.ts#L419)
 
 #### 戻り値
 
@@ -597,7 +597,7 @@ Static friction coefficient (0-1)
 
 > **isStatic**(): `boolean`
 
-定義: [rigidbody.ts:409](https://github.com/ue-too/ue-too/blob/68da915137a31a45d7ce8043b13275ff7283045d/packages/dynamics/src/rigidbody.ts#L409)
+定義: [rigidbody.ts:415](https://github.com/ue-too/ue-too/blob/3358b0ff9b18cc8206e49089d5071b18926b4244/packages/dynamics/src/rigidbody.ts#L415)
 
 #### 戻り値
 
@@ -613,7 +613,7 @@ Static friction coefficient (0-1)
 
 > **move**(`delta`): `void`
 
-定義: [rigidbody.ts:441](https://github.com/ue-too/ue-too/blob/68da915137a31a45d7ce8043b13275ff7283045d/packages/dynamics/src/rigidbody.ts#L441)
+定義: [rigidbody.ts:447](https://github.com/ue-too/ue-too/blob/3358b0ff9b18cc8206e49089d5071b18926b4244/packages/dynamics/src/rigidbody.ts#L447)
 
 #### パラメータ
 
@@ -635,7 +635,7 @@ Static friction coefficient (0-1)
 
 > **setSleeping**(`sleeping`): `void`
 
-定義: [rigidbody.ts:509](https://github.com/ue-too/ue-too/blob/68da915137a31a45d7ce8043b13275ff7283045d/packages/dynamics/src/rigidbody.ts#L509)
+定義: [rigidbody.ts:515](https://github.com/ue-too/ue-too/blob/3358b0ff9b18cc8206e49089d5071b18926b4244/packages/dynamics/src/rigidbody.ts#L515)
 
 #### パラメータ
 
@@ -657,7 +657,7 @@ Static friction coefficient (0-1)
 
 > **significantVertex**(`collisionNormal`): `Point`
 
-定義: [rigidbody.ts:469](https://github.com/ue-too/ue-too/blob/68da915137a31a45d7ce8043b13275ff7283045d/packages/dynamics/src/rigidbody.ts#L469)
+定義: [rigidbody.ts:475](https://github.com/ue-too/ue-too/blob/3358b0ff9b18cc8206e49089d5071b18926b4244/packages/dynamics/src/rigidbody.ts#L475)
 
 #### パラメータ
 
@@ -679,7 +679,7 @@ Static friction coefficient (0-1)
 
 > **step**(`deltaTime`): `void`
 
-定義: [rigidbody.ts:404](https://github.com/ue-too/ue-too/blob/68da915137a31a45d7ce8043b13275ff7283045d/packages/dynamics/src/rigidbody.ts#L404)
+定義: [rigidbody.ts:410](https://github.com/ue-too/ue-too/blob/3358b0ff9b18cc8206e49089d5071b18926b4244/packages/dynamics/src/rigidbody.ts#L410)
 
 #### パラメータ
 
@@ -701,7 +701,7 @@ Static friction coefficient (0-1)
 
 > **updateSleeping**(`deltaTime`): `void`
 
-定義: [rigidbody.ts:520](https://github.com/ue-too/ue-too/blob/68da915137a31a45d7ce8043b13275ff7283045d/packages/dynamics/src/rigidbody.ts#L520)
+定義: [rigidbody.ts:526](https://github.com/ue-too/ue-too/blob/3358b0ff9b18cc8206e49089d5071b18926b4244/packages/dynamics/src/rigidbody.ts#L526)
 
 #### パラメータ
 

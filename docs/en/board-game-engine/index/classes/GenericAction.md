@@ -2,7 +2,7 @@
 
 # Class: GenericAction
 
-Defined in: [action-system/action.ts:11](https://github.com/ue-too/ue-too/blob/68da915137a31a45d7ce8043b13275ff7283045d/packages/board-game-engine/src/action-system/action.ts#L11)
+Defined in: [action-system/action.ts:11](https://github.com/ue-too/ue-too/blob/3358b0ff9b18cc8206e49089d5071b18926b4244/packages/board-game-engine/src/action-system/action.ts#L11)
 
 ## Implements
 
@@ -14,7 +14,7 @@ Defined in: [action-system/action.ts:11](https://github.com/ue-too/ue-too/blob/6
 
 > **new GenericAction**(`type`, `actor`, `targets`, `parameters`, `preconditions`, `costs`, `effects`): `GenericAction`
 
-Defined in: [action-system/action.ts:21](https://github.com/ue-too/ue-too/blob/68da915137a31a45d7ce8043b13275ff7283045d/packages/board-game-engine/src/action-system/action.ts#L21)
+Defined in: [action-system/action.ts:21](https://github.com/ue-too/ue-too/blob/3358b0ff9b18cc8206e49089d5071b18926b4244/packages/board-game-engine/src/action-system/action.ts#L21)
 
 #### Parameters
 
@@ -56,7 +56,7 @@ Defined in: [action-system/action.ts:21](https://github.com/ue-too/ue-too/blob/6
 
 > **actor**: `number`
 
-Defined in: [action-system/action.ts:13](https://github.com/ue-too/ue-too/blob/68da915137a31a45d7ce8043b13275ff7283045d/packages/board-game-engine/src/action-system/action.ts#L13)
+Defined in: [action-system/action.ts:13](https://github.com/ue-too/ue-too/blob/3358b0ff9b18cc8206e49089d5071b18926b4244/packages/board-game-engine/src/action-system/action.ts#L13)
 
 ***
 
@@ -64,7 +64,7 @@ Defined in: [action-system/action.ts:13](https://github.com/ue-too/ue-too/blob/6
 
 > **costs**: [`Effect`](../interfaces/Effect.md)[] = `[]`
 
-Defined in: [action-system/action.ts:17](https://github.com/ue-too/ue-too/blob/68da915137a31a45d7ce8043b13275ff7283045d/packages/board-game-engine/src/action-system/action.ts#L17)
+Defined in: [action-system/action.ts:17](https://github.com/ue-too/ue-too/blob/3358b0ff9b18cc8206e49089d5071b18926b4244/packages/board-game-engine/src/action-system/action.ts#L17)
 
 ***
 
@@ -72,7 +72,7 @@ Defined in: [action-system/action.ts:17](https://github.com/ue-too/ue-too/blob/6
 
 > **effects**: [`Effect`](../interfaces/Effect.md)[] = `[]`
 
-Defined in: [action-system/action.ts:18](https://github.com/ue-too/ue-too/blob/68da915137a31a45d7ce8043b13275ff7283045d/packages/board-game-engine/src/action-system/action.ts#L18)
+Defined in: [action-system/action.ts:18](https://github.com/ue-too/ue-too/blob/3358b0ff9b18cc8206e49089d5071b18926b4244/packages/board-game-engine/src/action-system/action.ts#L18)
 
 ***
 
@@ -80,7 +80,7 @@ Defined in: [action-system/action.ts:18](https://github.com/ue-too/ue-too/blob/6
 
 > **parameters**: `Record`\<`string`, `unknown`\>
 
-Defined in: [action-system/action.ts:15](https://github.com/ue-too/ue-too/blob/68da915137a31a45d7ce8043b13275ff7283045d/packages/board-game-engine/src/action-system/action.ts#L15)
+Defined in: [action-system/action.ts:15](https://github.com/ue-too/ue-too/blob/3358b0ff9b18cc8206e49089d5071b18926b4244/packages/board-game-engine/src/action-system/action.ts#L15)
 
 ***
 
@@ -88,7 +88,7 @@ Defined in: [action-system/action.ts:15](https://github.com/ue-too/ue-too/blob/6
 
 > **preconditions**: [`Precondition`](../interfaces/Precondition.md)[]
 
-Defined in: [action-system/action.ts:16](https://github.com/ue-too/ue-too/blob/68da915137a31a45d7ce8043b13275ff7283045d/packages/board-game-engine/src/action-system/action.ts#L16)
+Defined in: [action-system/action.ts:16](https://github.com/ue-too/ue-too/blob/3358b0ff9b18cc8206e49089d5071b18926b4244/packages/board-game-engine/src/action-system/action.ts#L16)
 
 ***
 
@@ -96,7 +96,7 @@ Defined in: [action-system/action.ts:16](https://github.com/ue-too/ue-too/blob/6
 
 > **targets**: `number`[]
 
-Defined in: [action-system/action.ts:14](https://github.com/ue-too/ue-too/blob/68da915137a31a45d7ce8043b13275ff7283045d/packages/board-game-engine/src/action-system/action.ts#L14)
+Defined in: [action-system/action.ts:14](https://github.com/ue-too/ue-too/blob/3358b0ff9b18cc8206e49089d5071b18926b4244/packages/board-game-engine/src/action-system/action.ts#L14)
 
 ***
 
@@ -104,7 +104,7 @@ Defined in: [action-system/action.ts:14](https://github.com/ue-too/ue-too/blob/6
 
 > **type**: `string`
 
-Defined in: [action-system/action.ts:12](https://github.com/ue-too/ue-too/blob/68da915137a31a45d7ce8043b13275ff7283045d/packages/board-game-engine/src/action-system/action.ts#L12)
+Defined in: [action-system/action.ts:12](https://github.com/ue-too/ue-too/blob/3358b0ff9b18cc8206e49089d5071b18926b4244/packages/board-game-engine/src/action-system/action.ts#L12)
 
 #### Implementation of
 
@@ -116,7 +116,7 @@ Defined in: [action-system/action.ts:12](https://github.com/ue-too/ue-too/blob/6
 
 > **canExecute**(): `boolean`
 
-Defined in: [action-system/action.ts:39](https://github.com/ue-too/ue-too/blob/68da915137a31a45d7ce8043b13275ff7283045d/packages/board-game-engine/src/action-system/action.ts#L39)
+Defined in: [action-system/action.ts:39](https://github.com/ue-too/ue-too/blob/3358b0ff9b18cc8206e49089d5071b18926b4244/packages/board-game-engine/src/action-system/action.ts#L39)
 
 #### Returns
 
@@ -128,7 +128,7 @@ Defined in: [action-system/action.ts:39](https://github.com/ue-too/ue-too/blob/6
 
 > **execute**(): [`Event`](../interfaces/Event.md)[]
 
-Defined in: [action-system/action.ts:43](https://github.com/ue-too/ue-too/blob/68da915137a31a45d7ce8043b13275ff7283045d/packages/board-game-engine/src/action-system/action.ts#L43)
+Defined in: [action-system/action.ts:43](https://github.com/ue-too/ue-too/blob/3358b0ff9b18cc8206e49089d5071b18926b4244/packages/board-game-engine/src/action-system/action.ts#L43)
 
 #### Returns
 

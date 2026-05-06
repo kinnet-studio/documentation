@@ -4,7 +4,7 @@
 
 > **drawRulerLegacy**(`context`, `topLeftCorner`, `topRightCorner`, `bottomLeftCorner`, `bottomRightCorner`, `alignCoordinateSystem`, `cameraZoomLevel`): `void`
 
-定義於: [packages/board/src/utils/drawing-utils.ts:232](https://github.com/ue-too/ue-too/blob/68da915137a31a45d7ce8043b13275ff7283045d/packages/board/src/utils/drawing-utils.ts#L232)
+定義於: [packages/board/src/utils/drawing-utils.ts:232](https://github.com/ue-too/ue-too/blob/3358b0ff9b18cc8206e49089d5071b18926b4244/packages/board/src/utils/drawing-utils.ts#L232)
 
 ## 參數
 

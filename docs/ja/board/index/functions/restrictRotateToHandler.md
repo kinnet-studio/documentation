@@ -4,7 +4,7 @@
 
 > **restrictRotateToHandler**(`targetRotation`, `camera`, `config`): `number`
 
-定義: [packages/board/src/camera/camera-rig/rotation-handler.ts:382](https://github.com/ue-too/ue-too/blob/68da915137a31a45d7ce8043b13275ff7283045d/packages/board/src/camera/camera-rig/rotation-handler.ts#L382)
+定義: [packages/board/src/camera/camera-rig/rotation-handler.ts:382](https://github.com/ue-too/ue-too/blob/3358b0ff9b18cc8206e49089d5071b18926b4244/packages/board/src/camera/camera-rig/rotation-handler.ts#L382)
 
 Handler pipeline step that prevents "rotate to" operations when rotation is locked.
 

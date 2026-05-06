@@ -4,7 +4,7 @@
 
 > **getTrueRect**(`rect`, `computedStyle`): `DOMRect`
 
-定義於: [packages/board/src/utils/canvas-position-dimension.ts:599](https://github.com/ue-too/ue-too/blob/68da915137a31a45d7ce8043b13275ff7283045d/packages/board/src/utils/canvas-position-dimension.ts#L599)
+定義於: [packages/board/src/utils/canvas-position-dimension.ts:599](https://github.com/ue-too/ue-too/blob/3358b0ff9b18cc8206e49089d5071b18926b4244/packages/board/src/utils/canvas-position-dimension.ts#L599)
 
 Calculates the actual content rectangle excluding padding and borders.
 

@@ -4,7 +4,7 @@
 
 > **RotationHandlerClampConfig** = `object`
 
-定義: [packages/board/src/camera/camera-rig/rotation-handler.ts:89](https://github.com/ue-too/ue-too/blob/68da915137a31a45d7ce8043b13275ff7283045d/packages/board/src/camera/camera-rig/rotation-handler.ts#L89)
+定義: [packages/board/src/camera/camera-rig/rotation-handler.ts:89](https://github.com/ue-too/ue-too/blob/3358b0ff9b18cc8206e49089d5071b18926b4244/packages/board/src/camera/camera-rig/rotation-handler.ts#L89)
 
 Configuration for rotation angle boundary clamping.
 
@@ -38,6 +38,6 @@ camera.rotationBoundaries = { min: 0, max: Math.PI / 2 };
 
 > **clampRotation**: `boolean`
 
-定義: [packages/board/src/camera/camera-rig/rotation-handler.ts:93](https://github.com/ue-too/ue-too/blob/68da915137a31a45d7ce8043b13275ff7283045d/packages/board/src/camera/camera-rig/rotation-handler.ts#L93)
+定義: [packages/board/src/camera/camera-rig/rotation-handler.ts:93](https://github.com/ue-too/ue-too/blob/3358b0ff9b18cc8206e49089d5071b18926b4244/packages/board/src/camera/camera-rig/rotation-handler.ts#L93)
 
 Whether to enforce rotation angle boundaries.

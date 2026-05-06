@@ -4,7 +4,7 @@
 
 > **convertFromCanvas2ViewPort**(`pointInCanvas`, `viewportOriginInCanvasSpace`, `viewportHasFlippedYAxis`): `Point`
 
-Defined in: [packages/board/src/utils/coordinate-conversions/canvas-viewport.ts:41](https://github.com/ue-too/ue-too/blob/68da915137a31a45d7ce8043b13275ff7283045d/packages/board/src/utils/coordinate-conversions/canvas-viewport.ts#L41)
+Defined in: [packages/board/src/utils/coordinate-conversions/canvas-viewport.ts:41](https://github.com/ue-too/ue-too/blob/3358b0ff9b18cc8206e49089d5071b18926b4244/packages/board/src/utils/coordinate-conversions/canvas-viewport.ts#L41)
 
 Converts a point from canvas space to viewport space.
 

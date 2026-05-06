@@ -4,7 +4,7 @@
 
 > **PanHandlerConfig** = [`PanHandlerRestrictionConfig`](PanHandlerRestrictionConfig.md) & [`PanHandlerClampConfig`](PanHandlerClampConfig.md)
 
-定義於: [packages/board/src/camera/camera-rig/pan-handler.ts:23](https://github.com/ue-too/ue-too/blob/68da915137a31a45d7ce8043b13275ff7283045d/packages/board/src/camera/camera-rig/pan-handler.ts#L23)
+定義於: [packages/board/src/camera/camera-rig/pan-handler.ts:23](https://github.com/ue-too/ue-too/blob/3358b0ff9b18cc8206e49089d5071b18926b4244/packages/board/src/camera/camera-rig/pan-handler.ts#L23)
 
 Combined configuration for pan handler behavior, merging restriction and clamping settings.
 

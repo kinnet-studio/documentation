@@ -4,7 +4,7 @@
 
 > **baseInitApp**(`canvasElement`, `option`): `Promise`\<[`BaseAppComponents`](../interfaces/BaseAppComponents.md)\>
 
-定義: [init-app.ts:51](https://github.com/ue-too/ue-too/blob/68da915137a31a45d7ce8043b13275ff7283045d/packages/board-pixi-integration/src/init-app.ts#L51)
+定義: [init-app.ts:51](https://github.com/ue-too/ue-too/blob/3358b0ff9b18cc8206e49089d5071b18926b4244/packages/board-pixi-integration/src/init-app.ts#L51)
 
 ## パラメータ
 

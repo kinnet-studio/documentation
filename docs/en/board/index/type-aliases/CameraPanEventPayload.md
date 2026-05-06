@@ -4,7 +4,7 @@
 
 > **CameraPanEventPayload** = `object`
 
-Defined in: [packages/board/src/camera/update-publisher.ts:17](https://github.com/ue-too/ue-too/blob/68da915137a31a45d7ce8043b13275ff7283045d/packages/board/src/camera/update-publisher.ts#L17)
+Defined in: [packages/board/src/camera/update-publisher.ts:17](https://github.com/ue-too/ue-too/blob/3358b0ff9b18cc8206e49089d5071b18926b4244/packages/board/src/camera/update-publisher.ts#L17)
 
 Payload for camera pan (position change) events.
 
@@ -14,6 +14,6 @@ Payload for camera pan (position change) events.
 
 > **diff**: `Point`
 
-Defined in: [packages/board/src/camera/update-publisher.ts:19](https://github.com/ue-too/ue-too/blob/68da915137a31a45d7ce8043b13275ff7283045d/packages/board/src/camera/update-publisher.ts#L19)
+Defined in: [packages/board/src/camera/update-publisher.ts:19](https://github.com/ue-too/ue-too/blob/3358b0ff9b18cc8206e49089d5071b18926b4244/packages/board/src/camera/update-publisher.ts#L19)
 
 The displacement vector from previous to new position

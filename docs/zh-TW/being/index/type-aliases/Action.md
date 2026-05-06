@@ -4,7 +4,7 @@
 
 > **Action**\<`Context`, `EventPayloadMapping`, `States`, `EventOutputMapping`, `Output`\> = `object`
 
-定義於: [interface.ts:409](https://github.com/ue-too/ue-too/blob/68da915137a31a45d7ce8043b13275ff7283045d/packages/being/src/interface.ts#L409)
+定義於: [interface.ts:409](https://github.com/ue-too/ue-too/blob/3358b0ff9b18cc8206e49089d5071b18926b4244/packages/being/src/interface.ts#L409)
 
 ## 型別參數
 
@@ -34,7 +34,7 @@
 
 > **action**: (`context`, `event`, `stateMachine`) => `Output` \| `void`
 
-定義於: [interface.ts:418](https://github.com/ue-too/ue-too/blob/68da915137a31a45d7ce8043b13275ff7283045d/packages/being/src/interface.ts#L418)
+定義於: [interface.ts:418](https://github.com/ue-too/ue-too/blob/3358b0ff9b18cc8206e49089d5071b18926b4244/packages/being/src/interface.ts#L418)
 
 #### 參數
 
@@ -60,4 +60,4 @@
 
 > `optional` **defaultTargetState**: `States`
 
-定義於: [interface.ts:428](https://github.com/ue-too/ue-too/blob/68da915137a31a45d7ce8043b13275ff7283045d/packages/being/src/interface.ts#L428)
+定義於: [interface.ts:428](https://github.com/ue-too/ue-too/blob/3358b0ff9b18cc8206e49089d5071b18926b4244/packages/being/src/interface.ts#L428)

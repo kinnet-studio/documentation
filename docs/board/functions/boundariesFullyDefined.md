@@ -2,9 +2,9 @@
 
 # Function: boundariesFullyDefined()
 
-> **boundariesFullyDefined**(`boundaries`): `boundaries is { max: { x: number; y: number }; min: { x: number; y: number } }`
+> **boundariesFullyDefined**(`boundaries`): `boolean`
 
-Defined in: [packages/board/src/camera/utils/position.ts:196](https://github.com/ue-too/ue-too/blob/07fe90dac52658f644c26853a3d345b17ce08df7/packages/board/src/camera/utils/position.ts#L196)
+Defined in: [packages/board/src/camera/utils/position.ts:176](https://github.com/ue-too/ue-too/blob/aabc0f56e9e83141d0fd935ef6ac3e5fe0af0a61/packages/board/src/camera/utils/position.ts#L176)
 
 Checks if boundaries have all four constraints (min/max for both x and y) defined.
 
@@ -18,7 +18,7 @@ The boundaries to check
 
 ## Returns
 
-`boundaries is { max: { x: number; y: number }; min: { x: number; y: number } }`
+`boolean`
 
 True if all four constraints are defined, false otherwise
 

@@ -4,7 +4,7 @@
 
 > **approximatelyTheSame**(`a`, `b`, `precision?`): `boolean`
 
-定義: [index.ts:758](https://github.com/ue-too/ue-too/blob/3358b0ff9b18cc8206e49089d5071b18926b4244/packages/math/src/index.ts#L758)
+定義: [index.ts:758](https://github.com/ue-too/ue-too/blob/869d507317a2d8be79359e34a957c2cb9a03e24c/packages/math/src/index.ts#L758)
 
 Checks if two numbers are approximately equal within a tolerance.
 

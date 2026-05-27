@@ -4,7 +4,7 @@
 
 > **RotationHandlerRestrictConfig** = `object`
 
-定義: [packages/board/src/camera/camera-rig/rotation-handler.ts:55](https://github.com/ue-too/ue-too/blob/3358b0ff9b18cc8206e49089d5071b18926b4244/packages/board/src/camera/camera-rig/rotation-handler.ts#L55)
+定義: [packages/board/src/camera/camera-rig/rotation-handler.ts:55](https://github.com/ue-too/ue-too/blob/869d507317a2d8be79359e34a957c2cb9a03e24c/packages/board/src/camera/camera-rig/rotation-handler.ts#L55)
 
 Configuration for completely disabling rotation operations.
 
@@ -37,6 +37,6 @@ const config: RotationHandlerRestrictConfig = {
 
 > **restrictRotation**: `boolean`
 
-定義: [packages/board/src/camera/camera-rig/rotation-handler.ts:59](https://github.com/ue-too/ue-too/blob/3358b0ff9b18cc8206e49089d5071b18926b4244/packages/board/src/camera/camera-rig/rotation-handler.ts#L59)
+定義: [packages/board/src/camera/camera-rig/rotation-handler.ts:59](https://github.com/ue-too/ue-too/blob/869d507317a2d8be79359e34a957c2cb9a03e24c/packages/board/src/camera/camera-rig/rotation-handler.ts#L59)
 
 Whether to completely prevent rotation operations.

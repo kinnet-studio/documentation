@@ -2,7 +2,7 @@
 
 # Class: RectangleBound
 
-Defined in: [quadtree.ts:6](https://github.com/ue-too/ue-too/blob/3358b0ff9b18cc8206e49089d5071b18926b4244/packages/dynamics/src/quadtree.ts#L6)
+Defined in: [quadtree.ts:6](https://github.com/ue-too/ue-too/blob/869d507317a2d8be79359e34a957c2cb9a03e24c/packages/dynamics/src/quadtree.ts#L6)
 
 ## Constructors
 
@@ -10,7 +10,7 @@ Defined in: [quadtree.ts:6](https://github.com/ue-too/ue-too/blob/3358b0ff9b18cc
 
 > **new RectangleBound**(`bottomLeft`, `width`, `height`): `RectangleBound`
 
-Defined in: [quadtree.ts:11](https://github.com/ue-too/ue-too/blob/3358b0ff9b18cc8206e49089d5071b18926b4244/packages/dynamics/src/quadtree.ts#L11)
+Defined in: [quadtree.ts:11](https://github.com/ue-too/ue-too/blob/869d507317a2d8be79359e34a957c2cb9a03e24c/packages/dynamics/src/quadtree.ts#L11)
 
 #### Parameters
 
@@ -36,7 +36,7 @@ Defined in: [quadtree.ts:11](https://github.com/ue-too/ue-too/blob/3358b0ff9b18c
 
 > **getbottomLeft**(): `Point`
 
-Defined in: [quadtree.ts:25](https://github.com/ue-too/ue-too/blob/3358b0ff9b18cc8206e49089d5071b18926b4244/packages/dynamics/src/quadtree.ts#L25)
+Defined in: [quadtree.ts:25](https://github.com/ue-too/ue-too/blob/869d507317a2d8be79359e34a957c2cb9a03e24c/packages/dynamics/src/quadtree.ts#L25)
 
 #### Returns
 
@@ -48,7 +48,7 @@ Defined in: [quadtree.ts:25](https://github.com/ue-too/ue-too/blob/3358b0ff9b18c
 
 > **getHeight**(): `number`
 
-Defined in: [quadtree.ts:21](https://github.com/ue-too/ue-too/blob/3358b0ff9b18cc8206e49089d5071b18926b4244/packages/dynamics/src/quadtree.ts#L21)
+Defined in: [quadtree.ts:21](https://github.com/ue-too/ue-too/blob/869d507317a2d8be79359e34a957c2cb9a03e24c/packages/dynamics/src/quadtree.ts#L21)
 
 #### Returns
 
@@ -60,7 +60,7 @@ Defined in: [quadtree.ts:21](https://github.com/ue-too/ue-too/blob/3358b0ff9b18c
 
 > **getWidth**(): `number`
 
-Defined in: [quadtree.ts:17](https://github.com/ue-too/ue-too/blob/3358b0ff9b18cc8206e49089d5071b18926b4244/packages/dynamics/src/quadtree.ts#L17)
+Defined in: [quadtree.ts:17](https://github.com/ue-too/ue-too/blob/869d507317a2d8be79359e34a957c2cb9a03e24c/packages/dynamics/src/quadtree.ts#L17)
 
 #### Returns
 

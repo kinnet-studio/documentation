@@ -4,7 +4,7 @@
 
 > **Boundaries** = `object`
 
-定義於: [packages/board/src/camera/utils/position.ts:45](https://github.com/ue-too/ue-too/blob/3358b0ff9b18cc8206e49089d5071b18926b4244/packages/board/src/camera/utils/position.ts#L45)
+定義於: [packages/board/src/camera/utils/position.ts:45](https://github.com/ue-too/ue-too/blob/869d507317a2d8be79359e34a957c2cb9a03e24c/packages/board/src/camera/utils/position.ts#L45)
 
 Position boundaries for camera movement in world space.
 Allows optional constraints on x and y axes independently.
@@ -48,7 +48,7 @@ const floor: Boundaries = {
 
 > `optional` **max**: `object`
 
-定義於: [packages/board/src/camera/utils/position.ts:47](https://github.com/ue-too/ue-too/blob/3358b0ff9b18cc8206e49089d5071b18926b4244/packages/board/src/camera/utils/position.ts#L47)
+定義於: [packages/board/src/camera/utils/position.ts:47](https://github.com/ue-too/ue-too/blob/869d507317a2d8be79359e34a957c2cb9a03e24c/packages/board/src/camera/utils/position.ts#L47)
 
 Maximum position constraints (both x and y are optional)
 
@@ -66,7 +66,7 @@ Maximum position constraints (both x and y are optional)
 
 > `optional` **min**: `object`
 
-定義於: [packages/board/src/camera/utils/position.ts:46](https://github.com/ue-too/ue-too/blob/3358b0ff9b18cc8206e49089d5071b18926b4244/packages/board/src/camera/utils/position.ts#L46)
+定義於: [packages/board/src/camera/utils/position.ts:46](https://github.com/ue-too/ue-too/blob/869d507317a2d8be79359e34a957c2cb9a03e24c/packages/board/src/camera/utils/position.ts#L46)
 
 Minimum position constraints (both x and y are optional)
 

@@ -2,7 +2,7 @@
 
 # クラス: MoveEntityToZoneEffect
 
-定義: [zone-system/effect.ts:13](https://github.com/ue-too/ue-too/blob/3358b0ff9b18cc8206e49089d5071b18926b4244/packages/board-game-engine/src/zone-system/effect.ts#L13)
+定義: [zone-system/effect.ts:13](https://github.com/ue-too/ue-too/blob/869d507317a2d8be79359e34a957c2cb9a03e24c/packages/board-game-engine/src/zone-system/effect.ts#L13)
 
 ## 実装
 
@@ -14,7 +14,7 @@
 
 > **new MoveEntityToZoneEffect**(`coordinator`, `entity`, `zoneEntity`, `addToIfZoneOrdered`): `MoveEntityToZoneEffect`
 
-定義: [zone-system/effect.ts:19](https://github.com/ue-too/ue-too/blob/3358b0ff9b18cc8206e49089d5071b18926b4244/packages/board-game-engine/src/zone-system/effect.ts#L19)
+定義: [zone-system/effect.ts:19](https://github.com/ue-too/ue-too/blob/869d507317a2d8be79359e34a957c2cb9a03e24c/packages/board-game-engine/src/zone-system/effect.ts#L19)
 
 #### パラメータ
 
@@ -44,7 +44,7 @@
 
 > **apply**(): `void`
 
-定義: [zone-system/effect.ts:31](https://github.com/ue-too/ue-too/blob/3358b0ff9b18cc8206e49089d5071b18926b4244/packages/board-game-engine/src/zone-system/effect.ts#L31)
+定義: [zone-system/effect.ts:31](https://github.com/ue-too/ue-too/blob/869d507317a2d8be79359e34a957c2cb9a03e24c/packages/board-game-engine/src/zone-system/effect.ts#L31)
 
 #### 戻り値
 

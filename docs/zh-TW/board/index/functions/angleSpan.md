@@ -4,7 +4,7 @@
 
 > **angleSpan**(`from`, `to`): `number`
 
-定義於: [packages/board/src/camera/utils/rotation.ts:274](https://github.com/ue-too/ue-too/blob/3358b0ff9b18cc8206e49089d5071b18926b4244/packages/board/src/camera/utils/rotation.ts#L274)
+定義於: [packages/board/src/camera/utils/rotation.ts:273](https://github.com/ue-too/ue-too/blob/869d507317a2d8be79359e34a957c2cb9a03e24c/packages/board/src/camera/utils/rotation.ts#L273)
 
 Calculates the signed angular distance between two angles, taking the shorter path.
 

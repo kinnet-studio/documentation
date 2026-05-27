@@ -4,7 +4,7 @@
 
 > **multiplyMatrix**(`m1`, `m2`): `object`
 
-Defined in: [packages/board/src/camera/utils/matrix.ts:403](https://github.com/ue-too/ue-too/blob/07fe90dac52658f644c26853a3d345b17ce08df7/packages/board/src/camera/utils/matrix.ts#L403)
+Defined in: [packages/board/src/camera/utils/matrix.ts:376](https://github.com/ue-too/ue-too/blob/aabc0f56e9e83141d0fd935ef6ac3e5fe0af0a61/packages/board/src/camera/utils/matrix.ts#L376)
 
 Multiplies two 2D transformation matrices.
 Order matters: M = m1 × m2 applies m2 first, then m1.

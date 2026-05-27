@@ -4,7 +4,7 @@
 
 > **drawRuler**(`context`, `topLeftCorner`, `topRightCorner`, `bottomLeftCorner`, `alignCoordinateSystem`, `cameraZoomLevel`): `void`
 
-Defined in: [packages/board/src/utils/drawing.ts:174](https://github.com/ue-too/ue-too/blob/07fe90dac52658f644c26853a3d345b17ce08df7/packages/board/src/utils/drawing.ts#L174)
+Defined in: [packages/board/src/utils/drawing.ts:150](https://github.com/ue-too/ue-too/blob/aabc0f56e9e83141d0fd935ef6ac3e5fe0af0a61/packages/board/src/utils/drawing.ts#L150)
 
 Draws calibrated rulers along the edges of the viewport.
 

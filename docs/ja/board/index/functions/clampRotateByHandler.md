@@ -4,7 +4,7 @@
 
 > **clampRotateByHandler**(`delta`, `camera`, `config`): `number`
 
-定義: [packages/board/src/camera/camera-rig/rotation-handler.ts:242](https://github.com/ue-too/ue-too/blob/3358b0ff9b18cc8206e49089d5071b18926b4244/packages/board/src/camera/camera-rig/rotation-handler.ts#L242)
+定義: [packages/board/src/camera/camera-rig/rotation-handler.ts:242](https://github.com/ue-too/ue-too/blob/869d507317a2d8be79359e34a957c2cb9a03e24c/packages/board/src/camera/camera-rig/rotation-handler.ts#L242)
 
 Handler pipeline step that clamps "rotate by" deltas to prevent angular boundary violations.
 

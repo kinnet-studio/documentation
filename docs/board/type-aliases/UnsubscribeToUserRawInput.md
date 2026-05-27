@@ -4,7 +4,7 @@
 
 > **UnsubscribeToUserRawInput** = () => `void`
 
-Defined in: [packages/board/src/input-interpretation/raw-input-publisher/raw-input-publisher.ts:13](https://github.com/ue-too/ue-too/blob/07fe90dac52658f644c26853a3d345b17ce08df7/packages/board/src/input-interpretation/raw-input-publisher/raw-input-publisher.ts#L13)
+Defined in: [packages/board/src/input-interpretation/raw-input-publisher/raw-input-publisher.ts:12](https://github.com/ue-too/ue-too/blob/aabc0f56e9e83141d0fd935ef6ac3e5fe0af0a61/packages/board/src/input-interpretation/raw-input-publisher/raw-input-publisher.ts#L12)
 
 Function to unsubscribe from raw user input events.
 

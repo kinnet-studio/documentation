@@ -4,7 +4,7 @@
 
 > **createDefaultPanToHandler**(): [`PanToHandlerFunction`](../type-aliases/PanToHandlerFunction.md)
 
-Defined in: [packages/board/src/camera/camera-rig/pan-handler.ts:258](https://github.com/ue-too/ue-too/blob/3358b0ff9b18cc8206e49089d5071b18926b4244/packages/board/src/camera/camera-rig/pan-handler.ts#L258)
+Defined in: [packages/board/src/camera/camera-rig/pan-handler.ts:258](https://github.com/ue-too/ue-too/blob/869d507317a2d8be79359e34a957c2cb9a03e24c/packages/board/src/camera/camera-rig/pan-handler.ts#L258)
 
 Creates a default "pan to" handler pipeline for absolute camera positioning.
 

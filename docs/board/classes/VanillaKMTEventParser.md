@@ -2,15 +2,55 @@
 
 # Class: VanillaKMTEventParser
 
-Defined in: [packages/board/src/input-interpretation/raw-input-parser/vanilla-kmt-event-parser.ts:167](https://github.com/ue-too/ue-too/blob/07fe90dac52658f644c26853a3d345b17ce08df7/packages/board/src/input-interpretation/raw-input-parser/vanilla-kmt-event-parser.ts#L167)
+Defined in: [packages/board/src/input-interpretation/raw-input-parser/vanilla-kmt-event-parser.ts:156](https://github.com/ue-too/ue-too/blob/aabc0f56e9e83141d0fd935ef6ac3e5fe0af0a61/packages/board/src/input-interpretation/raw-input-parser/vanilla-kmt-event-parser.ts#L156)
 
-Interface for KMT (Keyboard/Mouse/Trackpad) event parsers.
+DOM event parser for Keyboard/Mouse/Trackpad input.
 
 ## Remarks
 
-Event parsers bridge the gap between DOM events and the state machine.
-They listen for raw DOM events, convert them to state machine events,
-and coordinate with the orchestrator for output processing.
+This parser converts raw DOM events into state machine events and coordinates with
+the orchestrator to process outputs. It serves as the entry point for all KMT input
+in the input interpretation pipeline.
+
+**Event Flow**:
+```
+DOM Events → Parser → State Machine → Parser → Orchestrator → Camera/Observers
+```
+
+**Responsibilities**:
+1. Listen for DOM pointer, wheel, and keyboard events
+2. Convert DOM events to state machine event format
+3. Send events to the state machine
+4. Forward state machine outputs to the orchestrator
+
+**Handled DOM Events**:
+- pointerdown/up/move (canvas-scoped)
+- wheel (canvas-scoped)
+- keydown/up (window-scoped for spacebar)
+
+**Keyboard Handling**:
+Keyboard events are only processed when `document.body` is the target,
+preventing interference with text inputs and other UI elements.
+
+The parser can be disabled to temporarily stop input processing (e.g., during
+modal dialogs or animations).
+
+## Example
+
+```typescript
+const canvasElement = document.getElementById("canvas");
+const stateMachine = createKmtInputStateMachine(context);
+const orchestrator = new InputOrchestrator(cameraMux, cameraRig, publisher);
+const parser = new VanillaKMTEventParser(stateMachine, orchestrator, canvasElement);
+
+parser.setUp(); // Starts listening for events
+
+// Later, to disable input temporarily
+parser.disabled = true;
+
+// Cleanup when done
+parser.tearDown();
+```
 
 ## Implements
 
@@ -22,13 +62,13 @@ and coordinate with the orchestrator for output processing.
 
 > **new VanillaKMTEventParser**(`kmtInputStateMachine`, `orchestrator`, `canvas?`): `VanillaKMTEventParser`
 
-Defined in: [packages/board/src/input-interpretation/raw-input-parser/vanilla-kmt-event-parser.ts:175](https://github.com/ue-too/ue-too/blob/07fe90dac52658f644c26853a3d345b17ce08df7/packages/board/src/input-interpretation/raw-input-parser/vanilla-kmt-event-parser.ts#L175)
+Defined in: [packages/board/src/input-interpretation/raw-input-parser/vanilla-kmt-event-parser.ts:166](https://github.com/ue-too/ue-too/blob/aabc0f56e9e83141d0fd935ef6ac3e5fe0af0a61/packages/board/src/input-interpretation/raw-input-parser/vanilla-kmt-event-parser.ts#L166)
 
 #### Parameters
 
 ##### kmtInputStateMachine
 
-[`StateMachine`](../interfaces/StateMachine.md)
+[`KmtInputStateMachine`](../type-aliases/KmtInputStateMachine.md)
 
 ##### orchestrator
 
@@ -50,13 +90,31 @@ Defined in: [packages/board/src/input-interpretation/raw-input-parser/vanilla-km
 
 > **get** **disabled**(): `boolean`
 
-Defined in: [packages/board/src/input-interpretation/raw-input-parser/vanilla-kmt-event-parser.ts:188](https://github.com/ue-too/ue-too/blob/07fe90dac52658f644c26853a3d345b17ce08df7/packages/board/src/input-interpretation/raw-input-parser/vanilla-kmt-event-parser.ts#L188)
+Defined in: [packages/board/src/input-interpretation/raw-input-parser/vanilla-kmt-event-parser.ts:175](https://github.com/ue-too/ue-too/blob/aabc0f56e9e83141d0fd935ef6ac3e5fe0af0a61/packages/board/src/input-interpretation/raw-input-parser/vanilla-kmt-event-parser.ts#L175)
 
 Whether the parser is currently disabled
 
 ##### Returns
 
 `boolean`
+
+#### Set Signature
+
+> **set** **disabled**(`value`): `void`
+
+Defined in: [packages/board/src/input-interpretation/raw-input-parser/vanilla-kmt-event-parser.ts:179](https://github.com/ue-too/ue-too/blob/aabc0f56e9e83141d0fd935ef6ac3e5fe0af0a61/packages/board/src/input-interpretation/raw-input-parser/vanilla-kmt-event-parser.ts#L179)
+
+Whether the parser is currently disabled
+
+##### Parameters
+
+###### value
+
+`boolean`
+
+##### Returns
+
+`void`
 
 Whether the parser is currently disabled
 
@@ -66,23 +124,47 @@ Whether the parser is currently disabled
 
 ***
 
-### stateMachine
+### orchestrator
 
-#### Set Signature
+#### Get Signature
 
-> **set** **stateMachine**(`stateMachine`): `void`
+> **get** **orchestrator**(): [`InputOrchestrator`](InputOrchestrator.md)
 
-Defined in: [packages/board/src/input-interpretation/raw-input-parser/vanilla-kmt-event-parser.ts:369](https://github.com/ue-too/ue-too/blob/07fe90dac52658f644c26853a3d345b17ce08df7/packages/board/src/input-interpretation/raw-input-parser/vanilla-kmt-event-parser.ts#L369)
+Defined in: [packages/board/src/input-interpretation/raw-input-parser/vanilla-kmt-event-parser.ts:187](https://github.com/ue-too/ue-too/blob/aabc0f56e9e83141d0fd935ef6ac3e5fe0af0a61/packages/board/src/input-interpretation/raw-input-parser/vanilla-kmt-event-parser.ts#L187)
 
-##### Parameters
-
-###### stateMachine
-
-[`StateMachine`](../interfaces/StateMachine.md)
+The orchestrator that handles state machine outputs
 
 ##### Returns
 
-`void`
+[`InputOrchestrator`](InputOrchestrator.md)
+
+The orchestrator that handles state machine outputs
+
+#### Implementation of
+
+[`KMTEventParser`](../interfaces/KMTEventParser.md).[`orchestrator`](../interfaces/KMTEventParser.md#orchestrator)
+
+***
+
+### stateMachine
+
+#### Get Signature
+
+> **get** **stateMachine**(): [`KmtInputStateMachine`](../type-aliases/KmtInputStateMachine.md)
+
+Defined in: [packages/board/src/input-interpretation/raw-input-parser/vanilla-kmt-event-parser.ts:183](https://github.com/ue-too/ue-too/blob/aabc0f56e9e83141d0fd935ef6ac3e5fe0af0a61/packages/board/src/input-interpretation/raw-input-parser/vanilla-kmt-event-parser.ts#L183)
+
+The state machine that processes parsed events
+
+##### Returns
+
+[`KmtInputStateMachine`](../type-aliases/KmtInputStateMachine.md)
+
+The state machine that processes parsed events
+
+#### Implementation of
+
+[`KMTEventParser`](../interfaces/KMTEventParser.md).[`stateMachine`](../interfaces/KMTEventParser.md#statemachine)
 
 ## Methods
 
@@ -90,7 +172,7 @@ Defined in: [packages/board/src/input-interpretation/raw-input-parser/vanilla-km
 
 > **addEventListeners**(`signal`): `void`
 
-Defined in: [packages/board/src/input-interpretation/raw-input-parser/vanilla-kmt-event-parser.ts:200](https://github.com/ue-too/ue-too/blob/07fe90dac52658f644c26853a3d345b17ce08df7/packages/board/src/input-interpretation/raw-input-parser/vanilla-kmt-event-parser.ts#L200)
+Defined in: [packages/board/src/input-interpretation/raw-input-parser/vanilla-kmt-event-parser.ts:191](https://github.com/ue-too/ue-too/blob/aabc0f56e9e83141d0fd935ef6ac3e5fe0af0a61/packages/board/src/input-interpretation/raw-input-parser/vanilla-kmt-event-parser.ts#L191)
 
 #### Parameters
 
@@ -108,7 +190,7 @@ Defined in: [packages/board/src/input-interpretation/raw-input-parser/vanilla-km
 
 > **attach**(`canvas`): `void`
 
-Defined in: [packages/board/src/input-interpretation/raw-input-parser/vanilla-kmt-event-parser.ts:363](https://github.com/ue-too/ue-too/blob/07fe90dac52658f644c26853a3d345b17ce08df7/packages/board/src/input-interpretation/raw-input-parser/vanilla-kmt-event-parser.ts#L363)
+Defined in: [packages/board/src/input-interpretation/raw-input-parser/vanilla-kmt-event-parser.ts:309](https://github.com/ue-too/ue-too/blob/aabc0f56e9e83141d0fd935ef6ac3e5fe0af0a61/packages/board/src/input-interpretation/raw-input-parser/vanilla-kmt-event-parser.ts#L309)
 
 Attaches to a new canvas element
 
@@ -132,47 +214,11 @@ Attaches to a new canvas element
 
 > **bindFunctions**(): `void`
 
-Defined in: [packages/board/src/input-interpretation/raw-input-parser/vanilla-kmt-event-parser.ts:241](https://github.com/ue-too/ue-too/blob/07fe90dac52658f644c26853a3d345b17ce08df7/packages/board/src/input-interpretation/raw-input-parser/vanilla-kmt-event-parser.ts#L241)
+Defined in: [packages/board/src/input-interpretation/raw-input-parser/vanilla-kmt-event-parser.ts:216](https://github.com/ue-too/ue-too/blob/aabc0f56e9e83141d0fd935ef6ac3e5fe0af0a61/packages/board/src/input-interpretation/raw-input-parser/vanilla-kmt-event-parser.ts#L216)
 
 #### Returns
 
 `void`
-
-***
-
-### disable()
-
-> **disable**(): `void`
-
-Defined in: [packages/board/src/input-interpretation/raw-input-parser/vanilla-kmt-event-parser.ts:192](https://github.com/ue-too/ue-too/blob/07fe90dac52658f644c26853a3d345b17ce08df7/packages/board/src/input-interpretation/raw-input-parser/vanilla-kmt-event-parser.ts#L192)
-
-Disables the parser; the event listeners are still attached just not processing any events
-
-#### Returns
-
-`void`
-
-#### Implementation of
-
-[`KMTEventParser`](../interfaces/KMTEventParser.md).[`disable`](../interfaces/KMTEventParser.md#disable)
-
-***
-
-### enable()
-
-> **enable**(): `void`
-
-Defined in: [packages/board/src/input-interpretation/raw-input-parser/vanilla-kmt-event-parser.ts:196](https://github.com/ue-too/ue-too/blob/07fe90dac52658f644c26853a3d345b17ce08df7/packages/board/src/input-interpretation/raw-input-parser/vanilla-kmt-event-parser.ts#L196)
-
-Enables the parser
-
-#### Returns
-
-`void`
-
-#### Implementation of
-
-[`KMTEventParser`](../interfaces/KMTEventParser.md).[`enable`](../interfaces/KMTEventParser.md#enable)
 
 ***
 
@@ -180,7 +226,7 @@ Enables the parser
 
 > **keypressHandler**(`e`): `void`
 
-Defined in: [packages/board/src/input-interpretation/raw-input-parser/vanilla-kmt-event-parser.ts:341](https://github.com/ue-too/ue-too/blob/07fe90dac52658f644c26853a3d345b17ce08df7/packages/board/src/input-interpretation/raw-input-parser/vanilla-kmt-event-parser.ts#L341)
+Defined in: [packages/board/src/input-interpretation/raw-input-parser/vanilla-kmt-event-parser.ts:287](https://github.com/ue-too/ue-too/blob/aabc0f56e9e83141d0fd935ef6ac3e5fe0af0a61/packages/board/src/input-interpretation/raw-input-parser/vanilla-kmt-event-parser.ts#L287)
 
 #### Parameters
 
@@ -198,7 +244,7 @@ Defined in: [packages/board/src/input-interpretation/raw-input-parser/vanilla-km
 
 > **keyupHandler**(`e`): `void`
 
-Defined in: [packages/board/src/input-interpretation/raw-input-parser/vanilla-kmt-event-parser.ts:354](https://github.com/ue-too/ue-too/blob/07fe90dac52658f644c26853a3d345b17ce08df7/packages/board/src/input-interpretation/raw-input-parser/vanilla-kmt-event-parser.ts#L354)
+Defined in: [packages/board/src/input-interpretation/raw-input-parser/vanilla-kmt-event-parser.ts:300](https://github.com/ue-too/ue-too/blob/aabc0f56e9e83141d0fd935ef6ac3e5fe0af0a61/packages/board/src/input-interpretation/raw-input-parser/vanilla-kmt-event-parser.ts#L300)
 
 #### Parameters
 
@@ -216,7 +262,7 @@ Defined in: [packages/board/src/input-interpretation/raw-input-parser/vanilla-km
 
 > **pointerDownHandler**(`e`): `void`
 
-Defined in: [packages/board/src/input-interpretation/raw-input-parser/vanilla-kmt-event-parser.ts:263](https://github.com/ue-too/ue-too/blob/07fe90dac52658f644c26853a3d345b17ce08df7/packages/board/src/input-interpretation/raw-input-parser/vanilla-kmt-event-parser.ts#L263)
+Defined in: [packages/board/src/input-interpretation/raw-input-parser/vanilla-kmt-event-parser.ts:234](https://github.com/ue-too/ue-too/blob/aabc0f56e9e83141d0fd935ef6ac3e5fe0af0a61/packages/board/src/input-interpretation/raw-input-parser/vanilla-kmt-event-parser.ts#L234)
 
 #### Parameters
 
@@ -234,7 +280,7 @@ Defined in: [packages/board/src/input-interpretation/raw-input-parser/vanilla-km
 
 > **pointerMoveHandler**(`e`): `void`
 
-Defined in: [packages/board/src/input-interpretation/raw-input-parser/vanilla-kmt-event-parser.ts:300](https://github.com/ue-too/ue-too/blob/07fe90dac52658f644c26853a3d345b17ce08df7/packages/board/src/input-interpretation/raw-input-parser/vanilla-kmt-event-parser.ts#L300)
+Defined in: [packages/board/src/input-interpretation/raw-input-parser/vanilla-kmt-event-parser.ts:262](https://github.com/ue-too/ue-too/blob/aabc0f56e9e83141d0fd935ef6ac3e5fe0af0a61/packages/board/src/input-interpretation/raw-input-parser/vanilla-kmt-event-parser.ts#L262)
 
 #### Parameters
 
@@ -252,7 +298,7 @@ Defined in: [packages/board/src/input-interpretation/raw-input-parser/vanilla-km
 
 > **pointerUpHandler**(`e`): `void`
 
-Defined in: [packages/board/src/input-interpretation/raw-input-parser/vanilla-kmt-event-parser.ts:283](https://github.com/ue-too/ue-too/blob/07fe90dac52658f644c26853a3d345b17ce08df7/packages/board/src/input-interpretation/raw-input-parser/vanilla-kmt-event-parser.ts#L283)
+Defined in: [packages/board/src/input-interpretation/raw-input-parser/vanilla-kmt-event-parser.ts:248](https://github.com/ue-too/ue-too/blob/aabc0f56e9e83141d0fd935ef6ac3e5fe0af0a61/packages/board/src/input-interpretation/raw-input-parser/vanilla-kmt-event-parser.ts#L248)
 
 #### Parameters
 
@@ -270,7 +316,7 @@ Defined in: [packages/board/src/input-interpretation/raw-input-parser/vanilla-km
 
 > **scrollHandler**(`e`): `void`
 
-Defined in: [packages/board/src/input-interpretation/raw-input-parser/vanilla-kmt-event-parser.ts:321](https://github.com/ue-too/ue-too/blob/07fe90dac52658f644c26853a3d345b17ce08df7/packages/board/src/input-interpretation/raw-input-parser/vanilla-kmt-event-parser.ts#L321)
+Defined in: [packages/board/src/input-interpretation/raw-input-parser/vanilla-kmt-event-parser.ts:277](https://github.com/ue-too/ue-too/blob/aabc0f56e9e83141d0fd935ef6ac3e5fe0af0a61/packages/board/src/input-interpretation/raw-input-parser/vanilla-kmt-event-parser.ts#L277)
 
 #### Parameters
 
@@ -288,7 +334,7 @@ Defined in: [packages/board/src/input-interpretation/raw-input-parser/vanilla-km
 
 > **setUp**(): `void`
 
-Defined in: [packages/board/src/input-interpretation/raw-input-parser/vanilla-kmt-event-parser.ts:228](https://github.com/ue-too/ue-too/blob/07fe90dac52658f644c26853a3d345b17ce08df7/packages/board/src/input-interpretation/raw-input-parser/vanilla-kmt-event-parser.ts#L228)
+Defined in: [packages/board/src/input-interpretation/raw-input-parser/vanilla-kmt-event-parser.ts:203](https://github.com/ue-too/ue-too/blob/aabc0f56e9e83141d0fd935ef6ac3e5fe0af0a61/packages/board/src/input-interpretation/raw-input-parser/vanilla-kmt-event-parser.ts#L203)
 
 Initializes event listeners
 
@@ -306,7 +352,7 @@ Initializes event listeners
 
 > **tearDown**(): `void`
 
-Defined in: [packages/board/src/input-interpretation/raw-input-parser/vanilla-kmt-event-parser.ts:235](https://github.com/ue-too/ue-too/blob/07fe90dac52658f644c26853a3d345b17ce08df7/packages/board/src/input-interpretation/raw-input-parser/vanilla-kmt-event-parser.ts#L235)
+Defined in: [packages/board/src/input-interpretation/raw-input-parser/vanilla-kmt-event-parser.ts:210](https://github.com/ue-too/ue-too/blob/aabc0f56e9e83141d0fd935ef6ac3e5fe0af0a61/packages/board/src/input-interpretation/raw-input-parser/vanilla-kmt-event-parser.ts#L210)
 
 Removes event listeners and cleans up
 

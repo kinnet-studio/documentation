@@ -4,7 +4,7 @@
 
 > **CameraState** = `object`
 
-Defined in: [packages/board/src/camera/update-publisher.ts:102](https://github.com/ue-too/ue-too/blob/07fe90dac52658f644c26853a3d345b17ce08df7/packages/board/src/camera/update-publisher.ts#L102)
+Defined in: [packages/board/src/camera/update-publisher.ts:96](https://github.com/ue-too/ue-too/blob/aabc0f56e9e83141d0fd935ef6ac3e5fe0af0a61/packages/board/src/camera/update-publisher.ts#L96)
 
 Snapshot of camera state at the time an event occurs.
 Passed to all event callbacks alongside the event payload.
@@ -15,7 +15,7 @@ Passed to all event callbacks alongside the event payload.
 
 > **position**: `Point`
 
-Defined in: [packages/board/src/camera/update-publisher.ts:104](https://github.com/ue-too/ue-too/blob/07fe90dac52658f644c26853a3d345b17ce08df7/packages/board/src/camera/update-publisher.ts#L104)
+Defined in: [packages/board/src/camera/update-publisher.ts:98](https://github.com/ue-too/ue-too/blob/aabc0f56e9e83141d0fd935ef6ac3e5fe0af0a61/packages/board/src/camera/update-publisher.ts#L98)
 
 Camera position in world coordinates
 
@@ -25,7 +25,7 @@ Camera position in world coordinates
 
 > **rotation**: `number`
 
-Defined in: [packages/board/src/camera/update-publisher.ts:108](https://github.com/ue-too/ue-too/blob/07fe90dac52658f644c26853a3d345b17ce08df7/packages/board/src/camera/update-publisher.ts#L108)
+Defined in: [packages/board/src/camera/update-publisher.ts:102](https://github.com/ue-too/ue-too/blob/aabc0f56e9e83141d0fd935ef6ac3e5fe0af0a61/packages/board/src/camera/update-publisher.ts#L102)
 
 Current rotation in radians
 
@@ -35,6 +35,6 @@ Current rotation in radians
 
 > **zoomLevel**: `number`
 
-Defined in: [packages/board/src/camera/update-publisher.ts:106](https://github.com/ue-too/ue-too/blob/07fe90dac52658f644c26853a3d345b17ce08df7/packages/board/src/camera/update-publisher.ts#L106)
+Defined in: [packages/board/src/camera/update-publisher.ts:100](https://github.com/ue-too/ue-too/blob/aabc0f56e9e83141d0fd935ef6ac3e5fe0af0a61/packages/board/src/camera/update-publisher.ts#L100)
 
 Current zoom level

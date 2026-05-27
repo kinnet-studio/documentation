@@ -2,7 +2,7 @@
 
 # Class: Coordinator
 
-Defined in: [index.ts:1274](https://github.com/ue-too/ue-too/blob/07fe90dac52658f644c26853a3d345b17ce08df7/packages/ecs/src/index.ts#L1274)
+Defined in: [index.ts:512](https://github.com/ue-too/ue-too/blob/aabc0f56e9e83141d0fd935ef6ac3e5fe0af0a61/packages/ecs/src/index.ts#L512)
 
 Main ECS coordinator that manages entities, components, and systems.
 
@@ -51,7 +51,7 @@ ecs.destroyEntity(entity);
 
 > **new Coordinator**(): `Coordinator`
 
-Defined in: [index.ts:1279](https://github.com/ue-too/ue-too/blob/07fe90dac52658f644c26853a3d345b17ce08df7/packages/ecs/src/index.ts#L1279)
+Defined in: [index.ts:517](https://github.com/ue-too/ue-too/blob/aabc0f56e9e83141d0fd935ef6ac3e5fe0af0a61/packages/ecs/src/index.ts#L517)
 
 #### Returns
 
@@ -63,7 +63,7 @@ Defined in: [index.ts:1279](https://github.com/ue-too/ue-too/blob/07fe90dac52658
 
 > **addComponentToEntity**\<`T`\>(`componentName`, `entity`, `component`): `void`
 
-Defined in: [index.ts:1299](https://github.com/ue-too/ue-too/blob/07fe90dac52658f644c26853a3d345b17ce08df7/packages/ecs/src/index.ts#L1299)
+Defined in: [index.ts:537](https://github.com/ue-too/ue-too/blob/aabc0f56e9e83141d0fd935ef6ac3e5fe0af0a61/packages/ecs/src/index.ts#L537)
 
 #### Type Parameters
 
@@ -75,7 +75,7 @@ Defined in: [index.ts:1299](https://github.com/ue-too/ue-too/blob/07fe90dac52658
 
 ##### componentName
 
-`symbol`
+`string`
 
 ##### entity
 
@@ -88,97 +88,6 @@ Defined in: [index.ts:1299](https://github.com/ue-too/ue-too/blob/07fe90dac52658
 #### Returns
 
 `void`
-
-***
-
-### addComponentToEntityWithSchema()
-
-> **addComponentToEntityWithSchema**(`componentName`, `entity`, `component`, `validate`): `void`
-
-Defined in: [index.ts:1558](https://github.com/ue-too/ue-too/blob/07fe90dac52658f644c26853a3d345b17ce08df7/packages/ecs/src/index.ts#L1558)
-
-Add a component to an entity with schema validation.
-
-#### Parameters
-
-##### componentName
-
-`symbol`
-
-The name of the component type
-
-##### entity
-
-`number`
-
-The entity to add the component to
-
-##### component
-
-`Record`\<`string`, `unknown`\>
-
-The component data
-
-##### validate
-
-`boolean` = `true`
-
-Whether to validate against schema (default: true)
-
-#### Returns
-
-`void`
-
-#### Throws
-
-Error if validation fails
-
-***
-
-### createComponentFromSchema()
-
-> **createComponentFromSchema**(`componentName`, `overrides`): `Record`\<`string`, `unknown`\>
-
-Defined in: [index.ts:1522](https://github.com/ue-too/ue-too/blob/07fe90dac52658f644c26853a3d345b17ce08df7/packages/ecs/src/index.ts#L1522)
-
-Create a component instance from a schema with default values.
-
-#### Parameters
-
-##### componentName
-
-`symbol`
-
-The name of the component type
-
-##### overrides
-
-`Record`\<`string`, `unknown`\> = `{}`
-
-Optional values to override defaults
-
-#### Returns
-
-`Record`\<`string`, `unknown`\>
-
-A component instance with all fields initialized
-
-#### Throws
-
-Error if component is not registered with a schema
-
-#### Example
-
-```typescript
-// Create component with all defaults
-const component1 = coordinator.createComponentFromSchema('PlayerStats');
-
-// Create component with some overrides
-const component2 = coordinator.createComponentFromSchema('PlayerStats', {
-  health: 200,
-  name: 'SuperPlayer'
-});
-```
 
 ***
 
@@ -186,56 +95,11 @@ const component2 = coordinator.createComponentFromSchema('PlayerStats', {
 
 > **createEntity**(): `number`
 
-Defined in: [index.ts:1285](https://github.com/ue-too/ue-too/blob/07fe90dac52658f644c26853a3d345b17ce08df7/packages/ecs/src/index.ts#L1285)
+Defined in: [index.ts:523](https://github.com/ue-too/ue-too/blob/aabc0f56e9e83141d0fd935ef6ac3e5fe0af0a61/packages/ecs/src/index.ts#L523)
 
 #### Returns
 
 `number`
-
-***
-
-### deserialize()
-
-> **deserialize**(`serialized`, `options`): `void`
-
-Defined in: [index.ts:1780](https://github.com/ue-too/ue-too/blob/07fe90dac52658f644c26853a3d345b17ce08df7/packages/ecs/src/index.ts#L1780)
-
-Deserialize an ECS state from a JSON-compatible format.
-This will restore all entities and their components.
-
-#### Parameters
-
-##### serialized
-
-[`SerializedECSState`](../interfaces/SerializedECSState.md)
-
-The serialized ECS state
-
-##### options
-
-Options for deserialization
-
-###### clearExisting?
-
-`boolean`
-
-Whether to clear existing entities before deserializing (default: false)
-
-#### Returns
-
-`void`
-
-#### Throws
-
-Error if component names cannot be resolved or components are not registered
-
-#### Example
-
-```typescript
-const json = fs.readFileSync('state.json', 'utf-8');
-const serialized = JSON.parse(json);
-coordinator.deserialize(serialized, { clearExisting: true });
-```
 
 ***
 
@@ -243,7 +107,7 @@ coordinator.deserialize(serialized, { clearExisting: true });
 
 > **destroyEntity**(`entity`): `void`
 
-Defined in: [index.ts:1289](https://github.com/ue-too/ue-too/blob/07fe90dac52658f644c26853a3d345b17ce08df7/packages/ecs/src/index.ts#L1289)
+Defined in: [index.ts:527](https://github.com/ue-too/ue-too/blob/aabc0f56e9e83141d0fd935ef6ac3e5fe0af0a61/packages/ecs/src/index.ts#L527)
 
 #### Parameters
 
@@ -254,83 +118,6 @@ Defined in: [index.ts:1289](https://github.com/ue-too/ue-too/blob/07fe90dac52658
 #### Returns
 
 `void`
-
-***
-
-### entityExists()
-
-> **entityExists**(`entity`): `boolean`
-
-Defined in: [index.ts:1619](https://github.com/ue-too/ue-too/blob/07fe90dac52658f644c26853a3d345b17ce08df7/packages/ecs/src/index.ts#L1619)
-
-Check if an entity exists in the coordinator.
-
-#### Parameters
-
-##### entity
-
-`number`
-
-The entity ID to check
-
-#### Returns
-
-`boolean`
-
-true if the entity exists, false otherwise
-
-#### Example
-
-```typescript
-const entity = coordinator.createEntity();
-if (coordinator.entityExists(entity)) {
-  console.log('Entity exists');
-}
-
-coordinator.destroyEntity(entity);
-if (!coordinator.entityExists(entity)) {
-  console.log('Entity no longer exists');
-}
-```
-
-***
-
-### getAllComponentSchemas()
-
-> **getAllComponentSchemas**(): [`ComponentSchema`](../interfaces/ComponentSchema.md)[]
-
-Defined in: [index.ts:1498](https://github.com/ue-too/ue-too/blob/07fe90dac52658f644c26853a3d345b17ce08df7/packages/ecs/src/index.ts#L1498)
-
-Get all registered component schemas.
-
-#### Returns
-
-[`ComponentSchema`](../interfaces/ComponentSchema.md)[]
-
-Array of all component schemas
-
-***
-
-### getAllEntities()
-
-> **getAllEntities**(): `number`[]
-
-Defined in: [index.ts:1597](https://github.com/ue-too/ue-too/blob/07fe90dac52658f644c26853a3d345b17ce08df7/packages/ecs/src/index.ts#L1597)
-
-Get all living entities in the ECS.
-
-#### Returns
-
-`number`[]
-
-Array of all entity IDs that are currently active
-
-#### Example
-
-```typescript
-const entities = coordinator.getAllEntities();
-console.log(`Total entities: ${entities.length}`);
-```
 
 ***
 
@@ -338,7 +125,7 @@ console.log(`Total entities: ${entities.length}`);
 
 > **getComponentFromEntity**\<`T`\>(`componentName`, `entity`): `T` \| `null`
 
-Defined in: [index.ts:1348](https://github.com/ue-too/ue-too/blob/07fe90dac52658f644c26853a3d345b17ce08df7/packages/ecs/src/index.ts#L1348)
+Defined in: [index.ts:568](https://github.com/ue-too/ue-too/blob/aabc0f56e9e83141d0fd935ef6ac3e5fe0af0a61/packages/ecs/src/index.ts#L568)
 
 #### Type Parameters
 
@@ -350,7 +137,7 @@ Defined in: [index.ts:1348](https://github.com/ue-too/ue-too/blob/07fe90dac52658
 
 ##### componentName
 
-`symbol`
+`string`
 
 ##### entity
 
@@ -359,88 +146,6 @@ Defined in: [index.ts:1348](https://github.com/ue-too/ue-too/blob/07fe90dac52658
 #### Returns
 
 `T` \| `null`
-
-***
-
-### getComponentPropertyNames()
-
-> **getComponentPropertyNames**(`componentName`): `string`[]
-
-Defined in: [index.ts:1458](https://github.com/ue-too/ue-too/blob/07fe90dac52658f644c26853a3d345b17ce08df7/packages/ecs/src/index.ts#L1458)
-
-Get the property field names of a component.
-
-This method works in two ways:
-1. If the component was registered with a schema, returns field names from the schema
-2. If no schema exists, attempts to extract property names from an actual component instance
-   (requires at least one entity to have an instance of the component)
-
-#### Parameters
-
-##### componentName
-
-`symbol`
-
-The name of the component type
-
-#### Returns
-
-`string`[]
-
-Array of property field names, or empty array if component has no schema and no instances exist
-
-#### Example
-
-```typescript
-const coordinator = new Coordinator();
-
-// Method 1: Using schema
-coordinator.registerComponentWithSchema({
-  componentName: 'PlayerStats',
-  fields: [
-    { name: 'health', type: 'number', defaultValue: 100 },
-    { name: 'name', type: 'string', defaultValue: 'Player' },
-    { name: 'isAlive', type: 'boolean', defaultValue: true }
-  ]
-});
-const fieldNames1 = coordinator.getComponentPropertyNames('PlayerStats');
-console.log(fieldNames1); // ['health', 'name', 'isAlive']
-
-// Method 2: From component instance
-type LocationComponent = { location: Entity; sortIndex: number };
-coordinator.registerComponent<LocationComponent>('LocationComponent');
-const entity = coordinator.createEntity();
-coordinator.addComponentToEntity('LocationComponent', entity, {
-  location: otherEntity,
-  sortIndex: 0
-});
-const fieldNames2 = coordinator.getComponentPropertyNames('LocationComponent');
-console.log(fieldNames2); // ['location', 'sortIndex']
-```
-
-***
-
-### getComponentSchema()
-
-> **getComponentSchema**(`componentName`): [`ComponentSchema`](../interfaces/ComponentSchema.md) \| `null`
-
-Defined in: [index.ts:1415](https://github.com/ue-too/ue-too/blob/07fe90dac52658f644c26853a3d345b17ce08df7/packages/ecs/src/index.ts#L1415)
-
-Get the schema for a component type, if it was registered with a schema.
-
-#### Parameters
-
-##### componentName
-
-`symbol`
-
-The name of the component type
-
-#### Returns
-
-[`ComponentSchema`](../interfaces/ComponentSchema.md) \| `null`
-
-The component schema or null if not found
 
 ***
 
@@ -448,13 +153,13 @@ The component schema or null if not found
 
 > **getComponentType**(`componentName`): `number` \| `null`
 
-Defined in: [index.ts:1358](https://github.com/ue-too/ue-too/blob/07fe90dac52658f644c26853a3d345b17ce08df7/packages/ecs/src/index.ts#L1358)
+Defined in: [index.ts:572](https://github.com/ue-too/ue-too/blob/aabc0f56e9e83141d0fd935ef6ac3e5fe0af0a61/packages/ecs/src/index.ts#L572)
 
 #### Parameters
 
 ##### componentName
 
-`symbol`
+`string`
 
 #### Returns
 
@@ -462,98 +167,11 @@ Defined in: [index.ts:1358](https://github.com/ue-too/ue-too/blob/07fe90dac52658
 
 ***
 
-### getEntityComponents()
-
-> **getEntityComponents**(`entity`): `Map`\<`symbol`, `unknown`\> \| `null`
-
-Defined in: [index.ts:1636](https://github.com/ue-too/ue-too/blob/07fe90dac52658f644c26853a3d345b17ce08df7/packages/ecs/src/index.ts#L1636)
-
-Get all components for a specific entity.
-
-#### Parameters
-
-##### entity
-
-`number`
-
-The entity ID
-
-#### Returns
-
-`Map`\<`symbol`, `unknown`\> \| `null`
-
-Map of component names to their data, or null if entity doesn't exist
-
-#### Example
-
-```typescript
-const components = coordinator.getEntityComponents(entity);
-if (components) {
-  console.log('Entity components:', components);
-}
-```
-
-***
-
-### getFullState()
-
-> **getFullState**(): `object`
-
-Defined in: [index.ts:1682](https://github.com/ue-too/ue-too/blob/07fe90dac52658f644c26853a3d345b17ce08df7/packages/ecs/src/index.ts#L1682)
-
-Get the entire state of the ECS: all entities with all their component values.
-
-#### Returns
-
-`object`
-
-Object containing all entities and their components
-
-##### entities
-
-> **entities**: `object`[]
-
-#### Example
-
-```typescript
-const state = coordinator.getFullState();
-console.log(`Total entities: ${state.entities.length}`);
-state.entities.forEach(entityData => {
-  console.log(`Entity ${entityData.entity} has ${Object.keys(entityData.components).length} components`);
-});
-```
-
-***
-
-### getSystem()
-
-> **getSystem**\<`T`\>(`systemName`): `T` \| `null`
-
-Defined in: [index.ts:1373](https://github.com/ue-too/ue-too/blob/07fe90dac52658f644c26853a3d345b17ce08df7/packages/ecs/src/index.ts#L1373)
-
-#### Type Parameters
-
-##### T
-
-`T` *extends* [`System`](../interfaces/System.md)
-
-#### Parameters
-
-##### systemName
-
-`symbol`
-
-#### Returns
-
-`T` \| `null`
-
-***
-
 ### registerComponent()
 
 > **registerComponent**\<`T`\>(`componentName`): `void`
 
-Defined in: [index.ts:1295](https://github.com/ue-too/ue-too/blob/07fe90dac52658f644c26853a3d345b17ce08df7/packages/ecs/src/index.ts#L1295)
+Defined in: [index.ts:533](https://github.com/ue-too/ue-too/blob/aabc0f56e9e83141d0fd935ef6ac3e5fe0af0a61/packages/ecs/src/index.ts#L533)
 
 #### Type Parameters
 
@@ -565,60 +183,11 @@ Defined in: [index.ts:1295](https://github.com/ue-too/ue-too/blob/07fe90dac52658
 
 ##### componentName
 
-`symbol`
+`string`
 
 #### Returns
 
 `void`
-
-***
-
-### registerComponentWithSchema()
-
-> **registerComponentWithSchema**(`schema`): `void`
-
-Defined in: [index.ts:1405](https://github.com/ue-too/ue-too/blob/07fe90dac52658f644c26853a3d345b17ce08df7/packages/ecs/src/index.ts#L1405)
-
-Register a component with a runtime-defined schema.
-This allows components to be defined dynamically (e.g., through a GUI).
-
-#### Parameters
-
-##### schema
-
-[`ComponentSchema`](../interfaces/ComponentSchema.md)
-
-The component schema definition
-
-#### Returns
-
-`void`
-
-#### Throws
-
-Error if schema validation fails
-
-#### Example
-
-```typescript
-const coordinator = new Coordinator();
-
-// Define a component schema at runtime
-coordinator.registerComponentWithSchema({
-  componentName: 'PlayerStats',
-  fields: [
-    { name: 'health', type: 'number', defaultValue: 100 },
-    { name: 'name', type: 'string', defaultValue: 'Player' },
-    { name: 'isAlive', type: 'boolean', defaultValue: true },
-    { name: 'inventory', type: 'array', defaultValue: [] }
-  ]
-});
-
-// Create an entity with the component
-const entity = coordinator.createEntity();
-const component = coordinator.createComponentFromSchema('PlayerStats', { health: 150 });
-coordinator.addComponentToEntityWithSchema('PlayerStats', entity, component);
-```
 
 ***
 
@@ -626,13 +195,13 @@ coordinator.addComponentToEntityWithSchema('PlayerStats', entity, component);
 
 > **registerSystem**(`systemName`, `system`): `void`
 
-Defined in: [index.ts:1362](https://github.com/ue-too/ue-too/blob/07fe90dac52658f644c26853a3d345b17ce08df7/packages/ecs/src/index.ts#L1362)
+Defined in: [index.ts:576](https://github.com/ue-too/ue-too/blob/aabc0f56e9e83141d0fd935ef6ac3e5fe0af0a61/packages/ecs/src/index.ts#L576)
 
 #### Parameters
 
 ##### systemName
 
-`symbol`
+`string`
 
 ##### system
 
@@ -648,7 +217,7 @@ Defined in: [index.ts:1362](https://github.com/ue-too/ue-too/blob/07fe90dac52658
 
 > **removeComponentFromEntity**\<`T`\>(`componentName`, `entity`): `void`
 
-Defined in: [index.ts:1326](https://github.com/ue-too/ue-too/blob/07fe90dac52658f644c26853a3d345b17ce08df7/packages/ecs/src/index.ts#L1326)
+Defined in: [index.ts:553](https://github.com/ue-too/ue-too/blob/aabc0f56e9e83141d0fd935ef6ac3e5fe0af0a61/packages/ecs/src/index.ts#L553)
 
 #### Type Parameters
 
@@ -660,7 +229,7 @@ Defined in: [index.ts:1326](https://github.com/ue-too/ue-too/blob/07fe90dac52658
 
 ##### componentName
 
-`symbol`
+`string`
 
 ##### entity
 
@@ -672,46 +241,17 @@ Defined in: [index.ts:1326](https://github.com/ue-too/ue-too/blob/07fe90dac52658
 
 ***
 
-### serialize()
-
-> **serialize**(): [`SerializedECSState`](../interfaces/SerializedECSState.md)
-
-Defined in: [index.ts:1713](https://github.com/ue-too/ue-too/blob/07fe90dac52658f644c26853a3d345b17ce08df7/packages/ecs/src/index.ts#L1713)
-
-Serialize the entire ECS state to a JSON-compatible format.
-Note: Only works with global symbols (created via Symbol.for or createGlobalComponentName).
-
-#### Returns
-
-[`SerializedECSState`](../interfaces/SerializedECSState.md)
-
-A serializable representation of the ECS state
-
-#### Throws
-
-Error if any component name is not a global symbol
-
-#### Example
-
-```typescript
-const serialized = coordinator.serialize();
-const json = JSON.stringify(serialized);
-// Save to file or send over network
-```
-
-***
-
 ### setSystemSignature()
 
 > **setSystemSignature**(`systemName`, `signature`): `void`
 
-Defined in: [index.ts:1366](https://github.com/ue-too/ue-too/blob/07fe90dac52658f644c26853a3d345b17ce08df7/packages/ecs/src/index.ts#L1366)
+Defined in: [index.ts:580](https://github.com/ue-too/ue-too/blob/aabc0f56e9e83141d0fd935ef6ac3e5fe0af0a61/packages/ecs/src/index.ts#L580)
 
 #### Parameters
 
 ##### systemName
 
-`symbol`
+`string`
 
 ##### signature
 
@@ -720,33 +260,3 @@ Defined in: [index.ts:1366](https://github.com/ue-too/ue-too/blob/07fe90dac52658
 #### Returns
 
 `void`
-
-***
-
-### validateComponentData()
-
-> **validateComponentData**(`componentName`, `data`): `boolean`
-
-Defined in: [index.ts:1539](https://github.com/ue-too/ue-too/blob/07fe90dac52658f644c26853a3d345b17ce08df7/packages/ecs/src/index.ts#L1539)
-
-Validate component data against its schema.
-
-#### Parameters
-
-##### componentName
-
-`symbol`
-
-The name of the component type
-
-##### data
-
-`unknown`
-
-The component data to validate
-
-#### Returns
-
-`boolean`
-
-true if valid, false otherwise

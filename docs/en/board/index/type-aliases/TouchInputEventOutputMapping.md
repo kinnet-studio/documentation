@@ -4,7 +4,7 @@
 
 > **TouchInputEventOutputMapping** = `object`
 
-Defined in: [packages/board/src/input-interpretation/input-state-machine/touch-input-state-machine.ts:92](https://github.com/ue-too/ue-too/blob/3358b0ff9b18cc8206e49089d5071b18926b4244/packages/board/src/input-interpretation/input-state-machine/touch-input-state-machine.ts#L92)
+Defined in: [packages/board/src/input-interpretation/input-state-machine/touch-input-state-machine.ts:92](https://github.com/ue-too/ue-too/blob/869d507317a2d8be79359e34a957c2cb9a03e24c/packages/board/src/input-interpretation/input-state-machine/touch-input-state-machine.ts#L92)
 
 Mapping of events to their output types.
 
@@ -19,4 +19,4 @@ touchstart and touchend only manage state transitions.
 
 > **touchmove**: [`TouchOutputEvent`](TouchOutputEvent.md)
 
-Defined in: [packages/board/src/input-interpretation/input-state-machine/touch-input-state-machine.ts:93](https://github.com/ue-too/ue-too/blob/3358b0ff9b18cc8206e49089d5071b18926b4244/packages/board/src/input-interpretation/input-state-machine/touch-input-state-machine.ts#L93)
+Defined in: [packages/board/src/input-interpretation/input-state-machine/touch-input-state-machine.ts:93](https://github.com/ue-too/ue-too/blob/869d507317a2d8be79359e34a957c2cb9a03e24c/packages/board/src/input-interpretation/input-state-machine/touch-input-state-machine.ts#L93)

@@ -2,7 +2,7 @@
 
 # 類別: SystemManager
 
-定義於: [index.ts:1175](https://github.com/ue-too/ue-too/blob/3358b0ff9b18cc8206e49089d5071b18926b4244/packages/ecs/src/index.ts#L1175)
+定義於: [index.ts:1175](https://github.com/ue-too/ue-too/blob/869d507317a2d8be79359e34a957c2cb9a03e24c/packages/ecs/src/index.ts#L1175)
 
 Manages system registration and entity-system matching.
 
@@ -35,7 +35,7 @@ required by the system's signature.
 
 > **entityDestroyed**(`entity`): `void`
 
-定義於: [index.ts:1206](https://github.com/ue-too/ue-too/blob/3358b0ff9b18cc8206e49089d5071b18926b4244/packages/ecs/src/index.ts#L1206)
+定義於: [index.ts:1206](https://github.com/ue-too/ue-too/blob/869d507317a2d8be79359e34a957c2cb9a03e24c/packages/ecs/src/index.ts#L1206)
 
 #### 參數
 
@@ -53,7 +53,7 @@ required by the system's signature.
 
 > **entitySignatureChanged**(`entity`, `signature`): `void`
 
-定義於: [index.ts:1212](https://github.com/ue-too/ue-too/blob/3358b0ff9b18cc8206e49089d5071b18926b4244/packages/ecs/src/index.ts#L1212)
+定義於: [index.ts:1212](https://github.com/ue-too/ue-too/blob/869d507317a2d8be79359e34a957c2cb9a03e24c/packages/ecs/src/index.ts#L1212)
 
 #### 參數
 
@@ -75,7 +75,7 @@ required by the system's signature.
 
 > **getSystem**\<`T`\>(`systemName`): `T` \| `null`
 
-定義於: [index.ts:1223](https://github.com/ue-too/ue-too/blob/3358b0ff9b18cc8206e49089d5071b18926b4244/packages/ecs/src/index.ts#L1223)
+定義於: [index.ts:1223](https://github.com/ue-too/ue-too/blob/869d507317a2d8be79359e34a957c2cb9a03e24c/packages/ecs/src/index.ts#L1223)
 
 #### 型別參數
 
@@ -99,7 +99,7 @@ required by the system's signature.
 
 > **registerSystem**(`systemName`, `system`): `void`
 
-定義於: [index.ts:1181](https://github.com/ue-too/ue-too/blob/3358b0ff9b18cc8206e49089d5071b18926b4244/packages/ecs/src/index.ts#L1181)
+定義於: [index.ts:1181](https://github.com/ue-too/ue-too/blob/869d507317a2d8be79359e34a957c2cb9a03e24c/packages/ecs/src/index.ts#L1181)
 
 #### 參數
 
@@ -121,7 +121,7 @@ required by the system's signature.
 
 > **setSignature**(`systemName`, `signature`): `void`
 
-定義於: [index.ts:1189](https://github.com/ue-too/ue-too/blob/3358b0ff9b18cc8206e49089d5071b18926b4244/packages/ecs/src/index.ts#L1189)
+定義於: [index.ts:1189](https://github.com/ue-too/ue-too/blob/869d507317a2d8be79359e34a957c2cb9a03e24c/packages/ecs/src/index.ts#L1189)
 
 #### 參數
 

@@ -2,7 +2,7 @@
 
 # Interface: CollisionPair
 
-Defined in: [pair-manager.ts:14](https://github.com/ue-too/ue-too/blob/07fe90dac52658f644c26853a3d345b17ce08df7/packages/dynamics/src/pair-manager.ts#L14)
+Defined in: [pair-manager.ts:13](https://github.com/ue-too/ue-too/blob/aabc0f56e9e83141d0fd935ef6ac3e5fe0af0a61/packages/dynamics/src/pair-manager.ts#L13)
 
 Represents a collision pair between two bodies.
 
@@ -17,7 +17,7 @@ detection of collision start, update, and end events.
 
 > **bodyA**: [`RigidBody`](RigidBody.md)
 
-Defined in: [pair-manager.ts:15](https://github.com/ue-too/ue-too/blob/07fe90dac52658f644c26853a3d345b17ce08df7/packages/dynamics/src/pair-manager.ts#L15)
+Defined in: [pair-manager.ts:14](https://github.com/ue-too/ue-too/blob/aabc0f56e9e83141d0fd935ef6ac3e5fe0af0a61/packages/dynamics/src/pair-manager.ts#L14)
 
 ***
 
@@ -25,7 +25,7 @@ Defined in: [pair-manager.ts:15](https://github.com/ue-too/ue-too/blob/07fe90dac
 
 > **bodyB**: [`RigidBody`](RigidBody.md)
 
-Defined in: [pair-manager.ts:16](https://github.com/ue-too/ue-too/blob/07fe90dac52658f644c26853a3d345b17ce08df7/packages/dynamics/src/pair-manager.ts#L16)
+Defined in: [pair-manager.ts:15](https://github.com/ue-too/ue-too/blob/aabc0f56e9e83141d0fd935ef6ac3e5fe0af0a61/packages/dynamics/src/pair-manager.ts#L15)
 
 ***
 
@@ -33,7 +33,7 @@ Defined in: [pair-manager.ts:16](https://github.com/ue-too/ue-too/blob/07fe90dac
 
 > **contactPoints**: `Point`[]
 
-Defined in: [pair-manager.ts:19](https://github.com/ue-too/ue-too/blob/07fe90dac52658f644c26853a3d345b17ce08df7/packages/dynamics/src/pair-manager.ts#L19)
+Defined in: [pair-manager.ts:18](https://github.com/ue-too/ue-too/blob/aabc0f56e9e83141d0fd935ef6ac3e5fe0af0a61/packages/dynamics/src/pair-manager.ts#L18)
 
 ***
 
@@ -41,7 +41,7 @@ Defined in: [pair-manager.ts:19](https://github.com/ue-too/ue-too/blob/07fe90dac
 
 > `optional` **depth**: `number`
 
-Defined in: [pair-manager.ts:21](https://github.com/ue-too/ue-too/blob/07fe90dac52658f644c26853a3d345b17ce08df7/packages/dynamics/src/pair-manager.ts#L21)
+Defined in: [pair-manager.ts:20](https://github.com/ue-too/ue-too/blob/aabc0f56e9e83141d0fd935ef6ac3e5fe0af0a61/packages/dynamics/src/pair-manager.ts#L20)
 
 ***
 
@@ -49,7 +49,7 @@ Defined in: [pair-manager.ts:21](https://github.com/ue-too/ue-too/blob/07fe90dac
 
 > **frameCreated**: `number`
 
-Defined in: [pair-manager.ts:22](https://github.com/ue-too/ue-too/blob/07fe90dac52658f644c26853a3d345b17ce08df7/packages/dynamics/src/pair-manager.ts#L22)
+Defined in: [pair-manager.ts:21](https://github.com/ue-too/ue-too/blob/aabc0f56e9e83141d0fd935ef6ac3e5fe0af0a61/packages/dynamics/src/pair-manager.ts#L21)
 
 ***
 
@@ -57,7 +57,7 @@ Defined in: [pair-manager.ts:22](https://github.com/ue-too/ue-too/blob/07fe90dac
 
 > **frameUpdated**: `number`
 
-Defined in: [pair-manager.ts:23](https://github.com/ue-too/ue-too/blob/07fe90dac52658f644c26853a3d345b17ce08df7/packages/dynamics/src/pair-manager.ts#L23)
+Defined in: [pair-manager.ts:22](https://github.com/ue-too/ue-too/blob/aabc0f56e9e83141d0fd935ef6ac3e5fe0af0a61/packages/dynamics/src/pair-manager.ts#L22)
 
 ***
 
@@ -65,7 +65,7 @@ Defined in: [pair-manager.ts:23](https://github.com/ue-too/ue-too/blob/07fe90dac
 
 > **id**: `string`
 
-Defined in: [pair-manager.ts:17](https://github.com/ue-too/ue-too/blob/07fe90dac52658f644c26853a3d345b17ce08df7/packages/dynamics/src/pair-manager.ts#L17)
+Defined in: [pair-manager.ts:16](https://github.com/ue-too/ue-too/blob/aabc0f56e9e83141d0fd935ef6ac3e5fe0af0a61/packages/dynamics/src/pair-manager.ts#L16)
 
 ***
 
@@ -73,7 +73,7 @@ Defined in: [pair-manager.ts:17](https://github.com/ue-too/ue-too/blob/07fe90dac
 
 > **isActive**: `boolean`
 
-Defined in: [pair-manager.ts:18](https://github.com/ue-too/ue-too/blob/07fe90dac52658f644c26853a3d345b17ce08df7/packages/dynamics/src/pair-manager.ts#L18)
+Defined in: [pair-manager.ts:17](https://github.com/ue-too/ue-too/blob/aabc0f56e9e83141d0fd935ef6ac3e5fe0af0a61/packages/dynamics/src/pair-manager.ts#L17)
 
 ***
 
@@ -81,4 +81,4 @@ Defined in: [pair-manager.ts:18](https://github.com/ue-too/ue-too/blob/07fe90dac
 
 > `optional` **normal**: `Point`
 
-Defined in: [pair-manager.ts:20](https://github.com/ue-too/ue-too/blob/07fe90dac52658f644c26853a3d345b17ce08df7/packages/dynamics/src/pair-manager.ts#L20)
+Defined in: [pair-manager.ts:19](https://github.com/ue-too/ue-too/blob/aabc0f56e9e83141d0fd935ef6ac3e5fe0af0a61/packages/dynamics/src/pair-manager.ts#L19)

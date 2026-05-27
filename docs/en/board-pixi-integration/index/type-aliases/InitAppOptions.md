@@ -4,7 +4,7 @@
 
 > **InitAppOptions** = `object`
 
-Defined in: [init-app.ts:44](https://github.com/ue-too/ue-too/blob/3358b0ff9b18cc8206e49089d5071b18926b4244/packages/board-pixi-integration/src/init-app.ts#L44)
+Defined in: [init-app.ts:44](https://github.com/ue-too/ue-too/blob/869d507317a2d8be79359e34a957c2cb9a03e24c/packages/board-pixi-integration/src/init-app.ts#L44)
 
 ## Properties
 
@@ -12,7 +12,7 @@ Defined in: [init-app.ts:44](https://github.com/ue-too/ue-too/blob/3358b0ff9b18c
 
 > **boundaries**: `object`
 
-Defined in: [init-app.ts:48](https://github.com/ue-too/ue-too/blob/3358b0ff9b18cc8206e49089d5071b18926b4244/packages/board-pixi-integration/src/init-app.ts#L48)
+Defined in: [init-app.ts:48](https://github.com/ue-too/ue-too/blob/869d507317a2d8be79359e34a957c2cb9a03e24c/packages/board-pixi-integration/src/init-app.ts#L48)
 
 #### max
 
@@ -44,7 +44,7 @@ Defined in: [init-app.ts:48](https://github.com/ue-too/ue-too/blob/3358b0ff9b18c
 
 > **camera**: `DefaultBoardCamera`
 
-Defined in: [init-app.ts:47](https://github.com/ue-too/ue-too/blob/3358b0ff9b18cc8206e49089d5071b18926b4244/packages/board-pixi-integration/src/init-app.ts#L47)
+Defined in: [init-app.ts:47](https://github.com/ue-too/ue-too/blob/869d507317a2d8be79359e34a957c2cb9a03e24c/packages/board-pixi-integration/src/init-app.ts#L47)
 
 ***
 
@@ -52,7 +52,7 @@ Defined in: [init-app.ts:47](https://github.com/ue-too/ue-too/blob/3358b0ff9b18c
 
 > **fullScreen**: `boolean`
 
-Defined in: [init-app.ts:45](https://github.com/ue-too/ue-too/blob/3358b0ff9b18cc8206e49089d5071b18926b4244/packages/board-pixi-integration/src/init-app.ts#L45)
+Defined in: [init-app.ts:45](https://github.com/ue-too/ue-too/blob/869d507317a2d8be79359e34a957c2cb9a03e24c/packages/board-pixi-integration/src/init-app.ts#L45)
 
 ***
 
@@ -60,4 +60,4 @@ Defined in: [init-app.ts:45](https://github.com/ue-too/ue-too/blob/3358b0ff9b18c
 
 > **limitEntireViewPort**: `boolean`
 
-Defined in: [init-app.ts:46](https://github.com/ue-too/ue-too/blob/3358b0ff9b18cc8206e49089d5071b18926b4244/packages/board-pixi-integration/src/init-app.ts#L46)
+Defined in: [init-app.ts:46](https://github.com/ue-too/ue-too/blob/869d507317a2d8be79359e34a957c2cb9a03e24c/packages/board-pixi-integration/src/init-app.ts#L46)

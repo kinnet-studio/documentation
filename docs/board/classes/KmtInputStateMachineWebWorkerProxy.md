@@ -2,7 +2,7 @@
 
 # Class: KmtInputStateMachineWebWorkerProxy
 
-Defined in: [packages/board/src/input-interpretation/input-state-machine/kmt-input-state-machine.ts:755](https://github.com/ue-too/ue-too/blob/07fe90dac52658f644c26853a3d345b17ce08df7/packages/board/src/input-interpretation/input-state-machine/kmt-input-state-machine.ts#L755)
+Defined in: [packages/board/src/input-interpretation/input-state-machine/kmt-input-state-machine.ts:628](https://github.com/ue-too/ue-too/blob/aabc0f56e9e83141d0fd935ef6ac3e5fe0af0a61/packages/board/src/input-interpretation/input-state-machine/kmt-input-state-machine.ts#L628)
 
 ## Extends
 
@@ -14,7 +14,7 @@ Defined in: [packages/board/src/input-interpretation/input-state-machine/kmt-inp
 
 > **new KmtInputStateMachineWebWorkerProxy**(`webworker`): `KmtInputStateMachineWebWorkerProxy`
 
-Defined in: [packages/board/src/input-interpretation/input-state-machine/kmt-input-state-machine.ts:763](https://github.com/ue-too/ue-too/blob/07fe90dac52658f644c26853a3d345b17ce08df7/packages/board/src/input-interpretation/input-state-machine/kmt-input-state-machine.ts#L763)
+Defined in: [packages/board/src/input-interpretation/input-state-machine/kmt-input-state-machine.ts:632](https://github.com/ue-too/ue-too/blob/aabc0f56e9e83141d0fd935ef6ac3e5fe0af0a61/packages/board/src/input-interpretation/input-state-machine/kmt-input-state-machine.ts#L632)
 
 #### Parameters
 
@@ -28,7 +28,7 @@ Defined in: [packages/board/src/input-interpretation/input-state-machine/kmt-inp
 
 #### Overrides
 
-`TemplateStateMachine< KmtInputEventMapping, KmtInputContext, KmtInputStates, KmtInputEventOutputMapping >.constructor`
+`TemplateStateMachine<KmtInputEventMapping, KmtInputContext, KmtInputStates, KmtInputEventOutputMapping>.constructor`
 
 ## Properties
 
@@ -36,7 +36,7 @@ Defined in: [packages/board/src/input-interpretation/input-state-machine/kmt-inp
 
 > `protected` **\_context**: [`KmtInputContext`](../interfaces/KmtInputContext.md)
 
-Defined in: packages/being/dist/interface.d.ts:383
+Defined in: [packages/being/src/interface.ts:436](https://github.com/ue-too/ue-too/blob/aabc0f56e9e83141d0fd935ef6ac3e5fe0af0a61/packages/being/src/interface.ts#L436)
 
 #### Inherited from
 
@@ -46,9 +46,9 @@ Defined in: packages/being/dist/interface.d.ts:383
 
 ### \_currentState
 
-> `protected` **\_currentState**: `"INITIAL"` \| `"TERMINAL"` \| `"IDLE"` \| `"READY_TO_PAN_VIA_SPACEBAR"` \| `"READY_TO_PAN_VIA_SCROLL_WHEEL"` \| `"PAN"` \| `"INITIAL_PAN"` \| `"PAN_VIA_SCROLL_WHEEL"` \| `"DISABLED"`
+> `protected` **\_currentState**: `"IDLE"` \| `"READY_TO_PAN_VIA_SPACEBAR"` \| `"READY_TO_PAN_VIA_SCROLL_WHEEL"` \| `"PAN"` \| `"INITIAL_PAN"` \| `"PAN_VIA_SCROLL_WHEEL"` \| `"DISABLED"`
 
-Defined in: packages/being/dist/interface.d.ts:381
+Defined in: [packages/being/src/interface.ts:434](https://github.com/ue-too/ue-too/blob/aabc0f56e9e83141d0fd935ef6ac3e5fe0af0a61/packages/being/src/interface.ts#L434)
 
 #### Inherited from
 
@@ -60,7 +60,7 @@ Defined in: packages/being/dist/interface.d.ts:381
 
 > `protected` **\_happensCallbacks**: (`args`, `context`) => `void`[]
 
-Defined in: packages/being/dist/interface.d.ts:386
+Defined in: [packages/being/src/interface.ts:439](https://github.com/ue-too/ue-too/blob/aabc0f56e9e83141d0fd935ef6ac3e5fe0af0a61/packages/being/src/interface.ts#L439)
 
 #### Parameters
 
@@ -82,23 +82,11 @@ Defined in: packages/being/dist/interface.d.ts:386
 
 ***
 
-### \_initialState
-
-> `protected` **\_initialState**: `"IDLE"` \| `"READY_TO_PAN_VIA_SPACEBAR"` \| `"READY_TO_PAN_VIA_SCROLL_WHEEL"` \| `"PAN"` \| `"INITIAL_PAN"` \| `"PAN_VIA_SCROLL_WHEEL"` \| `"DISABLED"`
-
-Defined in: packages/being/dist/interface.d.ts:388
-
-#### Inherited from
-
-`TemplateStateMachine._initialState`
-
-***
-
 ### \_stateChangeCallbacks
 
 > `protected` **\_stateChangeCallbacks**: `StateChangeCallback`\<`"IDLE"` \| `"READY_TO_PAN_VIA_SPACEBAR"` \| `"READY_TO_PAN_VIA_SCROLL_WHEEL"` \| `"PAN"` \| `"INITIAL_PAN"` \| `"PAN_VIA_SCROLL_WHEEL"` \| `"DISABLED"`\>[]
 
-Defined in: packages/being/dist/interface.d.ts:385
+Defined in: [packages/being/src/interface.ts:438](https://github.com/ue-too/ue-too/blob/aabc0f56e9e83141d0fd935ef6ac3e5fe0af0a61/packages/being/src/interface.ts#L438)
 
 #### Inherited from
 
@@ -110,7 +98,7 @@ Defined in: packages/being/dist/interface.d.ts:385
 
 > `protected` **\_states**: `Record`\<`States`, `State`\<`EventPayloadMapping`, `Context`, `States`, `EventOutputMapping`\>\>
 
-Defined in: packages/being/dist/interface.d.ts:382
+Defined in: [packages/being/src/interface.ts:435](https://github.com/ue-too/ue-too/blob/aabc0f56e9e83141d0fd935ef6ac3e5fe0af0a61/packages/being/src/interface.ts#L435)
 
 #### Inherited from
 
@@ -122,7 +110,7 @@ Defined in: packages/being/dist/interface.d.ts:382
 
 > `protected` **\_statesArray**: (`"IDLE"` \| `"READY_TO_PAN_VIA_SPACEBAR"` \| `"READY_TO_PAN_VIA_SCROLL_WHEEL"` \| `"PAN"` \| `"INITIAL_PAN"` \| `"PAN_VIA_SCROLL_WHEEL"` \| `"DISABLED"`)[]
 
-Defined in: packages/being/dist/interface.d.ts:384
+Defined in: [packages/being/src/interface.ts:437](https://github.com/ue-too/ue-too/blob/aabc0f56e9e83141d0fd935ef6ac3e5fe0af0a61/packages/being/src/interface.ts#L437)
 
 #### Inherited from
 
@@ -132,9 +120,9 @@ Defined in: packages/being/dist/interface.d.ts:384
 
 ### \_timeouts
 
-> `protected` **\_timeouts**: `number` \| `undefined`
+> `protected` **\_timeouts**: `number` \| `undefined` = `undefined`
 
-Defined in: packages/being/dist/interface.d.ts:387
+Defined in: [packages/being/src/interface.ts:440](https://github.com/ue-too/ue-too/blob/aabc0f56e9e83141d0fd935ef6ac3e5fe0af0a61/packages/being/src/interface.ts#L440)
 
 #### Inherited from
 
@@ -146,13 +134,13 @@ Defined in: packages/being/dist/interface.d.ts:387
 
 #### Get Signature
 
-> **get** **currentState**(): `States` \| `"INITIAL"` \| `"TERMINAL"`
+> **get** **currentState**(): `States`
 
-Defined in: packages/being/dist/interface.d.ts:398
+Defined in: [packages/being/src/interface.ts:483](https://github.com/ue-too/ue-too/blob/aabc0f56e9e83141d0fd935ef6ac3e5fe0af0a61/packages/being/src/interface.ts#L483)
 
 ##### Returns
 
-`States` \| `"INITIAL"` \| `"TERMINAL"`
+`States`
 
 #### Inherited from
 
@@ -166,7 +154,7 @@ Defined in: packages/being/dist/interface.d.ts:398
 
 > **get** **possibleStates**(): `States`[]
 
-Defined in: packages/being/dist/interface.d.ts:400
+Defined in: [packages/being/src/interface.ts:491](https://github.com/ue-too/ue-too/blob/aabc0f56e9e83141d0fd935ef6ac3e5fe0af0a61/packages/being/src/interface.ts#L491)
 
 ##### Returns
 
@@ -184,7 +172,7 @@ Defined in: packages/being/dist/interface.d.ts:400
 
 > **get** **states**(): `Record`\<`States`, `State`\<`EventPayloadMapping`, `Context`, `States`, `EventOutputMapping`\>\>
 
-Defined in: packages/being/dist/interface.d.ts:401
+Defined in: [packages/being/src/interface.ts:495](https://github.com/ue-too/ue-too/blob/aabc0f56e9e83141d0fd935ef6ac3e5fe0af0a61/packages/being/src/interface.ts#L495)
 
 ##### Returns
 
@@ -200,7 +188,7 @@ Defined in: packages/being/dist/interface.d.ts:401
 
 > **happens**(...`args`): `EventResult`\<`"IDLE"` \| `"READY_TO_PAN_VIA_SPACEBAR"` \| `"READY_TO_PAN_VIA_SCROLL_WHEEL"` \| `"PAN"` \| `"INITIAL_PAN"` \| `"PAN_VIA_SCROLL_WHEEL"` \| `"DISABLED"`\>
 
-Defined in: [packages/board/src/input-interpretation/input-state-machine/kmt-input-state-machine.ts:780](https://github.com/ue-too/ue-too/blob/07fe90dac52658f644c26853a3d345b17ce08df7/packages/board/src/input-interpretation/input-state-machine/kmt-input-state-machine.ts#L780)
+Defined in: [packages/board/src/input-interpretation/input-state-machine/kmt-input-state-machine.ts:645](https://github.com/ue-too/ue-too/blob/aabc0f56e9e83141d0fd935ef6ac3e5fe0af0a61/packages/board/src/input-interpretation/input-state-machine/kmt-input-state-machine.ts#L645)
 
 #### Parameters
 
@@ -222,7 +210,7 @@ Defined in: [packages/board/src/input-interpretation/input-state-machine/kmt-inp
 
 > **onHappens**(`callback`): `void`
 
-Defined in: packages/being/dist/interface.d.ts:397
+Defined in: [packages/being/src/interface.ts:479](https://github.com/ue-too/ue-too/blob/aabc0f56e9e83141d0fd935ef6ac3e5fe0af0a61/packages/being/src/interface.ts#L479)
 
 #### Parameters
 
@@ -244,7 +232,7 @@ Defined in: packages/being/dist/interface.d.ts:397
 
 > **onStateChange**(`callback`): `void`
 
-Defined in: packages/being/dist/interface.d.ts:396
+Defined in: [packages/being/src/interface.ts:475](https://github.com/ue-too/ue-too/blob/aabc0f56e9e83141d0fd935ef6ac3e5fe0af0a61/packages/being/src/interface.ts#L475)
 
 #### Parameters
 
@@ -262,27 +250,11 @@ Defined in: packages/being/dist/interface.d.ts:396
 
 ***
 
-### reset()
-
-> **reset**(): `void`
-
-Defined in: packages/being/dist/interface.d.ts:390
-
-#### Returns
-
-`void`
-
-#### Inherited from
-
-`TemplateStateMachine.reset`
-
-***
-
 ### setContext()
 
 > **setContext**(`context`): `void`
 
-Defined in: packages/being/dist/interface.d.ts:399
+Defined in: [packages/being/src/interface.ts:487](https://github.com/ue-too/ue-too/blob/aabc0f56e9e83141d0fd935ef6ac3e5fe0af0a61/packages/being/src/interface.ts#L487)
 
 #### Parameters
 
@@ -300,33 +272,17 @@ Defined in: packages/being/dist/interface.d.ts:399
 
 ***
 
-### start()
-
-> **start**(): `void`
-
-Defined in: packages/being/dist/interface.d.ts:391
-
-#### Returns
-
-`void`
-
-#### Inherited from
-
-`TemplateStateMachine.start`
-
-***
-
 ### switchTo()
 
 > **switchTo**(`state`): `void`
 
-Defined in: packages/being/dist/interface.d.ts:393
+Defined in: [packages/being/src/interface.ts:452](https://github.com/ue-too/ue-too/blob/aabc0f56e9e83141d0fd935ef6ac3e5fe0af0a61/packages/being/src/interface.ts#L452)
 
 #### Parameters
 
 ##### state
 
-`"INITIAL"` | `"TERMINAL"` | `"IDLE"` | `"READY_TO_PAN_VIA_SPACEBAR"` | `"READY_TO_PAN_VIA_SCROLL_WHEEL"` | `"PAN"` | `"INITIAL_PAN"` | `"PAN_VIA_SCROLL_WHEEL"` | `"DISABLED"`
+`"IDLE"` | `"READY_TO_PAN_VIA_SPACEBAR"` | `"READY_TO_PAN_VIA_SCROLL_WHEEL"` | `"PAN"` | `"INITIAL_PAN"` | `"PAN_VIA_SCROLL_WHEEL"` | `"DISABLED"`
 
 #### Returns
 
@@ -335,19 +291,3 @@ Defined in: packages/being/dist/interface.d.ts:393
 #### Inherited from
 
 `TemplateStateMachine.switchTo`
-
-***
-
-### wrapup()
-
-> **wrapup**(): `void`
-
-Defined in: packages/being/dist/interface.d.ts:392
-
-#### Returns
-
-`void`
-
-#### Inherited from
-
-`TemplateStateMachine.wrapup`

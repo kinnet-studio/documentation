@@ -4,7 +4,7 @@
 
 > **ZoomByPayload** = `object`
 
-定義於: [packages/board/src/camera/camera-mux/animation-and-lock/zoom-control-state-machine.ts:47](https://github.com/ue-too/ue-too/blob/3358b0ff9b18cc8206e49089d5071b18926b4244/packages/board/src/camera/camera-mux/animation-and-lock/zoom-control-state-machine.ts#L47)
+定義於: [packages/board/src/camera/camera-mux/animation-and-lock/zoom-control-state-machine.ts:47](https://github.com/ue-too/ue-too/blob/869d507317a2d8be79359e34a957c2cb9a03e24c/packages/board/src/camera/camera-mux/animation-and-lock/zoom-control-state-machine.ts#L47)
 
 Payload for zoom-by input events (relative zoom without anchor).
 
@@ -14,6 +14,6 @@ Payload for zoom-by input events (relative zoom without anchor).
 
 > **deltaZoom**: `number`
 
-定義於: [packages/board/src/camera/camera-mux/animation-and-lock/zoom-control-state-machine.ts:49](https://github.com/ue-too/ue-too/blob/3358b0ff9b18cc8206e49089d5071b18926b4244/packages/board/src/camera/camera-mux/animation-and-lock/zoom-control-state-machine.ts#L49)
+定義於: [packages/board/src/camera/camera-mux/animation-and-lock/zoom-control-state-machine.ts:49](https://github.com/ue-too/ue-too/blob/869d507317a2d8be79359e34a957c2cb9a03e24c/packages/board/src/camera/camera-mux/animation-and-lock/zoom-control-state-machine.ts#L49)
 
 Zoom delta amount (multiplier)

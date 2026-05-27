@@ -4,7 +4,7 @@
 
 > **PanByHandlerFunction** = (`delta`, `camera`, `config`) => `Point`
 
-定義: [packages/board/src/camera/camera-rig/pan-handler.ts:205](https://github.com/ue-too/ue-too/blob/3358b0ff9b18cc8206e49089d5071b18926b4244/packages/board/src/camera/camera-rig/pan-handler.ts#L205)
+定義: [packages/board/src/camera/camera-rig/pan-handler.ts:205](https://github.com/ue-too/ue-too/blob/869d507317a2d8be79359e34a957c2cb9a03e24c/packages/board/src/camera/camera-rig/pan-handler.ts#L205)
 
 Handler function type for relative "pan by" camera operations.
 

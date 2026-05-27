@@ -2,7 +2,7 @@
 
 # クラス: Board
 
-定義: [packages/board/src/boardify/index.ts:199](https://github.com/ue-too/ue-too/blob/3358b0ff9b18cc8206e49089d5071b18926b4244/packages/board/src/boardify/index.ts#L199)
+定義: [packages/board/src/boardify/index.ts:199](https://github.com/ue-too/ue-too/blob/869d507317a2d8be79359e34a957c2cb9a03e24c/packages/board/src/boardify/index.ts#L199)
 
 Main user-facing API class that provides an infinite canvas with pan, zoom, and rotate capabilities.
 
@@ -160,7 +160,7 @@ board.attach(canvasElement);
 
 > **get** **alignCoordinateSystem**(): `boolean`
 
-定義: [packages/board/src/boardify/index.ts:525](https://github.com/ue-too/ue-too/blob/3358b0ff9b18cc8206e49089d5071b18926b4244/packages/board/src/boardify/index.ts#L525)
+定義: [packages/board/src/boardify/index.ts:524](https://github.com/ue-too/ue-too/blob/869d507317a2d8be79359e34a957c2cb9a03e24c/packages/board/src/boardify/index.ts#L524)
 
 ##### 戻り値
 
@@ -170,7 +170,7 @@ board.attach(canvasElement);
 
 > **set** **alignCoordinateSystem**(`align`): `void`
 
-定義: [packages/board/src/boardify/index.ts:519](https://github.com/ue-too/ue-too/blob/3358b0ff9b18cc8206e49089d5071b18926b4244/packages/board/src/boardify/index.ts#L519)
+定義: [packages/board/src/boardify/index.ts:518](https://github.com/ue-too/ue-too/blob/869d507317a2d8be79359e34a957c2cb9a03e24c/packages/board/src/boardify/index.ts#L518)
 
 ##### Description
 
@@ -196,7 +196,7 @@ If you change this value during runtime, you should update the context to be ali
 
 > **get** **camera**(): [`ObservableBoardCamera`](../interfaces/ObservableBoardCamera.md)
 
-定義: [packages/board/src/boardify/index.ts:614](https://github.com/ue-too/ue-too/blob/3358b0ff9b18cc8206e49089d5071b18926b4244/packages/board/src/boardify/index.ts#L614)
+定義: [packages/board/src/boardify/index.ts:613](https://github.com/ue-too/ue-too/blob/869d507317a2d8be79359e34a957c2cb9a03e24c/packages/board/src/boardify/index.ts#L613)
 
 ##### Description
 
@@ -211,7 +211,7 @@ The boundaries are based on camera meaning you can have cameras with different b
 
 > **set** **camera**(`camera`): `void`
 
-定義: [packages/board/src/boardify/index.ts:618](https://github.com/ue-too/ue-too/blob/3358b0ff9b18cc8206e49089d5071b18926b4244/packages/board/src/boardify/index.ts#L618)
+定義: [packages/board/src/boardify/index.ts:617](https://github.com/ue-too/ue-too/blob/869d507317a2d8be79359e34a957c2cb9a03e24c/packages/board/src/boardify/index.ts#L617)
 
 ##### パラメータ
 
@@ -231,7 +231,7 @@ The boundaries are based on camera meaning you can have cameras with different b
 
 > **get** **cameraMux**(): [`CameraMux`](../interfaces/CameraMux.md)
 
-定義: [packages/board/src/boardify/index.ts:628](https://github.com/ue-too/ue-too/blob/3358b0ff9b18cc8206e49089d5071b18926b4244/packages/board/src/boardify/index.ts#L628)
+定義: [packages/board/src/boardify/index.ts:627](https://github.com/ue-too/ue-too/blob/869d507317a2d8be79359e34a957c2cb9a03e24c/packages/board/src/boardify/index.ts#L627)
 
 ##### 戻り値
 
@@ -241,7 +241,7 @@ The boundaries are based on camera meaning you can have cameras with different b
 
 > **set** **cameraMux**(`cameraMux`): `void`
 
-定義: [packages/board/src/boardify/index.ts:632](https://github.com/ue-too/ue-too/blob/3358b0ff9b18cc8206e49089d5071b18926b4244/packages/board/src/boardify/index.ts#L632)
+定義: [packages/board/src/boardify/index.ts:631](https://github.com/ue-too/ue-too/blob/869d507317a2d8be79359e34a957c2cb9a03e24c/packages/board/src/boardify/index.ts#L631)
 
 ##### パラメータ
 
@@ -261,7 +261,7 @@ The boundaries are based on camera meaning you can have cameras with different b
 
 > **get** **canvasDimensions**(): [`CanvasDimensions`](../type-aliases/CanvasDimensions.md)
 
-定義: [packages/board/src/boardify/index.ts:941](https://github.com/ue-too/ue-too/blob/3358b0ff9b18cc8206e49089d5071b18926b4244/packages/board/src/boardify/index.ts#L941)
+定義: [packages/board/src/boardify/index.ts:940](https://github.com/ue-too/ue-too/blob/869d507317a2d8be79359e34a957c2cb9a03e24c/packages/board/src/boardify/index.ts#L940)
 
 ##### 戻り値
 
@@ -275,7 +275,7 @@ The boundaries are based on camera meaning you can have cameras with different b
 
 > **get** **clampRotation**(): `boolean`
 
-定義: [packages/board/src/boardify/index.ts:921](https://github.com/ue-too/ue-too/blob/3358b0ff9b18cc8206e49089d5071b18926b4244/packages/board/src/boardify/index.ts#L921)
+定義: [packages/board/src/boardify/index.ts:920](https://github.com/ue-too/ue-too/blob/869d507317a2d8be79359e34a957c2cb9a03e24c/packages/board/src/boardify/index.ts#L920)
 
 ##### 戻り値
 
@@ -285,7 +285,7 @@ The boundaries are based on camera meaning you can have cameras with different b
 
 > **set** **clampRotation**(`value`): `void`
 
-定義: [packages/board/src/boardify/index.ts:925](https://github.com/ue-too/ue-too/blob/3358b0ff9b18cc8206e49089d5071b18926b4244/packages/board/src/boardify/index.ts#L925)
+定義: [packages/board/src/boardify/index.ts:924](https://github.com/ue-too/ue-too/blob/869d507317a2d8be79359e34a957c2cb9a03e24c/packages/board/src/boardify/index.ts#L924)
 
 ##### パラメータ
 
@@ -305,7 +305,7 @@ The boundaries are based on camera meaning you can have cameras with different b
 
 > **get** **clampTranslation**(): `boolean`
 
-定義: [packages/board/src/boardify/index.ts:905](https://github.com/ue-too/ue-too/blob/3358b0ff9b18cc8206e49089d5071b18926b4244/packages/board/src/boardify/index.ts#L905)
+定義: [packages/board/src/boardify/index.ts:904](https://github.com/ue-too/ue-too/blob/869d507317a2d8be79359e34a957c2cb9a03e24c/packages/board/src/boardify/index.ts#L904)
 
 ##### 戻り値
 
@@ -315,7 +315,7 @@ The boundaries are based on camera meaning you can have cameras with different b
 
 > **set** **clampTranslation**(`value`): `void`
 
-定義: [packages/board/src/boardify/index.ts:909](https://github.com/ue-too/ue-too/blob/3358b0ff9b18cc8206e49089d5071b18926b4244/packages/board/src/boardify/index.ts#L909)
+定義: [packages/board/src/boardify/index.ts:908](https://github.com/ue-too/ue-too/blob/869d507317a2d8be79359e34a957c2cb9a03e24c/packages/board/src/boardify/index.ts#L908)
 
 ##### パラメータ
 
@@ -335,7 +335,7 @@ The boundaries are based on camera meaning you can have cameras with different b
 
 > **get** **clampZoom**(): `boolean`
 
-定義: [packages/board/src/boardify/index.ts:913](https://github.com/ue-too/ue-too/blob/3358b0ff9b18cc8206e49089d5071b18926b4244/packages/board/src/boardify/index.ts#L913)
+定義: [packages/board/src/boardify/index.ts:912](https://github.com/ue-too/ue-too/blob/869d507317a2d8be79359e34a957c2cb9a03e24c/packages/board/src/boardify/index.ts#L912)
 
 ##### 戻り値
 
@@ -345,7 +345,7 @@ The boundaries are based on camera meaning you can have cameras with different b
 
 > **set** **clampZoom**(`value`): `void`
 
-定義: [packages/board/src/boardify/index.ts:917](https://github.com/ue-too/ue-too/blob/3358b0ff9b18cc8206e49089d5071b18926b4244/packages/board/src/boardify/index.ts#L917)
+定義: [packages/board/src/boardify/index.ts:916](https://github.com/ue-too/ue-too/blob/869d507317a2d8be79359e34a957c2cb9a03e24c/packages/board/src/boardify/index.ts#L916)
 
 ##### パラメータ
 
@@ -365,7 +365,7 @@ The boundaries are based on camera meaning you can have cameras with different b
 
 > **get** **context**(): `CanvasRenderingContext2D` \| `undefined`
 
-定義: [packages/board/src/boardify/index.ts:549](https://github.com/ue-too/ue-too/blob/3358b0ff9b18cc8206e49089d5071b18926b4244/packages/board/src/boardify/index.ts#L549)
+定義: [packages/board/src/boardify/index.ts:548](https://github.com/ue-too/ue-too/blob/869d507317a2d8be79359e34a957c2cb9a03e24c/packages/board/src/boardify/index.ts#L548)
 
 ##### Description
 
@@ -384,7 +384,7 @@ If alignCoordinateSystem is false, this returns a proxy that automatically negat
 
 > **get** **fullScreen**(): `boolean`
 
-定義: [packages/board/src/boardify/index.ts:533](https://github.com/ue-too/ue-too/blob/3358b0ff9b18cc8206e49089d5071b18926b4244/packages/board/src/boardify/index.ts#L533)
+定義: [packages/board/src/boardify/index.ts:532](https://github.com/ue-too/ue-too/blob/869d507317a2d8be79359e34a957c2cb9a03e24c/packages/board/src/boardify/index.ts#L532)
 
 ##### Description
 
@@ -399,7 +399,7 @@ and the width and height of the board will resize with the window.
 
 > **set** **fullScreen**(`value`): `void`
 
-定義: [packages/board/src/boardify/index.ts:537](https://github.com/ue-too/ue-too/blob/3358b0ff9b18cc8206e49089d5071b18926b4244/packages/board/src/boardify/index.ts#L537)
+定義: [packages/board/src/boardify/index.ts:536](https://github.com/ue-too/ue-too/blob/869d507317a2d8be79359e34a957c2cb9a03e24c/packages/board/src/boardify/index.ts#L536)
 
 ##### パラメータ
 
@@ -419,7 +419,7 @@ and the width and height of the board will resize with the window.
 
 > **get** **height**(): `number`
 
-定義: [packages/board/src/boardify/index.ts:510](https://github.com/ue-too/ue-too/blob/3358b0ff9b18cc8206e49089d5071b18926b4244/packages/board/src/boardify/index.ts#L510)
+定義: [packages/board/src/boardify/index.ts:509](https://github.com/ue-too/ue-too/blob/869d507317a2d8be79359e34a957c2cb9a03e24c/packages/board/src/boardify/index.ts#L509)
 
 ##### 戻り値
 
@@ -433,7 +433,7 @@ and the width and height of the board will resize with the window.
 
 > **get** **inputOrchestrator**(): [`InputOrchestrator`](InputOrchestrator.md)
 
-定義: [packages/board/src/boardify/index.ts:485](https://github.com/ue-too/ue-too/blob/3358b0ff9b18cc8206e49089d5071b18926b4244/packages/board/src/boardify/index.ts#L485)
+定義: [packages/board/src/boardify/index.ts:484](https://github.com/ue-too/ue-too/blob/869d507317a2d8be79359e34a957c2cb9a03e24c/packages/board/src/boardify/index.ts#L484)
 
 ##### 戻り値
 
@@ -447,7 +447,7 @@ and the width and height of the board will resize with the window.
 
 > **get** **kmtParser**(): [`KMTEventParser`](../interfaces/KMTEventParser.md)
 
-定義: [packages/board/src/boardify/index.ts:588](https://github.com/ue-too/ue-too/blob/3358b0ff9b18cc8206e49089d5071b18926b4244/packages/board/src/boardify/index.ts#L588)
+定義: [packages/board/src/boardify/index.ts:587](https://github.com/ue-too/ue-too/blob/869d507317a2d8be79359e34a957c2cb9a03e24c/packages/board/src/boardify/index.ts#L587)
 
 ##### 戻り値
 
@@ -457,7 +457,7 @@ and the width and height of the board will resize with the window.
 
 > **set** **kmtParser**(`parser`): `void`
 
-定義: [packages/board/src/boardify/index.ts:578](https://github.com/ue-too/ue-too/blob/3358b0ff9b18cc8206e49089d5071b18926b4244/packages/board/src/boardify/index.ts#L578)
+定義: [packages/board/src/boardify/index.ts:577](https://github.com/ue-too/ue-too/blob/869d507317a2d8be79359e34a957c2cb9a03e24c/packages/board/src/boardify/index.ts#L577)
 
 ##### Description
 
@@ -482,7 +482,7 @@ You can implement your own strategy by implementing the BoardKMTStrategy interfa
 
 > **get** **limitEntireViewPort**(): `boolean`
 
-定義: [packages/board/src/boardify/index.ts:570](https://github.com/ue-too/ue-too/blob/3358b0ff9b18cc8206e49089d5071b18926b4244/packages/board/src/boardify/index.ts#L570)
+定義: [packages/board/src/boardify/index.ts:569](https://github.com/ue-too/ue-too/blob/869d507317a2d8be79359e34a957c2cb9a03e24c/packages/board/src/boardify/index.ts#L569)
 
 ##### 戻り値
 
@@ -492,7 +492,7 @@ You can implement your own strategy by implementing the BoardKMTStrategy interfa
 
 > **set** **limitEntireViewPort**(`value`): `void`
 
-定義: [packages/board/src/boardify/index.ts:560](https://github.com/ue-too/ue-too/blob/3358b0ff9b18cc8206e49089d5071b18926b4244/packages/board/src/boardify/index.ts#L560)
+定義: [packages/board/src/boardify/index.ts:559](https://github.com/ue-too/ue-too/blob/869d507317a2d8be79359e34a957c2cb9a03e24c/packages/board/src/boardify/index.ts#L559)
 
 ##### Description
 
@@ -517,7 +517,7 @@ If set to false, only the center of the camera is bounded by the boundaries.
 
 > **get** **maxHalfTransHeight**(): `number` \| `undefined`
 
-定義: [packages/board/src/boardify/index.ts:756](https://github.com/ue-too/ue-too/blob/3358b0ff9b18cc8206e49089d5071b18926b4244/packages/board/src/boardify/index.ts#L756)
+定義: [packages/board/src/boardify/index.ts:755](https://github.com/ue-too/ue-too/blob/869d507317a2d8be79359e34a957c2cb9a03e24c/packages/board/src/boardify/index.ts#L755)
 
 ##### Description
 
@@ -535,7 +535,7 @@ The max translation height of the camera. This is the maximum distance the camer
 
 > **get** **maxHalfTransWidth**(): `number` \| `undefined`
 
-定義: [packages/board/src/boardify/index.ts:763](https://github.com/ue-too/ue-too/blob/3358b0ff9b18cc8206e49089d5071b18926b4244/packages/board/src/boardify/index.ts#L763)
+定義: [packages/board/src/boardify/index.ts:762](https://github.com/ue-too/ue-too/blob/869d507317a2d8be79359e34a957c2cb9a03e24c/packages/board/src/boardify/index.ts#L762)
 
 ##### Description
 
@@ -553,7 +553,7 @@ The max translation width of the camera. This is the maximum distance the camera
 
 > **get** **restrictRelativeXTranslation**(): `boolean`
 
-定義: [packages/board/src/boardify/index.ts:857](https://github.com/ue-too/ue-too/blob/3358b0ff9b18cc8206e49089d5071b18926b4244/packages/board/src/boardify/index.ts#L857)
+定義: [packages/board/src/boardify/index.ts:856](https://github.com/ue-too/ue-too/blob/869d507317a2d8be79359e34a957c2cb9a03e24c/packages/board/src/boardify/index.ts#L856)
 
 ##### 戻り値
 
@@ -563,7 +563,7 @@ The max translation width of the camera. This is the maximum distance the camera
 
 > **set** **restrictRelativeXTranslation**(`value`): `void`
 
-定義: [packages/board/src/boardify/index.ts:873](https://github.com/ue-too/ue-too/blob/3358b0ff9b18cc8206e49089d5071b18926b4244/packages/board/src/boardify/index.ts#L873)
+定義: [packages/board/src/boardify/index.ts:872](https://github.com/ue-too/ue-too/blob/869d507317a2d8be79359e34a957c2cb9a03e24c/packages/board/src/boardify/index.ts#L872)
 
 ##### パラメータ
 
@@ -583,7 +583,7 @@ The max translation width of the camera. This is the maximum distance the camera
 
 > **get** **restrictRelativeYTranslation**(): `boolean`
 
-定義: [packages/board/src/boardify/index.ts:861](https://github.com/ue-too/ue-too/blob/3358b0ff9b18cc8206e49089d5071b18926b4244/packages/board/src/boardify/index.ts#L861)
+定義: [packages/board/src/boardify/index.ts:860](https://github.com/ue-too/ue-too/blob/869d507317a2d8be79359e34a957c2cb9a03e24c/packages/board/src/boardify/index.ts#L860)
 
 ##### 戻り値
 
@@ -593,7 +593,7 @@ The max translation width of the camera. This is the maximum distance the camera
 
 > **set** **restrictRelativeYTranslation**(`value`): `void`
 
-定義: [packages/board/src/boardify/index.ts:877](https://github.com/ue-too/ue-too/blob/3358b0ff9b18cc8206e49089d5071b18926b4244/packages/board/src/boardify/index.ts#L877)
+定義: [packages/board/src/boardify/index.ts:876](https://github.com/ue-too/ue-too/blob/869d507317a2d8be79359e34a957c2cb9a03e24c/packages/board/src/boardify/index.ts#L876)
 
 ##### パラメータ
 
@@ -613,7 +613,7 @@ The max translation width of the camera. This is the maximum distance the camera
 
 > **get** **restrictRotation**(): `boolean`
 
-定義: [packages/board/src/boardify/index.ts:897](https://github.com/ue-too/ue-too/blob/3358b0ff9b18cc8206e49089d5071b18926b4244/packages/board/src/boardify/index.ts#L897)
+定義: [packages/board/src/boardify/index.ts:896](https://github.com/ue-too/ue-too/blob/869d507317a2d8be79359e34a957c2cb9a03e24c/packages/board/src/boardify/index.ts#L896)
 
 ##### 戻り値
 
@@ -623,7 +623,7 @@ The max translation width of the camera. This is the maximum distance the camera
 
 > **set** **restrictRotation**(`value`): `void`
 
-定義: [packages/board/src/boardify/index.ts:901](https://github.com/ue-too/ue-too/blob/3358b0ff9b18cc8206e49089d5071b18926b4244/packages/board/src/boardify/index.ts#L901)
+定義: [packages/board/src/boardify/index.ts:900](https://github.com/ue-too/ue-too/blob/869d507317a2d8be79359e34a957c2cb9a03e24c/packages/board/src/boardify/index.ts#L900)
 
 ##### パラメータ
 
@@ -643,7 +643,7 @@ The max translation width of the camera. This is the maximum distance the camera
 
 > **get** **restrictXTranslation**(): `boolean`
 
-定義: [packages/board/src/boardify/index.ts:865](https://github.com/ue-too/ue-too/blob/3358b0ff9b18cc8206e49089d5071b18926b4244/packages/board/src/boardify/index.ts#L865)
+定義: [packages/board/src/boardify/index.ts:864](https://github.com/ue-too/ue-too/blob/869d507317a2d8be79359e34a957c2cb9a03e24c/packages/board/src/boardify/index.ts#L864)
 
 ##### 戻り値
 
@@ -653,7 +653,7 @@ The max translation width of the camera. This is the maximum distance the camera
 
 > **set** **restrictXTranslation**(`value`): `void`
 
-定義: [packages/board/src/boardify/index.ts:881](https://github.com/ue-too/ue-too/blob/3358b0ff9b18cc8206e49089d5071b18926b4244/packages/board/src/boardify/index.ts#L881)
+定義: [packages/board/src/boardify/index.ts:880](https://github.com/ue-too/ue-too/blob/869d507317a2d8be79359e34a957c2cb9a03e24c/packages/board/src/boardify/index.ts#L880)
 
 ##### パラメータ
 
@@ -673,7 +673,7 @@ The max translation width of the camera. This is the maximum distance the camera
 
 > **get** **restrictYTranslation**(): `boolean`
 
-定義: [packages/board/src/boardify/index.ts:869](https://github.com/ue-too/ue-too/blob/3358b0ff9b18cc8206e49089d5071b18926b4244/packages/board/src/boardify/index.ts#L869)
+定義: [packages/board/src/boardify/index.ts:868](https://github.com/ue-too/ue-too/blob/869d507317a2d8be79359e34a957c2cb9a03e24c/packages/board/src/boardify/index.ts#L868)
 
 ##### 戻り値
 
@@ -683,7 +683,7 @@ The max translation width of the camera. This is the maximum distance the camera
 
 > **set** **restrictYTranslation**(`value`): `void`
 
-定義: [packages/board/src/boardify/index.ts:885](https://github.com/ue-too/ue-too/blob/3358b0ff9b18cc8206e49089d5071b18926b4244/packages/board/src/boardify/index.ts#L885)
+定義: [packages/board/src/boardify/index.ts:884](https://github.com/ue-too/ue-too/blob/869d507317a2d8be79359e34a957c2cb9a03e24c/packages/board/src/boardify/index.ts#L884)
 
 ##### パラメータ
 
@@ -703,7 +703,7 @@ The max translation width of the camera. This is the maximum distance the camera
 
 > **get** **restrictZoom**(): `boolean`
 
-定義: [packages/board/src/boardify/index.ts:889](https://github.com/ue-too/ue-too/blob/3358b0ff9b18cc8206e49089d5071b18926b4244/packages/board/src/boardify/index.ts#L889)
+定義: [packages/board/src/boardify/index.ts:888](https://github.com/ue-too/ue-too/blob/869d507317a2d8be79359e34a957c2cb9a03e24c/packages/board/src/boardify/index.ts#L888)
 
 ##### 戻り値
 
@@ -713,7 +713,7 @@ The max translation width of the camera. This is the maximum distance the camera
 
 > **set** **restrictZoom**(`value`): `void`
 
-定義: [packages/board/src/boardify/index.ts:893](https://github.com/ue-too/ue-too/blob/3358b0ff9b18cc8206e49089d5071b18926b4244/packages/board/src/boardify/index.ts#L893)
+定義: [packages/board/src/boardify/index.ts:892](https://github.com/ue-too/ue-too/blob/869d507317a2d8be79359e34a957c2cb9a03e24c/packages/board/src/boardify/index.ts#L892)
 
 ##### パラメータ
 
@@ -733,7 +733,7 @@ The max translation width of the camera. This is the maximum distance the camera
 
 > **get** **touchParser**(): [`TouchEventParser`](../interfaces/TouchEventParser.md)
 
-定義: [packages/board/src/boardify/index.ts:606](https://github.com/ue-too/ue-too/blob/3358b0ff9b18cc8206e49089d5071b18926b4244/packages/board/src/boardify/index.ts#L606)
+定義: [packages/board/src/boardify/index.ts:605](https://github.com/ue-too/ue-too/blob/869d507317a2d8be79359e34a957c2cb9a03e24c/packages/board/src/boardify/index.ts#L605)
 
 ##### 戻り値
 
@@ -743,7 +743,7 @@ The max translation width of the camera. This is the maximum distance the camera
 
 > **set** **touchParser**(`parser`): `void`
 
-定義: [packages/board/src/boardify/index.ts:596](https://github.com/ue-too/ue-too/blob/3358b0ff9b18cc8206e49089d5071b18926b4244/packages/board/src/boardify/index.ts#L596)
+定義: [packages/board/src/boardify/index.ts:595](https://github.com/ue-too/ue-too/blob/869d507317a2d8be79359e34a957c2cb9a03e24c/packages/board/src/boardify/index.ts#L595)
 
 ##### Description
 
@@ -768,7 +768,7 @@ You can have your own parser by implementing the BoardTouchParser interface.
 
 > **get** **width**(): `number`
 
-定義: [packages/board/src/boardify/index.ts:506](https://github.com/ue-too/ue-too/blob/3358b0ff9b18cc8206e49089d5071b18926b4244/packages/board/src/boardify/index.ts#L506)
+定義: [packages/board/src/boardify/index.ts:505](https://github.com/ue-too/ue-too/blob/869d507317a2d8be79359e34a957c2cb9a03e24c/packages/board/src/boardify/index.ts#L505)
 
 ##### 戻り値
 
@@ -780,7 +780,7 @@ You can have your own parser by implementing the BoardTouchParser interface.
 
 > **convertWindowPoint2WorldCoord**(`clickPointInWindow`): `Point`
 
-定義: [packages/board/src/boardify/index.ts:708](https://github.com/ue-too/ue-too/blob/3358b0ff9b18cc8206e49089d5071b18926b4244/packages/board/src/boardify/index.ts#L708)
+定義: [packages/board/src/boardify/index.ts:707](https://github.com/ue-too/ue-too/blob/869d507317a2d8be79359e34a957c2cb9a03e24c/packages/board/src/boardify/index.ts#L707)
 
 TODO add the option to make the camera position to be at the top left corner of the canvas; or better yet any point in the viewport (within the viewport boundaries)
 
@@ -808,7 +808,7 @@ Converts a point from window coordinates to world coordinates.
 
 > **disableEventListeners**(): `void`
 
-定義: [packages/board/src/boardify/index.ts:475](https://github.com/ue-too/ue-too/blob/3358b0ff9b18cc8206e49089d5071b18926b4244/packages/board/src/boardify/index.ts#L475)
+定義: [packages/board/src/boardify/index.ts:474](https://github.com/ue-too/ue-too/blob/869d507317a2d8be79359e34a957c2cb9a03e24c/packages/board/src/boardify/index.ts#L474)
 
 #### 戻り値
 
@@ -820,7 +820,7 @@ Converts a point from window coordinates to world coordinates.
 
 > **enableEventListeners**(): `void`
 
-定義: [packages/board/src/boardify/index.ts:480](https://github.com/ue-too/ue-too/blob/3358b0ff9b18cc8206e49089d5071b18926b4244/packages/board/src/boardify/index.ts#L480)
+定義: [packages/board/src/boardify/index.ts:479](https://github.com/ue-too/ue-too/blob/869d507317a2d8be79359e34a957c2cb9a03e24c/packages/board/src/boardify/index.ts#L479)
 
 #### 戻り値
 
@@ -832,7 +832,7 @@ Converts a point from window coordinates to world coordinates.
 
 > **getCameraRig**(): [`CameraRig`](../interfaces/CameraRig.md)
 
-定義: [packages/board/src/boardify/index.ts:929](https://github.com/ue-too/ue-too/blob/3358b0ff9b18cc8206e49089d5071b18926b4244/packages/board/src/boardify/index.ts#L929)
+定義: [packages/board/src/boardify/index.ts:928](https://github.com/ue-too/ue-too/blob/869d507317a2d8be79359e34a957c2cb9a03e24c/packages/board/src/boardify/index.ts#L928)
 
 #### 戻り値
 
@@ -844,7 +844,7 @@ Converts a point from window coordinates to world coordinates.
 
 > **on**\<`K`\>(`eventName`, `callback`): [`UnSubscribe`](../type-aliases/UnSubscribe.md)
 
-定義: [packages/board/src/boardify/index.ts:731](https://github.com/ue-too/ue-too/blob/3358b0ff9b18cc8206e49089d5071b18926b4244/packages/board/src/boardify/index.ts#L731)
+定義: [packages/board/src/boardify/index.ts:730](https://github.com/ue-too/ue-too/blob/869d507317a2d8be79359e34a957c2cb9a03e24c/packages/board/src/boardify/index.ts#L730)
 
 #### 型パラメーター
 
@@ -883,7 +883,7 @@ There's also an "all" event that will be triggered when any of the above events 
 
 > **onCanvasDimensionChange**(`callback`): () => `void`
 
-定義: [packages/board/src/boardify/index.ts:937](https://github.com/ue-too/ue-too/blob/3358b0ff9b18cc8206e49089d5071b18926b4244/packages/board/src/boardify/index.ts#L937)
+定義: [packages/board/src/boardify/index.ts:936](https://github.com/ue-too/ue-too/blob/869d507317a2d8be79359e34a957c2cb9a03e24c/packages/board/src/boardify/index.ts#L936)
 
 #### パラメータ
 
@@ -905,7 +905,7 @@ There's also an "all" event that will be triggered when any of the above events 
 
 > **onInput**\<`K`\>(`eventName`, `callback`): [`UnsubscribeToUserRawInput`](../type-aliases/UnsubscribeToUserRawInput.md)
 
-定義: [packages/board/src/boardify/index.ts:746](https://github.com/ue-too/ue-too/blob/3358b0ff9b18cc8206e49089d5071b18926b4244/packages/board/src/boardify/index.ts#L746)
+定義: [packages/board/src/boardify/index.ts:745](https://github.com/ue-too/ue-too/blob/869d507317a2d8be79359e34a957c2cb9a03e24c/packages/board/src/boardify/index.ts#L745)
 
 #### 型パラメーター
 
@@ -939,7 +939,7 @@ Input event does not necesarily mean that the camera will move. The input events
 
 > **setInputMode**(`mode`): `void`
 
-定義: [packages/board/src/boardify/index.ts:933](https://github.com/ue-too/ue-too/blob/3358b0ff9b18cc8206e49089d5071b18926b4244/packages/board/src/boardify/index.ts#L933)
+定義: [packages/board/src/boardify/index.ts:932](https://github.com/ue-too/ue-too/blob/869d507317a2d8be79359e34a957c2cb9a03e24c/packages/board/src/boardify/index.ts#L932)
 
 #### パラメータ
 
@@ -957,7 +957,7 @@ Input event does not necesarily mean that the camera will move. The input events
 
 > **step**(`timestamp`): `void`
 
-定義: [packages/board/src/boardify/index.ts:645](https://github.com/ue-too/ue-too/blob/3358b0ff9b18cc8206e49089d5071b18926b4244/packages/board/src/boardify/index.ts#L645)
+定義: [packages/board/src/boardify/index.ts:644](https://github.com/ue-too/ue-too/blob/869d507317a2d8be79359e34a957c2cb9a03e24c/packages/board/src/boardify/index.ts#L644)
 
 #### パラメータ
 
@@ -979,7 +979,7 @@ This is the step function that is called in the animation frame. This function i
 
 > **setMaxTransWidthWithFixedMaxBoundary**(`value`): `void`
 
-定義: [packages/board/src/boardify/index.ts:826](https://github.com/ue-too/ue-too/blob/3358b0ff9b18cc8206e49089d5071b18926b4244/packages/board/src/boardify/index.ts#L826)
+定義: [packages/board/src/boardify/index.ts:825](https://github.com/ue-too/ue-too/blob/869d507317a2d8be79359e34a957c2cb9a03e24c/packages/board/src/boardify/index.ts#L825)
 
 #### パラメータ
 
@@ -1001,7 +1001,7 @@ This function sets the max translation width of the camera while fixing the mini
 
 > **setMaxTransWidthWithFixedMinBoundary**(`value`): `void`
 
-定義: [packages/board/src/boardify/index.ts:791](https://github.com/ue-too/ue-too/blob/3358b0ff9b18cc8206e49089d5071b18926b4244/packages/board/src/boardify/index.ts#L791)
+定義: [packages/board/src/boardify/index.ts:790](https://github.com/ue-too/ue-too/blob/869d507317a2d8be79359e34a957c2cb9a03e24c/packages/board/src/boardify/index.ts#L790)
 
 #### パラメータ
 
@@ -1023,7 +1023,7 @@ This function sets the max translation width of the camera while fixing the mini
 
 > **new Board**(`canvas?`, `debug?`): `Board`
 
-定義: [packages/board/src/boardify/index.ts:303](https://github.com/ue-too/ue-too/blob/3358b0ff9b18cc8206e49089d5071b18926b4244/packages/board/src/boardify/index.ts#L303)
+定義: [packages/board/src/boardify/index.ts:303](https://github.com/ue-too/ue-too/blob/869d507317a2d8be79359e34a957c2cb9a03e24c/packages/board/src/boardify/index.ts#L303)
 
 Creates a new Board instance with an optional canvas element.
 
@@ -1124,7 +1124,7 @@ const board = new Board(canvas, true);
 
 > **attach**(`canvas`, `debug`): `void`
 
-定義: [packages/board/src/boardify/index.ts:454](https://github.com/ue-too/ue-too/blob/3358b0ff9b18cc8206e49089d5071b18926b4244/packages/board/src/boardify/index.ts#L454)
+定義: [packages/board/src/boardify/index.ts:453](https://github.com/ue-too/ue-too/blob/869d507317a2d8be79359e34a957c2cb9a03e24c/packages/board/src/boardify/index.ts#L453)
 
 Attaches a canvas element to the board, enabling rendering and input handling.
 
@@ -1216,7 +1216,7 @@ board.attach(canvas2);
 
 > **tearDown**(): `void`
 
-定義: [packages/board/src/boardify/index.ts:493](https://github.com/ue-too/ue-too/blob/3358b0ff9b18cc8206e49089d5071b18926b4244/packages/board/src/boardify/index.ts#L493)
+定義: [packages/board/src/boardify/index.ts:492](https://github.com/ue-too/ue-too/blob/869d507317a2d8be79359e34a957c2cb9a03e24c/packages/board/src/boardify/index.ts#L492)
 
 #### 戻り値
 

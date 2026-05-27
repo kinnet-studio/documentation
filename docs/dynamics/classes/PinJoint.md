@@ -2,7 +2,7 @@
 
 # Class: PinJoint
 
-Defined in: [constraint.ts:149](https://github.com/ue-too/ue-too/blob/07fe90dac52658f644c26853a3d345b17ce08df7/packages/dynamics/src/constraint.ts#L149)
+Defined in: [constraint.ts:138](https://github.com/ue-too/ue-too/blob/aabc0f56e9e83141d0fd935ef6ac3e5fe0af0a61/packages/dynamics/src/constraint.ts#L138)
 
 Pin joint connecting two bodies together.
 
@@ -42,7 +42,7 @@ world.addConstraint(joint);
 
 > **new PinJoint**(`bodyA`, `bodyB`, `anchorA`, `anchorB`): `PinJoint`
 
-Defined in: [constraint.ts:155](https://github.com/ue-too/ue-too/blob/07fe90dac52658f644c26853a3d345b17ce08df7/packages/dynamics/src/constraint.ts#L155)
+Defined in: [constraint.ts:145](https://github.com/ue-too/ue-too/blob/aabc0f56e9e83141d0fd935ef6ac3e5fe0af0a61/packages/dynamics/src/constraint.ts#L145)
 
 #### Parameters
 
@@ -72,7 +72,7 @@ Defined in: [constraint.ts:155](https://github.com/ue-too/ue-too/blob/07fe90dac5
 
 > **enforce**(`dt`): `void`
 
-Defined in: [constraint.ts:167](https://github.com/ue-too/ue-too/blob/07fe90dac52658f644c26853a3d345b17ce08df7/packages/dynamics/src/constraint.ts#L167)
+Defined in: [constraint.ts:152](https://github.com/ue-too/ue-too/blob/aabc0f56e9e83141d0fd935ef6ac3e5fe0af0a61/packages/dynamics/src/constraint.ts#L152)
 
 Enforces the constraint for one timestep.
 
@@ -98,7 +98,7 @@ Timestep in seconds
 
 > **solvePinJointConstraint**(`dt`): `void`
 
-Defined in: [constraint.ts:171](https://github.com/ue-too/ue-too/blob/07fe90dac52658f644c26853a3d345b17ce08df7/packages/dynamics/src/constraint.ts#L171)
+Defined in: [constraint.ts:156](https://github.com/ue-too/ue-too/blob/aabc0f56e9e83141d0fd935ef6ac3e5fe0af0a61/packages/dynamics/src/constraint.ts#L156)
 
 #### Parameters
 

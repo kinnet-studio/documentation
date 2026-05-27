@@ -4,7 +4,7 @@
 
 > **PanHandlerClampConfig** = `object`
 
-Defined in: [packages/board/src/camera/camera-rig/pan-handler.ts:49](https://github.com/ue-too/ue-too/blob/3358b0ff9b18cc8206e49089d5071b18926b4244/packages/board/src/camera/camera-rig/pan-handler.ts#L49)
+Defined in: [packages/board/src/camera/camera-rig/pan-handler.ts:49](https://github.com/ue-too/ue-too/blob/869d507317a2d8be79359e34a957c2cb9a03e24c/packages/board/src/camera/camera-rig/pan-handler.ts#L49)
 
 Configuration for boundary clamping behavior during camera panning.
 
@@ -27,7 +27,7 @@ const config: PanHandlerClampConfig = {
 
 > **clampTranslation**: `boolean`
 
-Defined in: [packages/board/src/camera/camera-rig/pan-handler.ts:57](https://github.com/ue-too/ue-too/blob/3358b0ff9b18cc8206e49089d5071b18926b4244/packages/board/src/camera/camera-rig/pan-handler.ts#L57)
+Defined in: [packages/board/src/camera/camera-rig/pan-handler.ts:57](https://github.com/ue-too/ue-too/blob/869d507317a2d8be79359e34a957c2cb9a03e24c/packages/board/src/camera/camera-rig/pan-handler.ts#L57)
 
 When true, enforces boundary constraints on pan operations.
                              When false, camera can pan freely outside boundaries.
@@ -38,7 +38,7 @@ When true, enforces boundary constraints on pan operations.
 
 > **limitEntireViewPort**: `boolean`
 
-Defined in: [packages/board/src/camera/camera-rig/pan-handler.ts:53](https://github.com/ue-too/ue-too/blob/3358b0ff9b18cc8206e49089d5071b18926b4244/packages/board/src/camera/camera-rig/pan-handler.ts#L53)
+Defined in: [packages/board/src/camera/camera-rig/pan-handler.ts:53](https://github.com/ue-too/ue-too/blob/869d507317a2d8be79359e34a957c2cb9a03e24c/packages/board/src/camera/camera-rig/pan-handler.ts#L53)
 
 When true, ensures the entire viewport rectangle stays within boundaries.
                                 When false, only the camera center point (position) is constrained.

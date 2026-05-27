@@ -4,7 +4,7 @@
 
 > **greatCircleDistance**(`startCoord`, `endCoord`): `number`
 
-定義: [greateCircle.ts:155](https://github.com/ue-too/ue-too/blob/3358b0ff9b18cc8206e49089d5071b18926b4244/packages/border/src/greateCircle.ts#L155)
+定義: [greateCircle.ts:155](https://github.com/ue-too/ue-too/blob/869d507317a2d8be79359e34a957c2cb9a03e24c/packages/border/src/greateCircle.ts#L155)
 
 Calculates the great circle distance between two points on Earth.
 

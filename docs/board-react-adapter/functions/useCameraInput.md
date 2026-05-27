@@ -4,7 +4,7 @@
 
 > **useCameraInput**(): `object`
 
-Defined in: [hooks/useBoardify.tsx:147](https://github.com/ue-too/ue-too/blob/07fe90dac52658f644c26853a3d345b17ce08df7/packages/board-react-adapter/src/hooks/useBoardify.tsx#L147)
+Defined in: [hooks/useBoardify.tsx:177](https://github.com/ue-too/ue-too/blob/aabc0f56e9e83141d0fd935ef6ac3e5fe0af0a61/packages/board-react-adapter/src/hooks/useBoardify.tsx#L177)
 
 Hook to get camera control functions for programmatic camera manipulation.
 
@@ -19,34 +19,6 @@ Object containing camera control functions:
 - `zoomBy` - Adjust camera zoom by delta
 - `rotateTo` - Set camera rotation to specific angle
 - `rotateBy` - Adjust camera rotation by delta
-
-### panByViewPort()
-
-> **panByViewPort**: (`delta`) => `void`
-
-#### Parameters
-
-##### delta
-
-`Point`
-
-#### Returns
-
-`void`
-
-### panByWorld()
-
-> **panByWorld**: (`delta`) => `void`
-
-#### Parameters
-
-##### delta
-
-`Point`
-
-#### Returns
-
-`void`
 
 ### panToViewPort()
 
@@ -127,42 +99,6 @@ Object containing camera control functions:
 ##### zoomLevel
 
 `number`
-
-#### Returns
-
-`void`
-
-### zoomToAtViewPort()
-
-> **zoomToAtViewPort**: (`zoomLevel`, `at`) => `void`
-
-#### Parameters
-
-##### zoomLevel
-
-`number`
-
-##### at
-
-`Point`
-
-#### Returns
-
-`void`
-
-### zoomToAtWorld()
-
-> **zoomToAtWorld**: (`zoomLevel`, `at`) => `void`
-
-#### Parameters
-
-##### zoomLevel
-
-`number`
-
-##### at
-
-`Point`
 
 #### Returns
 

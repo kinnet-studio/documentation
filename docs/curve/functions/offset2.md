@@ -2,9 +2,9 @@
 
 # Function: offset2()
 
-> **offset2**(`curve`, `d`): `object`
+> **offset2**(`curve`, `d`): [`Point`](../type-aliases/Point.md)[]
 
-Defined in: [packages/curve/src/b-curve.ts:1615](https://github.com/ue-too/ue-too/blob/07fe90dac52658f644c26853a3d345b17ce08df7/packages/curve/src/b-curve.ts#L1615)
+Defined in: [packages/curve/src/b-curve.ts:1127](https://github.com/ue-too/ue-too/blob/aabc0f56e9e83141d0fd935ef6ac3e5fe0af0a61/packages/curve/src/b-curve.ts#L1127)
 
 Alternative offset implementation using LUT-based approach.
 
@@ -20,20 +20,4 @@ Alternative offset implementation using LUT-based approach.
 
 ## Returns
 
-`object`
-
-### aabb
-
-> **aabb**: `object`
-
-#### aabb.max
-
-> **max**: [`Point`](../type-aliases/Point.md)
-
-#### aabb.min
-
-> **min**: [`Point`](../type-aliases/Point.md)
-
-### points
-
-> **points**: [`Point`](../type-aliases/Point.md)[]
+[`Point`](../type-aliases/Point.md)[]

@@ -4,7 +4,7 @@
 
 > **point** = `object`
 
-Defined in: [index.ts:62](https://github.com/ue-too/ue-too/blob/3358b0ff9b18cc8206e49089d5071b18926b4244/packages/math/src/index.ts#L62)
+Defined in: [index.ts:62](https://github.com/ue-too/ue-too/blob/869d507317a2d8be79359e34a957c2cb9a03e24c/packages/math/src/index.ts#L62)
 
 Represents a 2D or 3D point with optional z-coordinate.
 
@@ -23,7 +23,7 @@ Use [Point](Point-1.md) instead for better TypeScript conventions.
 
 > **x**: `number`
 
-Defined in: [index.ts:64](https://github.com/ue-too/ue-too/blob/3358b0ff9b18cc8206e49089d5071b18926b4244/packages/math/src/index.ts#L64)
+Defined in: [index.ts:64](https://github.com/ue-too/ue-too/blob/869d507317a2d8be79359e34a957c2cb9a03e24c/packages/math/src/index.ts#L64)
 
 X-coordinate
 
@@ -33,7 +33,7 @@ X-coordinate
 
 > **y**: `number`
 
-Defined in: [index.ts:66](https://github.com/ue-too/ue-too/blob/3358b0ff9b18cc8206e49089d5071b18926b4244/packages/math/src/index.ts#L66)
+Defined in: [index.ts:66](https://github.com/ue-too/ue-too/blob/869d507317a2d8be79359e34a957c2cb9a03e24c/packages/math/src/index.ts#L66)
 
 Y-coordinate
 
@@ -43,6 +43,6 @@ Y-coordinate
 
 > `optional` **z**: `number`
 
-Defined in: [index.ts:68](https://github.com/ue-too/ue-too/blob/3358b0ff9b18cc8206e49089d5071b18926b4244/packages/math/src/index.ts#L68)
+Defined in: [index.ts:68](https://github.com/ue-too/ue-too/blob/869d507317a2d8be79359e34a957c2cb9a03e24c/packages/math/src/index.ts#L68)
 
 Optional Z-coordinate for 3D operations

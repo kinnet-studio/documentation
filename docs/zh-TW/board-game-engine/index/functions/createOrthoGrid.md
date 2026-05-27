@@ -4,7 +4,7 @@
 
 > **createOrthoGrid**(`coordinator`, `rows`, `columns`, `name`): `number`
 
-定義於: [grid-system/ortho-grid.ts:37](https://github.com/ue-too/ue-too/blob/3358b0ff9b18cc8206e49089d5071b18926b4244/packages/board-game-engine/src/grid-system/ortho-grid.ts#L37)
+定義於: [grid-system/ortho-grid.ts:37](https://github.com/ue-too/ue-too/blob/869d507317a2d8be79359e34a957c2cb9a03e24c/packages/board-game-engine/src/grid-system/ortho-grid.ts#L37)
 
 ## 參數
 

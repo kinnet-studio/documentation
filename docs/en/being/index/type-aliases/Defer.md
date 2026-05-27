@@ -4,7 +4,7 @@
 
 > **Defer**\<`Context`, `EventPayloadMapping`, `States`, `EventOutputMapping`\> = `object`
 
-Defined in: [interface.ts:173](https://github.com/ue-too/ue-too/blob/3358b0ff9b18cc8206e49089d5071b18926b4244/packages/being/src/interface.ts#L173)
+Defined in: [interface.ts:173](https://github.com/ue-too/ue-too/blob/869d507317a2d8be79359e34a957c2cb9a03e24c/packages/being/src/interface.ts#L173)
 
 ## Type Parameters
 
@@ -30,7 +30,7 @@ Defined in: [interface.ts:173](https://github.com/ue-too/ue-too/blob/3358b0ff9b1
 
 > **action**: (`context`, `event`, `eventKey`, `stateMachine`) => [`EventResult`](EventResult.md)\<`States`, `any`\>
 
-Defined in: [interface.ts:181](https://github.com/ue-too/ue-too/blob/3358b0ff9b18cc8206e49089d5071b18926b4244/packages/being/src/interface.ts#L181)
+Defined in: [interface.ts:181](https://github.com/ue-too/ue-too/blob/869d507317a2d8be79359e34a957c2cb9a03e24c/packages/being/src/interface.ts#L181)
 
 #### Parameters
 
@@ -60,4 +60,4 @@ keyof `EventPayloadMapping`
 
 > `optional` **defaultTargetState**: `States`
 
-Defined in: [interface.ts:192](https://github.com/ue-too/ue-too/blob/3358b0ff9b18cc8206e49089d5071b18926b4244/packages/being/src/interface.ts#L192)
+Defined in: [interface.ts:192](https://github.com/ue-too/ue-too/blob/869d507317a2d8be79359e34a957c2cb9a03e24c/packages/being/src/interface.ts#L192)

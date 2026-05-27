@@ -2,11 +2,19 @@
 
 # Function: createCameraMuxWithAnimationAndLock()
 
-> **createCameraMuxWithAnimationAndLock**(): [`CameraMux`](../interfaces/CameraMux.md)
+> **createCameraMuxWithAnimationAndLock**(`camera`): [`CameraMux`](../interfaces/CameraMux.md)
 
-Defined in: [packages/board/src/camera/camera-mux/animation-and-lock/animation-and-lock.ts:431](https://github.com/ue-too/ue-too/blob/07fe90dac52658f644c26853a3d345b17ce08df7/packages/board/src/camera/camera-mux/animation-and-lock/animation-and-lock.ts#L431)
+Defined in: [packages/board/src/camera/camera-mux/animation-and-lock/animation-and-lock.ts:395](https://github.com/ue-too/ue-too/blob/aabc0f56e9e83141d0fd935ef6ac3e5fe0af0a61/packages/board/src/camera/camera-mux/animation-and-lock/animation-and-lock.ts#L395)
 
 Creates a camera mux with animation and locking capabilities from a camera instance.
+
+## Parameters
+
+### camera
+
+[`ObservableBoardCamera`](../interfaces/ObservableBoardCamera.md)
+
+Observable camera to control
 
 ## Returns
 
@@ -49,4 +57,4 @@ console.log(result.allowPassThrough); // false during animation
 ## See
 
  - [CameraMuxWithAnimationAndLock](../classes/CameraMuxWithAnimationAndLock.md) for the implementation
- - createCameraMuxWithAnimationAndLockWithCameraRig for custom rig version
+ - [createCameraMuxWithAnimationAndLockWithCameraRig](createCameraMuxWithAnimationAndLockWithCameraRig.md) for custom rig version

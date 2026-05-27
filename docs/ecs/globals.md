@@ -1,4 +1,4 @@
-# @ue-too/ecs v0.15.0
+# @ue-too/ecs v0.11.0
 
 Entity Component System (ECS) implementation for TypeScript.
 
@@ -70,16 +70,13 @@ const movementSystem: System = {
   entities: new Set()
 };
 
-const Movement = createSystemName('Movement');
-coordinator.registerSystem(Movement, movementSystem);
+coordinator.registerSystem('Movement', movementSystem);
 
 // Set signature (entities with Position AND Velocity)
-const Position = createComponentName('Position');
-const Velocity = createComponentName('Velocity');
-const posType = coordinator.getComponentType(Position)!;
-const velType = coordinator.getComponentType(Velocity)!;
+const posType = coordinator.getComponentType('Position')!;
+const velType = coordinator.getComponentType('Velocity')!;
 const signature = (1 << posType) | (1 << velType);
-coordinator.setSystemSignature(Movement, signature);
+coordinator.setSystemSignature('Movement', signature);
 
 // Update loop
 function update(deltaTime: number) {
@@ -112,21 +109,10 @@ function update(deltaTime: number) {
 
 ## Types
 
-- [ComponentArrayField](interfaces/ComponentArrayField.md)
-- [ComponentPrimitiveField](interfaces/ComponentPrimitiveField.md)
-- [ComponentSchema](interfaces/ComponentSchema.md)
-- [SerializedComponentSchema](interfaces/SerializedComponentSchema.md)
-- [SerializedECSState](interfaces/SerializedECSState.md)
-- [SerializedEntity](interfaces/SerializedEntity.md)
 - [System](interfaces/System.md)
-- [ArrayElementType](type-aliases/ArrayElementType.md)
-- [ComponentFieldDefinition](type-aliases/ComponentFieldDefinition.md)
-- [ComponentFieldType](type-aliases/ComponentFieldType.md)
-- [ComponentName](type-aliases/ComponentName.md)
 - [ComponentSignature](type-aliases/ComponentSignature.md)
 - [ComponentType](type-aliases/ComponentType.md)
 - [Entity](type-aliases/Entity.md)
-- [SystemName](type-aliases/SystemName.md)
 
 ## Configuration
 
@@ -136,14 +122,3 @@ function update(deltaTime: number) {
 ## Other
 
 - [CArray](interfaces/CArray.md)
-
-## Utilities
-
-- [createComponentName](functions/createComponentName.md)
-- [createGlobalComponentName](functions/createGlobalComponentName.md)
-- [createGlobalSystemName](functions/createGlobalSystemName.md)
-- [createSystemName](functions/createSystemName.md)
-- [deserializeComponentSchema](functions/deserializeComponentSchema.md)
-- [getComponentNameString](functions/getComponentNameString.md)
-- [getSystemNameString](functions/getSystemNameString.md)
-- [serializeComponentSchema](functions/serializeComponentSchema.md)

@@ -4,7 +4,7 @@
 
 > **restrictRotateByHandler**(`delta`, `camera`, `config`): `number`
 
-Defined in: [packages/board/src/camera/camera-rig/rotation-handler.ts:288](https://github.com/ue-too/ue-too/blob/07fe90dac52658f644c26853a3d345b17ce08df7/packages/board/src/camera/camera-rig/rotation-handler.ts#L288)
+Defined in: [packages/board/src/camera/camera-rig/rotation-handler.ts:259](https://github.com/ue-too/ue-too/blob/aabc0f56e9e83141d0fd935ef6ac3e5fe0af0a61/packages/board/src/camera/camera-rig/rotation-handler.ts#L259)
 
 Handler pipeline step that prevents "rotate by" operations when rotation is locked.
 

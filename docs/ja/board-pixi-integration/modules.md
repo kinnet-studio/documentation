@@ -1,4 +1,4 @@
-# @ue-too/board-pixi-integration v0.17.4
+# @ue-too/board-pixi-integration v0.17.5
 
 ## ドキュメント
 

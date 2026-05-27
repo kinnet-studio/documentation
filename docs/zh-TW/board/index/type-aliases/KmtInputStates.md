@@ -4,7 +4,7 @@
 
 > **KmtInputStates** = `CreateStateType`\<*typeof* `KMT_INPUT_STATES`\>
 
-定義於: [packages/board/src/input-interpretation/input-state-machine/kmt-input-state-machine.ts:48](https://github.com/ue-too/ue-too/blob/3358b0ff9b18cc8206e49089d5071b18926b4244/packages/board/src/input-interpretation/input-state-machine/kmt-input-state-machine.ts#L48)
+定義於: [packages/board/src/input-interpretation/input-state-machine/kmt-input-state-machine.ts:48](https://github.com/ue-too/ue-too/blob/869d507317a2d8be79359e34a957c2cb9a03e24c/packages/board/src/input-interpretation/input-state-machine/kmt-input-state-machine.ts#L48)
 
 Possible states of the Keyboard/Mouse/Trackpad input state machine.
 

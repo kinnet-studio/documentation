@@ -4,7 +4,7 @@
 
 > **decomposeTRS**(`matrix`): `object`
 
-定義於: [packages/board/src/camera/utils/matrix.ts:439](https://github.com/ue-too/ue-too/blob/3358b0ff9b18cc8206e49089d5071b18926b4244/packages/board/src/camera/utils/matrix.ts#L439)
+定義於: [packages/board/src/camera/utils/matrix.ts:368](https://github.com/ue-too/ue-too/blob/869d507317a2d8be79359e34a957c2cb9a03e24c/packages/board/src/camera/utils/matrix.ts#L368)
 
 Decomposes a 2D transformation matrix into Translation, Rotation, and Scale (TRS)
 

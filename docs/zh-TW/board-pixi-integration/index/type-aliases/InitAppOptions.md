@@ -4,7 +4,7 @@
 
 > **InitAppOptions** = `object`
 
-定義於: [init-app.ts:44](https://github.com/ue-too/ue-too/blob/3358b0ff9b18cc8206e49089d5071b18926b4244/packages/board-pixi-integration/src/init-app.ts#L44)
+定義於: [init-app.ts:44](https://github.com/ue-too/ue-too/blob/869d507317a2d8be79359e34a957c2cb9a03e24c/packages/board-pixi-integration/src/init-app.ts#L44)
 
 ## 屬性
 
@@ -12,7 +12,7 @@
 
 > **boundaries**: `object`
 
-定義於: [init-app.ts:48](https://github.com/ue-too/ue-too/blob/3358b0ff9b18cc8206e49089d5071b18926b4244/packages/board-pixi-integration/src/init-app.ts#L48)
+定義於: [init-app.ts:48](https://github.com/ue-too/ue-too/blob/869d507317a2d8be79359e34a957c2cb9a03e24c/packages/board-pixi-integration/src/init-app.ts#L48)
 
 #### max
 
@@ -44,7 +44,7 @@
 
 > **camera**: `DefaultBoardCamera`
 
-定義於: [init-app.ts:47](https://github.com/ue-too/ue-too/blob/3358b0ff9b18cc8206e49089d5071b18926b4244/packages/board-pixi-integration/src/init-app.ts#L47)
+定義於: [init-app.ts:47](https://github.com/ue-too/ue-too/blob/869d507317a2d8be79359e34a957c2cb9a03e24c/packages/board-pixi-integration/src/init-app.ts#L47)
 
 ***
 
@@ -52,7 +52,7 @@
 
 > **fullScreen**: `boolean`
 
-定義於: [init-app.ts:45](https://github.com/ue-too/ue-too/blob/3358b0ff9b18cc8206e49089d5071b18926b4244/packages/board-pixi-integration/src/init-app.ts#L45)
+定義於: [init-app.ts:45](https://github.com/ue-too/ue-too/blob/869d507317a2d8be79359e34a957c2cb9a03e24c/packages/board-pixi-integration/src/init-app.ts#L45)
 
 ***
 
@@ -60,4 +60,4 @@
 
 > **limitEntireViewPort**: `boolean`
 
-定義於: [init-app.ts:46](https://github.com/ue-too/ue-too/blob/3358b0ff9b18cc8206e49089d5071b18926b4244/packages/board-pixi-integration/src/init-app.ts#L46)
+定義於: [init-app.ts:46](https://github.com/ue-too/ue-too/blob/869d507317a2d8be79359e34a957c2cb9a03e24c/packages/board-pixi-integration/src/init-app.ts#L46)

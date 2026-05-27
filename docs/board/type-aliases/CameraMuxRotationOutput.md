@@ -4,7 +4,7 @@
 
 > **CameraMuxRotationOutput** = \{ `allowPassThrough`: `true`; `delta`: `number`; \} \| \{ `allowPassThrough`: `false`; \}
 
-Defined in: [packages/board/src/camera/camera-mux/interface.ts:87](https://github.com/ue-too/ue-too/blob/07fe90dac52658f644c26853a3d345b17ce08df7/packages/board/src/camera/camera-mux/interface.ts#L87)
+Defined in: [packages/board/src/camera/camera-mux/interface.ts:87](https://github.com/ue-too/ue-too/blob/aabc0f56e9e83141d0fd935ef6ac3e5fe0af0a61/packages/board/src/camera/camera-mux/interface.ts#L87)
 
 Discriminated union type for rotation input results.
 Indicates whether camera rotation is allowed and provides the delta if accepted.

@@ -4,7 +4,7 @@
 
 > **minZoomLevelBaseOnHeight**(`boundaries`, `canvasWidth`, `canvasHeight`, `cameraRotation`): `number` \| `undefined`
 
-Defined in: [packages/board/src/utils/zoomlevel-adjustment.ts:261](https://github.com/ue-too/ue-too/blob/07fe90dac52658f644c26853a3d345b17ce08df7/packages/board/src/utils/zoomlevel-adjustment.ts#L261)
+Defined in: [packages/board/src/utils/zoomlevel-adjustment.ts:230](https://github.com/ue-too/ue-too/blob/aabc0f56e9e83141d0fd935ef6ac3e5fe0af0a61/packages/board/src/utils/zoomlevel-adjustment.ts#L230)
 
 Calculates minimum zoom level based only on boundary height.
 

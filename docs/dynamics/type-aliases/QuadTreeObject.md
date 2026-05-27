@@ -4,4 +4,4 @@
 
 > **QuadTreeObject** = [`SpatialIndexObject`](../interfaces/SpatialIndexObject.md)
 
-Defined in: [quadtree.ts:30](https://github.com/ue-too/ue-too/blob/07fe90dac52658f644c26853a3d345b17ce08df7/packages/dynamics/src/quadtree.ts#L30)
+Defined in: [quadtree.ts:29](https://github.com/ue-too/ue-too/blob/aabc0f56e9e83141d0fd935ef6ac3e5fe0af0a61/packages/dynamics/src/quadtree.ts#L29)

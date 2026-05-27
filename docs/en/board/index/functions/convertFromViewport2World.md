@@ -4,7 +4,7 @@
 
 > **convertFromViewport2World**(`pointInViewport`, `cameraPositionInWorldSpace`, `cameraZoomLevel`, `cameraRotation`, `worldHasFlippedYAxis`): `Point`
 
-Defined in: [packages/board/src/utils/coordinate-conversions/viewport-world.ts:50](https://github.com/ue-too/ue-too/blob/3358b0ff9b18cc8206e49089d5071b18926b4244/packages/board/src/utils/coordinate-conversions/viewport-world.ts#L50)
+Defined in: [packages/board/src/utils/coordinate-conversions/viewport-world.ts:50](https://github.com/ue-too/ue-too/blob/869d507317a2d8be79359e34a957c2cb9a03e24c/packages/board/src/utils/coordinate-conversions/viewport-world.ts#L50)
 
 Converts a point from viewport space to world space.
 

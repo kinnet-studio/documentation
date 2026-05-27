@@ -4,7 +4,7 @@
 
 > **ZoomToAtInputPayload** = `object`
 
-定義: [packages/board/src/camera/camera-mux/animation-and-lock/zoom-control-state-machine.ts:36](https://github.com/ue-too/ue-too/blob/3358b0ff9b18cc8206e49089d5071b18926b4244/packages/board/src/camera/camera-mux/animation-and-lock/zoom-control-state-machine.ts#L36)
+定義: [packages/board/src/camera/camera-mux/animation-and-lock/zoom-control-state-machine.ts:36](https://github.com/ue-too/ue-too/blob/869d507317a2d8be79359e34a957c2cb9a03e24c/packages/board/src/camera/camera-mux/animation-and-lock/zoom-control-state-machine.ts#L36)
 
 Payload for zoom-to-at input events (absolute zoom to target around a point).
 
@@ -14,7 +14,7 @@ Payload for zoom-to-at input events (absolute zoom to target around a point).
 
 > **anchorPoint**: `Point`
 
-定義: [packages/board/src/camera/camera-mux/animation-and-lock/zoom-control-state-machine.ts:40](https://github.com/ue-too/ue-too/blob/3358b0ff9b18cc8206e49089d5071b18926b4244/packages/board/src/camera/camera-mux/animation-and-lock/zoom-control-state-machine.ts#L40)
+定義: [packages/board/src/camera/camera-mux/animation-and-lock/zoom-control-state-machine.ts:40](https://github.com/ue-too/ue-too/blob/869d507317a2d8be79359e34a957c2cb9a03e24c/packages/board/src/camera/camera-mux/animation-and-lock/zoom-control-state-machine.ts#L40)
 
 Anchor point for zoom operation
 
@@ -24,6 +24,6 @@ Anchor point for zoom operation
 
 > **targetZoom**: `number`
 
-定義: [packages/board/src/camera/camera-mux/animation-and-lock/zoom-control-state-machine.ts:38](https://github.com/ue-too/ue-too/blob/3358b0ff9b18cc8206e49089d5071b18926b4244/packages/board/src/camera/camera-mux/animation-and-lock/zoom-control-state-machine.ts#L38)
+定義: [packages/board/src/camera/camera-mux/animation-and-lock/zoom-control-state-machine.ts:38](https://github.com/ue-too/ue-too/blob/869d507317a2d8be79359e34a957c2cb9a03e24c/packages/board/src/camera/camera-mux/animation-and-lock/zoom-control-state-machine.ts#L38)
 
 Target zoom level

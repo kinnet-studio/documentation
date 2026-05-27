@@ -2,7 +2,7 @@
 
 # Interface: AnimatorContainer
 
-Defined in: [composite-animation.ts:70](https://github.com/ue-too/ue-too/blob/3358b0ff9b18cc8206e49089d5071b18926b4244/packages/animate/src/composite-animation.ts#L70)
+Defined in: [composite-animation.ts:70](https://github.com/ue-too/ue-too/blob/869d507317a2d8be79359e34a957c2cb9a03e24c/packages/animate/src/composite-animation.ts#L70)
 
 Interface for containers that hold and manage child animators.
 
@@ -17,7 +17,7 @@ Handles duration updates and prevents cyclic dependencies.
 
 > **checkCyclicChildren**(): `boolean`
 
-Defined in: [composite-animation.ts:72](https://github.com/ue-too/ue-too/blob/3358b0ff9b18cc8206e49089d5071b18926b4244/packages/animate/src/composite-animation.ts#L72)
+Defined in: [composite-animation.ts:72](https://github.com/ue-too/ue-too/blob/869d507317a2d8be79359e34a957c2cb9a03e24c/packages/animate/src/composite-animation.ts#L72)
 
 #### Returns
 
@@ -29,7 +29,7 @@ Defined in: [composite-animation.ts:72](https://github.com/ue-too/ue-too/blob/33
 
 > **containsAnimation**(`animationInInterest`): `boolean`
 
-Defined in: [composite-animation.ts:73](https://github.com/ue-too/ue-too/blob/3358b0ff9b18cc8206e49089d5071b18926b4244/packages/animate/src/composite-animation.ts#L73)
+Defined in: [composite-animation.ts:73](https://github.com/ue-too/ue-too/blob/869d507317a2d8be79359e34a957c2cb9a03e24c/packages/animate/src/composite-animation.ts#L73)
 
 #### Parameters
 
@@ -47,7 +47,7 @@ Defined in: [composite-animation.ts:73](https://github.com/ue-too/ue-too/blob/33
 
 > **updateDuration**(): `void`
 
-Defined in: [composite-animation.ts:71](https://github.com/ue-too/ue-too/blob/3358b0ff9b18cc8206e49089d5071b18926b4244/packages/animate/src/composite-animation.ts#L71)
+Defined in: [composite-animation.ts:71](https://github.com/ue-too/ue-too/blob/869d507317a2d8be79359e34a957c2cb9a03e24c/packages/animate/src/composite-animation.ts#L71)
 
 #### Returns
 

@@ -4,6 +4,6 @@
 
 > `const` **MAJOR\_TICK\_LENGTH**: `30` = `30`
 
-定義於: [packages/board/src/utils/drawing.ts:92](https://github.com/ue-too/ue-too/blob/3358b0ff9b18cc8206e49089d5071b18926b4244/packages/board/src/utils/drawing.ts#L92)
+定義於: [packages/board/src/utils/drawing.ts:92](https://github.com/ue-too/ue-too/blob/869d507317a2d8be79359e34a957c2cb9a03e24c/packages/board/src/utils/drawing.ts#L92)
 
 Length of major tick marks in pixels (viewport space).

@@ -2,7 +2,7 @@
 
 # Class: QuadTree\<T\>
 
-Defined in: [quadtree.ts:36](https://github.com/ue-too/ue-too/blob/07fe90dac52658f644c26853a3d345b17ce08df7/packages/dynamics/src/quadtree.ts#L36)
+Defined in: [quadtree.ts:35](https://github.com/ue-too/ue-too/blob/aabc0f56e9e83141d0fd935ef6ac3e5fe0af0a61/packages/dynamics/src/quadtree.ts#L35)
 
 QuadTree spatial indexing structure for efficient collision detection.
 
@@ -22,7 +22,7 @@ QuadTree spatial indexing structure for efficient collision detection.
 
 > **new QuadTree**\<`T`\>(`level`, `bounds`): `QuadTree`\<`T`\>
 
-Defined in: [quadtree.ts:45](https://github.com/ue-too/ue-too/blob/07fe90dac52658f644c26853a3d345b17ce08df7/packages/dynamics/src/quadtree.ts#L45)
+Defined in: [quadtree.ts:45](https://github.com/ue-too/ue-too/blob/aabc0f56e9e83141d0fd935ef6ac3e5fe0af0a61/packages/dynamics/src/quadtree.ts#L45)
 
 #### Parameters
 
@@ -44,7 +44,7 @@ Defined in: [quadtree.ts:45](https://github.com/ue-too/ue-too/blob/07fe90dac5265
 
 > **clear**(): `void`
 
-Defined in: [quadtree.ts:70](https://github.com/ue-too/ue-too/blob/07fe90dac52658f644c26853a3d345b17ce08df7/packages/dynamics/src/quadtree.ts#L70)
+Defined in: [quadtree.ts:65](https://github.com/ue-too/ue-too/blob/aabc0f56e9e83141d0fd935ef6ac3e5fe0af0a61/packages/dynamics/src/quadtree.ts#L65)
 
 #### Returns
 
@@ -60,7 +60,7 @@ Defined in: [quadtree.ts:70](https://github.com/ue-too/ue-too/blob/07fe90dac5265
 
 > **draw**(`context`): `void`
 
-Defined in: [quadtree.ts:52](https://github.com/ue-too/ue-too/blob/07fe90dac52658f644c26853a3d345b17ce08df7/packages/dynamics/src/quadtree.ts#L52)
+Defined in: [quadtree.ts:52](https://github.com/ue-too/ue-too/blob/aabc0f56e9e83141d0fd935ef6ac3e5fe0af0a61/packages/dynamics/src/quadtree.ts#L52)
 
 #### Parameters
 
@@ -82,7 +82,7 @@ Defined in: [quadtree.ts:52](https://github.com/ue-too/ue-too/blob/07fe90dac5265
 
 > **getIndex**(`vBody`): `-1` \| `0` \| `1` \| `2` \| `3`
 
-Defined in: [quadtree.ts:121](https://github.com/ue-too/ue-too/blob/07fe90dac52658f644c26853a3d345b17ce08df7/packages/dynamics/src/quadtree.ts#L121)
+Defined in: [quadtree.ts:88](https://github.com/ue-too/ue-too/blob/aabc0f56e9e83141d0fd935ef6ac3e5fe0af0a61/packages/dynamics/src/quadtree.ts#L88)
 
 #### Parameters
 
@@ -100,7 +100,7 @@ Defined in: [quadtree.ts:121](https://github.com/ue-too/ue-too/blob/07fe90dac526
 
 > **insert**(`vBody`): `void`
 
-Defined in: [quadtree.ts:148](https://github.com/ue-too/ue-too/blob/07fe90dac52658f644c26853a3d345b17ce08df7/packages/dynamics/src/quadtree.ts#L148)
+Defined in: [quadtree.ts:108](https://github.com/ue-too/ue-too/blob/aabc0f56e9e83141d0fd935ef6ac3e5fe0af0a61/packages/dynamics/src/quadtree.ts#L108)
 
 #### Parameters
 
@@ -122,7 +122,7 @@ Defined in: [quadtree.ts:148](https://github.com/ue-too/ue-too/blob/07fe90dac526
 
 > **retrieve**(`vBody`): `T`[]
 
-Defined in: [quadtree.ts:183](https://github.com/ue-too/ue-too/blob/07fe90dac52658f644c26853a3d345b17ce08df7/packages/dynamics/src/quadtree.ts#L183)
+Defined in: [quadtree.ts:140](https://github.com/ue-too/ue-too/blob/aabc0f56e9e83141d0fd935ef6ac3e5fe0af0a61/packages/dynamics/src/quadtree.ts#L140)
 
 #### Parameters
 
@@ -144,7 +144,7 @@ Defined in: [quadtree.ts:183](https://github.com/ue-too/ue-too/blob/07fe90dac526
 
 > **split**(): `void`
 
-Defined in: [quadtree.ts:81](https://github.com/ue-too/ue-too/blob/07fe90dac52658f644c26853a3d345b17ce08df7/packages/dynamics/src/quadtree.ts#L81)
+Defined in: [quadtree.ts:76](https://github.com/ue-too/ue-too/blob/aabc0f56e9e83141d0fd935ef6ac3e5fe0af0a61/packages/dynamics/src/quadtree.ts#L76)
 
 #### Returns
 

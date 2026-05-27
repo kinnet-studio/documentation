@@ -2,7 +2,7 @@
 
 # Class: SystemManager
 
-Defined in: [index.ts:1175](https://github.com/ue-too/ue-too/blob/07fe90dac52658f644c26853a3d345b17ce08df7/packages/ecs/src/index.ts#L1175)
+Defined in: [index.ts:428](https://github.com/ue-too/ue-too/blob/aabc0f56e9e83141d0fd935ef6ac3e5fe0af0a61/packages/ecs/src/index.ts#L428)
 
 Manages system registration and entity-system matching.
 
@@ -35,7 +35,7 @@ required by the system's signature.
 
 > **entityDestroyed**(`entity`): `void`
 
-Defined in: [index.ts:1206](https://github.com/ue-too/ue-too/blob/07fe90dac52658f644c26853a3d345b17ce08df7/packages/ecs/src/index.ts#L1206)
+Defined in: [index.ts:452](https://github.com/ue-too/ue-too/blob/aabc0f56e9e83141d0fd935ef6ac3e5fe0af0a61/packages/ecs/src/index.ts#L452)
 
 #### Parameters
 
@@ -53,7 +53,7 @@ Defined in: [index.ts:1206](https://github.com/ue-too/ue-too/blob/07fe90dac52658
 
 > **entitySignatureChanged**(`entity`, `signature`): `void`
 
-Defined in: [index.ts:1212](https://github.com/ue-too/ue-too/blob/07fe90dac52658f644c26853a3d345b17ce08df7/packages/ecs/src/index.ts#L1212)
+Defined in: [index.ts:458](https://github.com/ue-too/ue-too/blob/aabc0f56e9e83141d0fd935ef6ac3e5fe0af0a61/packages/ecs/src/index.ts#L458)
 
 #### Parameters
 
@@ -71,41 +71,17 @@ Defined in: [index.ts:1212](https://github.com/ue-too/ue-too/blob/07fe90dac52658
 
 ***
 
-### getSystem()
-
-> **getSystem**\<`T`\>(`systemName`): `T` \| `null`
-
-Defined in: [index.ts:1223](https://github.com/ue-too/ue-too/blob/07fe90dac52658f644c26853a3d345b17ce08df7/packages/ecs/src/index.ts#L1223)
-
-#### Type Parameters
-
-##### T
-
-`T` *extends* [`System`](../interfaces/System.md)
-
-#### Parameters
-
-##### systemName
-
-`symbol`
-
-#### Returns
-
-`T` \| `null`
-
-***
-
 ### registerSystem()
 
 > **registerSystem**(`systemName`, `system`): `void`
 
-Defined in: [index.ts:1181](https://github.com/ue-too/ue-too/blob/07fe90dac52658f644c26853a3d345b17ce08df7/packages/ecs/src/index.ts#L1181)
+Defined in: [index.ts:431](https://github.com/ue-too/ue-too/blob/aabc0f56e9e83141d0fd935ef6ac3e5fe0af0a61/packages/ecs/src/index.ts#L431)
 
 #### Parameters
 
 ##### systemName
 
-`symbol`
+`string`
 
 ##### system
 
@@ -121,13 +97,13 @@ Defined in: [index.ts:1181](https://github.com/ue-too/ue-too/blob/07fe90dac52658
 
 > **setSignature**(`systemName`, `signature`): `void`
 
-Defined in: [index.ts:1189](https://github.com/ue-too/ue-too/blob/07fe90dac52658f644c26853a3d345b17ce08df7/packages/ecs/src/index.ts#L1189)
+Defined in: [index.ts:439](https://github.com/ue-too/ue-too/blob/aabc0f56e9e83141d0fd935ef6ac3e5fe0af0a61/packages/ecs/src/index.ts#L439)
 
 #### Parameters
 
 ##### systemName
 
-`symbol`
+`string`
 
 ##### signature
 

@@ -2,7 +2,7 @@
 
 # Class: RGBAnimationHelper
 
-Defined in: [animatable-attribute.ts:299](https://github.com/ue-too/ue-too/blob/3358b0ff9b18cc8206e49089d5071b18926b4244/packages/animate/src/animatable-attribute.ts#L299)
+Defined in: [animatable-attribute.ts:299](https://github.com/ue-too/ue-too/blob/869d507317a2d8be79359e34a957c2cb9a03e24c/packages/animate/src/animatable-attribute.ts#L299)
 
 Interface for type-specific interpolation helpers.
 
@@ -36,7 +36,7 @@ const myHelper: AnimatableAttributeHelper<number> = {
 
 > **new RGBAnimationHelper**(): `RGBAnimationHelper`
 
-Defined in: [animatable-attribute.ts:300](https://github.com/ue-too/ue-too/blob/3358b0ff9b18cc8206e49089d5071b18926b4244/packages/animate/src/animatable-attribute.ts#L300)
+Defined in: [animatable-attribute.ts:300](https://github.com/ue-too/ue-too/blob/869d507317a2d8be79359e34a957c2cb9a03e24c/packages/animate/src/animatable-attribute.ts#L300)
 
 #### Returns
 
@@ -48,7 +48,7 @@ Defined in: [animatable-attribute.ts:300](https://github.com/ue-too/ue-too/blob/
 
 > **lerp**(`ratio`, `start`, `end`): [`RGB`](../type-aliases/RGB.md)
 
-Defined in: [animatable-attribute.ts:302](https://github.com/ue-too/ue-too/blob/3358b0ff9b18cc8206e49089d5071b18926b4244/packages/animate/src/animatable-attribute.ts#L302)
+Defined in: [animatable-attribute.ts:302](https://github.com/ue-too/ue-too/blob/869d507317a2d8be79359e34a957c2cb9a03e24c/packages/animate/src/animatable-attribute.ts#L302)
 
 Interpolates between two keyframes at a given ratio.
 

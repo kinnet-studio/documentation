@@ -2,7 +2,7 @@
 
 # Class: ShuffleZoneEffect
 
-Defined in: [zone-system/effect.ts:45](https://github.com/ue-too/ue-too/blob/3358b0ff9b18cc8206e49089d5071b18926b4244/packages/board-game-engine/src/zone-system/effect.ts#L45)
+Defined in: [zone-system/effect.ts:45](https://github.com/ue-too/ue-too/blob/869d507317a2d8be79359e34a957c2cb9a03e24c/packages/board-game-engine/src/zone-system/effect.ts#L45)
 
 ## Implements
 
@@ -14,7 +14,7 @@ Defined in: [zone-system/effect.ts:45](https://github.com/ue-too/ue-too/blob/335
 
 > **new ShuffleZoneEffect**(`_locationSystem`, `_zoneEntity`): `ShuffleZoneEffect`
 
-Defined in: [zone-system/effect.ts:46](https://github.com/ue-too/ue-too/blob/3358b0ff9b18cc8206e49089d5071b18926b4244/packages/board-game-engine/src/zone-system/effect.ts#L46)
+Defined in: [zone-system/effect.ts:46](https://github.com/ue-too/ue-too/blob/869d507317a2d8be79359e34a957c2cb9a03e24c/packages/board-game-engine/src/zone-system/effect.ts#L46)
 
 #### Parameters
 
@@ -36,7 +36,7 @@ Defined in: [zone-system/effect.ts:46](https://github.com/ue-too/ue-too/blob/335
 
 > **apply**(): `void`
 
-Defined in: [zone-system/effect.ts:51](https://github.com/ue-too/ue-too/blob/3358b0ff9b18cc8206e49089d5071b18926b4244/packages/board-game-engine/src/zone-system/effect.ts#L51)
+Defined in: [zone-system/effect.ts:51](https://github.com/ue-too/ue-too/blob/869d507317a2d8be79359e34a957c2cb9a03e24c/packages/board-game-engine/src/zone-system/effect.ts#L51)
 
 #### Returns
 

@@ -4,7 +4,7 @@
 
 > **ZoomHandlerRestrictConfig** = `object`
 
-定義於: [packages/board/src/camera/camera-rig/zoom-handler.ts:77](https://github.com/ue-too/ue-too/blob/869d507317a2d8be79359e34a957c2cb9a03e24c/packages/board/src/camera/camera-rig/zoom-handler.ts#L77)
+定義於: [packages/board/src/camera/camera-rig/zoom-handler.ts:77](https://github.com/ue-too/ue-too/blob/454bcd14d73823b9ce9a2152a4b45cddef4ad346/packages/board/src/camera/camera-rig/zoom-handler.ts#L77)
 
 Configuration for completely disabling zoom operations.
 
@@ -37,6 +37,6 @@ const config: ZoomHandlerRestrictConfig = {
 
 > **restrictZoom**: `boolean`
 
-定義於: [packages/board/src/camera/camera-rig/zoom-handler.ts:81](https://github.com/ue-too/ue-too/blob/869d507317a2d8be79359e34a957c2cb9a03e24c/packages/board/src/camera/camera-rig/zoom-handler.ts#L81)
+定義於: [packages/board/src/camera/camera-rig/zoom-handler.ts:81](https://github.com/ue-too/ue-too/blob/454bcd14d73823b9ce9a2152a4b45cddef4ad346/packages/board/src/camera/camera-rig/zoom-handler.ts#L81)
 
 Whether to completely prevent zoom operations.

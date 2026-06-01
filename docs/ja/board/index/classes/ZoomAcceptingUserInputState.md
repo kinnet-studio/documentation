@@ -2,7 +2,7 @@
 
 # クラス: ZoomAcceptingUserInputState
 
-定義: [packages/board/src/camera/camera-mux/animation-and-lock/zoom-control-state-machine.ts:134](https://github.com/ue-too/ue-too/blob/869d507317a2d8be79359e34a957c2cb9a03e24c/packages/board/src/camera/camera-mux/animation-and-lock/zoom-control-state-machine.ts#L134)
+定義: [packages/board/src/camera/camera-mux/animation-and-lock/zoom-control-state-machine.ts:134](https://github.com/ue-too/ue-too/blob/454bcd14d73823b9ce9a2152a4b45cddef4ad346/packages/board/src/camera/camera-mux/animation-and-lock/zoom-control-state-machine.ts#L134)
 
 State implementation for accepting user zoom input (idle/normal state).
 Accepts user zoom input and can transition to animation or locked states.
@@ -67,7 +67,7 @@ Accepts user zoom input and can transition to animation or locked states.
 
 > `protected` **\_eventReactions**: `EventReactions`\<[`ZoomEventPayloadMapping`](../type-aliases/ZoomEventPayloadMapping.md), `BaseContext`, [`ZoomControlStates`](../type-aliases/ZoomControlStates.md), [`ZoomControlOutputMapping`](../type-aliases/ZoomControlOutputMapping.md)\>
 
-定義: [packages/board/src/camera/camera-mux/animation-and-lock/zoom-control-state-machine.ts:140](https://github.com/ue-too/ue-too/blob/869d507317a2d8be79359e34a957c2cb9a03e24c/packages/board/src/camera/camera-mux/animation-and-lock/zoom-control-state-machine.ts#L140)
+定義: [packages/board/src/camera/camera-mux/animation-and-lock/zoom-control-state-machine.ts:140](https://github.com/ue-too/ue-too/blob/454bcd14d73823b9ce9a2152a4b45cddef4ad346/packages/board/src/camera/camera-mux/animation-and-lock/zoom-control-state-machine.ts#L140)
 
 #### 上書き
 
@@ -277,7 +277,7 @@ keyof `EventPayloadMapping`[]
 
 > **userZoomByAtInput**(`context`, `payload`): [`ZoomControlOutputEvent`](../type-aliases/ZoomControlOutputEvent.md)
 
-定義: [packages/board/src/camera/camera-mux/animation-and-lock/zoom-control-state-machine.ts:157](https://github.com/ue-too/ue-too/blob/869d507317a2d8be79359e34a957c2cb9a03e24c/packages/board/src/camera/camera-mux/animation-and-lock/zoom-control-state-machine.ts#L157)
+定義: [packages/board/src/camera/camera-mux/animation-and-lock/zoom-control-state-machine.ts:157](https://github.com/ue-too/ue-too/blob/454bcd14d73823b9ce9a2152a4b45cddef4ad346/packages/board/src/camera/camera-mux/animation-and-lock/zoom-control-state-machine.ts#L157)
 
 #### パラメータ
 
@@ -299,7 +299,7 @@ keyof `EventPayloadMapping`[]
 
 > **userZoomToAtInput**(`context`, `payload`): [`ZoomControlOutputEvent`](../type-aliases/ZoomControlOutputEvent.md)
 
-定義: [packages/board/src/camera/camera-mux/animation-and-lock/zoom-control-state-machine.ts:168](https://github.com/ue-too/ue-too/blob/869d507317a2d8be79359e34a957c2cb9a03e24c/packages/board/src/camera/camera-mux/animation-and-lock/zoom-control-state-machine.ts#L168)
+定義: [packages/board/src/camera/camera-mux/animation-and-lock/zoom-control-state-machine.ts:168](https://github.com/ue-too/ue-too/blob/454bcd14d73823b9ce9a2152a4b45cddef4ad346/packages/board/src/camera/camera-mux/animation-and-lock/zoom-control-state-machine.ts#L168)
 
 #### パラメータ
 

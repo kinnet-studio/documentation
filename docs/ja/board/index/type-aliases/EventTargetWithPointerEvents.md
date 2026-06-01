@@ -4,7 +4,7 @@
 
 > **EventTargetWithPointerEvents** = `object`
 
-定義: [packages/board/src/input-interpretation/raw-input-parser/vanilla-kmt-event-parser.ts:104](https://github.com/ue-too/ue-too/blob/869d507317a2d8be79359e34a957c2cb9a03e24c/packages/board/src/input-interpretation/raw-input-parser/vanilla-kmt-event-parser.ts#L104)
+定義: [packages/board/src/input-interpretation/raw-input-parser/vanilla-kmt-event-parser.ts:104](https://github.com/ue-too/ue-too/blob/454bcd14d73823b9ce9a2152a4b45cddef4ad346/packages/board/src/input-interpretation/raw-input-parser/vanilla-kmt-event-parser.ts#L104)
 
 Minimal event target interface for framework interoperability.
 
@@ -19,7 +19,7 @@ types of event targets (HTMLElement, Canvas, PixiJS Container, etc.).
 
 > **addEventListener**: (`type`, `listener`, `options?`) => `void`
 
-定義: [packages/board/src/input-interpretation/raw-input-parser/vanilla-kmt-event-parser.ts:105](https://github.com/ue-too/ue-too/blob/869d507317a2d8be79359e34a957c2cb9a03e24c/packages/board/src/input-interpretation/raw-input-parser/vanilla-kmt-event-parser.ts#L105)
+定義: [packages/board/src/input-interpretation/raw-input-parser/vanilla-kmt-event-parser.ts:105](https://github.com/ue-too/ue-too/blob/454bcd14d73823b9ce9a2152a4b45cddef4ad346/packages/board/src/input-interpretation/raw-input-parser/vanilla-kmt-event-parser.ts#L105)
 
 #### パラメータ
 
@@ -47,7 +47,7 @@ types of event targets (HTMLElement, Canvas, PixiJS Container, etc.).
 
 > **removeEventListener**: (`type`, `listener`) => `void`
 
-定義: [packages/board/src/input-interpretation/raw-input-parser/vanilla-kmt-event-parser.ts:110](https://github.com/ue-too/ue-too/blob/869d507317a2d8be79359e34a957c2cb9a03e24c/packages/board/src/input-interpretation/raw-input-parser/vanilla-kmt-event-parser.ts#L110)
+定義: [packages/board/src/input-interpretation/raw-input-parser/vanilla-kmt-event-parser.ts:110](https://github.com/ue-too/ue-too/blob/454bcd14d73823b9ce9a2152a4b45cddef4ad346/packages/board/src/input-interpretation/raw-input-parser/vanilla-kmt-event-parser.ts#L110)
 
 #### パラメータ
 

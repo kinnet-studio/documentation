@@ -4,7 +4,7 @@
 
 > **decomposeCameraMatrix**(`transformMatrix`, `devicePixelRatio`, `canvasWidth`, `canvasHeight`): `object`
 
-定義: [packages/board/src/camera/utils/matrix.ts:111](https://github.com/ue-too/ue-too/blob/869d507317a2d8be79359e34a957c2cb9a03e24c/packages/board/src/camera/utils/matrix.ts#L111)
+定義: [packages/board/src/camera/utils/matrix.ts:111](https://github.com/ue-too/ue-too/blob/454bcd14d73823b9ce9a2152a4b45cddef4ad346/packages/board/src/camera/utils/matrix.ts#L111)
 
 Decomposes a camera transformation matrix back to camera parameters.
 Inverse operation of [createCameraMatrix](createCameraMatrix.md).

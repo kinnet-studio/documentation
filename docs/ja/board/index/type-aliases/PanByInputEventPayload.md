@@ -4,7 +4,7 @@
 
 > **PanByInputEventPayload** = `object`
 
-定義: [packages/board/src/camera/camera-mux/animation-and-lock/pan-control-state-machine.ts:25](https://github.com/ue-too/ue-too/blob/869d507317a2d8be79359e34a957c2cb9a03e24c/packages/board/src/camera/camera-mux/animation-and-lock/pan-control-state-machine.ts#L25)
+定義: [packages/board/src/camera/camera-mux/animation-and-lock/pan-control-state-machine.ts:25](https://github.com/ue-too/ue-too/blob/454bcd14d73823b9ce9a2152a4b45cddef4ad346/packages/board/src/camera/camera-mux/animation-and-lock/pan-control-state-machine.ts#L25)
 
 Payload for pan-by input events (relative panning).
 
@@ -14,6 +14,6 @@ Payload for pan-by input events (relative panning).
 
 > **diff**: `Point`
 
-定義: [packages/board/src/camera/camera-mux/animation-and-lock/pan-control-state-machine.ts:27](https://github.com/ue-too/ue-too/blob/869d507317a2d8be79359e34a957c2cb9a03e24c/packages/board/src/camera/camera-mux/animation-and-lock/pan-control-state-machine.ts#L27)
+定義: [packages/board/src/camera/camera-mux/animation-and-lock/pan-control-state-machine.ts:27](https://github.com/ue-too/ue-too/blob/454bcd14d73823b9ce9a2152a4b45cddef4ad346/packages/board/src/camera/camera-mux/animation-and-lock/pan-control-state-machine.ts#L27)
 
 Pan displacement in viewport coordinates

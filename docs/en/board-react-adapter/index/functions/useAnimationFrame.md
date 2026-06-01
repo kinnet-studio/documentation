@@ -4,7 +4,7 @@
 
 > **useAnimationFrame**(`callback`): `void`
 
-Defined in: [hooks/useAnimationFrame.ts:36](https://github.com/ue-too/ue-too/blob/869d507317a2d8be79359e34a957c2cb9a03e24c/packages/board-react-adapter/src/hooks/useAnimationFrame.ts#L36)
+Defined in: [hooks/useAnimationFrame.ts:36](https://github.com/ue-too/ue-too/blob/454bcd14d73823b9ce9a2152a4b45cddef4ad346/packages/board-react-adapter/src/hooks/useAnimationFrame.ts#L36)
 
 Hook to run a callback on every animation frame.
 

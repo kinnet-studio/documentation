@@ -4,7 +4,7 @@
 
 > **ZoomToHandlerFunction** = (`destination`, `camera`, `config`) => `number`
 
-Defined in: [packages/board/src/camera/camera-rig/zoom-handler.ts:118](https://github.com/ue-too/ue-too/blob/869d507317a2d8be79359e34a957c2cb9a03e24c/packages/board/src/camera/camera-rig/zoom-handler.ts#L118)
+Defined in: [packages/board/src/camera/camera-rig/zoom-handler.ts:118](https://github.com/ue-too/ue-too/blob/454bcd14d73823b9ce9a2152a4b45cddef4ad346/packages/board/src/camera/camera-rig/zoom-handler.ts#L118)
 
 Handler function type for absolute "zoom to" camera operations.
 

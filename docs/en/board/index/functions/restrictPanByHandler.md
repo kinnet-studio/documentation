@@ -4,7 +4,7 @@
 
 > **restrictPanByHandler**(`delta`, `camera`, `config`): `Point`
 
-Defined in: [packages/board/src/camera/camera-rig/pan-handler.ts:411](https://github.com/ue-too/ue-too/blob/869d507317a2d8be79359e34a957c2cb9a03e24c/packages/board/src/camera/camera-rig/pan-handler.ts#L411)
+Defined in: [packages/board/src/camera/camera-rig/pan-handler.ts:411](https://github.com/ue-too/ue-too/blob/454bcd14d73823b9ce9a2152a4b45cddef4ad346/packages/board/src/camera/camera-rig/pan-handler.ts#L411)
 
 Handler pipeline step that applies axis restrictions to "pan by" deltas.
 

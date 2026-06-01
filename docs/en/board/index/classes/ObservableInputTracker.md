@@ -2,7 +2,7 @@
 
 # Class: ObservableInputTracker
 
-Defined in: [packages/board/src/input-interpretation/input-state-machine/kmt-input-context.ts:692](https://github.com/ue-too/ue-too/blob/869d507317a2d8be79359e34a957c2cb9a03e24c/packages/board/src/input-interpretation/input-state-machine/kmt-input-context.ts#L692)
+Defined in: [packages/board/src/input-interpretation/input-state-machine/kmt-input-context.ts:690](https://github.com/ue-too/ue-too/blob/454bcd14d73823b9ce9a2152a4b45cddef4ad346/packages/board/src/input-interpretation/input-state-machine/kmt-input-context.ts#L690)
 
 Production implementation of KmtInputContext that tracks input state for the state machine.
 
@@ -49,7 +49,7 @@ console.log(context.initialCursorPosition); // {x: 100, y: 200}
 
 > **new ObservableInputTracker**(`canvasOperator`): `ObservableInputTracker`
 
-Defined in: [packages/board/src/input-interpretation/input-state-machine/kmt-input-context.ts:700](https://github.com/ue-too/ue-too/blob/869d507317a2d8be79359e34a957c2cb9a03e24c/packages/board/src/input-interpretation/input-state-machine/kmt-input-context.ts#L700)
+Defined in: [packages/board/src/input-interpretation/input-state-machine/kmt-input-context.ts:698](https://github.com/ue-too/ue-too/blob/454bcd14d73823b9ce9a2152a4b45cddef4ad346/packages/board/src/input-interpretation/input-state-machine/kmt-input-context.ts#L698)
 
 #### Parameters
 
@@ -69,7 +69,7 @@ Defined in: [packages/board/src/input-interpretation/input-state-machine/kmt-inp
 
 > **get** **alignCoordinateSystem**(): `boolean`
 
-Defined in: [packages/board/src/input-interpretation/input-state-machine/kmt-input-context.ts:748](https://github.com/ue-too/ue-too/blob/869d507317a2d8be79359e34a957c2cb9a03e24c/packages/board/src/input-interpretation/input-state-machine/kmt-input-context.ts#L748)
+Defined in: [packages/board/src/input-interpretation/input-state-machine/kmt-input-context.ts:747](https://github.com/ue-too/ue-too/blob/454bcd14d73823b9ce9a2152a4b45cddef4ad346/packages/board/src/input-interpretation/input-state-machine/kmt-input-context.ts#L747)
 
 Whether to use standard screen coordinate system (vs inverted Y-axis)
 
@@ -81,7 +81,7 @@ Whether to use standard screen coordinate system (vs inverted Y-axis)
 
 > **set** **alignCoordinateSystem**(`value`): `void`
 
-Defined in: [packages/board/src/input-interpretation/input-state-machine/kmt-input-context.ts:760](https://github.com/ue-too/ue-too/blob/869d507317a2d8be79359e34a957c2cb9a03e24c/packages/board/src/input-interpretation/input-state-machine/kmt-input-context.ts#L760)
+Defined in: [packages/board/src/input-interpretation/input-state-machine/kmt-input-context.ts:759](https://github.com/ue-too/ue-too/blob/454bcd14d73823b9ce9a2152a4b45cddef4ad346/packages/board/src/input-interpretation/input-state-machine/kmt-input-context.ts#L759)
 
 Whether to use standard screen coordinate system (vs inverted Y-axis)
 
@@ -109,7 +109,7 @@ Whether to use standard screen coordinate system (vs inverted Y-axis)
 
 > **get** **canvas**(): [`Canvas`](../interfaces/Canvas.md)
 
-Defined in: [packages/board/src/input-interpretation/input-state-machine/kmt-input-context.ts:752](https://github.com/ue-too/ue-too/blob/869d507317a2d8be79359e34a957c2cb9a03e24c/packages/board/src/input-interpretation/input-state-machine/kmt-input-context.ts#L752)
+Defined in: [packages/board/src/input-interpretation/input-state-machine/kmt-input-context.ts:751](https://github.com/ue-too/ue-too/blob/454bcd14d73823b9ce9a2152a4b45cddef4ad346/packages/board/src/input-interpretation/input-state-machine/kmt-input-context.ts#L751)
 
 Canvas accessor for dimensions and cursor control
 
@@ -131,7 +131,7 @@ Canvas accessor for dimensions and cursor control
 
 > **get** **initialCursorPosition**(): `Point`
 
-Defined in: [packages/board/src/input-interpretation/input-state-machine/kmt-input-context.ts:756](https://github.com/ue-too/ue-too/blob/869d507317a2d8be79359e34a957c2cb9a03e24c/packages/board/src/input-interpretation/input-state-machine/kmt-input-context.ts#L756)
+Defined in: [packages/board/src/input-interpretation/input-state-machine/kmt-input-context.ts:755](https://github.com/ue-too/ue-too/blob/454bcd14d73823b9ce9a2152a4b45cddef4ad346/packages/board/src/input-interpretation/input-state-machine/kmt-input-context.ts#L755)
 
 The cursor position when a pan gesture started
 
@@ -153,7 +153,7 @@ The cursor position when a pan gesture started
 
 > **get** **kmtTrackpadTrackScore**(): `number`
 
-Defined in: [packages/board/src/input-interpretation/input-state-machine/kmt-input-context.ts:722](https://github.com/ue-too/ue-too/blob/869d507317a2d8be79359e34a957c2cb9a03e24c/packages/board/src/input-interpretation/input-state-machine/kmt-input-context.ts#L722)
+Defined in: [packages/board/src/input-interpretation/input-state-machine/kmt-input-context.ts:721](https://github.com/ue-too/ue-too/blob/454bcd14d73823b9ce9a2152a4b45cddef4ad346/packages/board/src/input-interpretation/input-state-machine/kmt-input-context.ts#L721)
 
 Score tracking input modality: >0 for mouse, <0 for trackpad, 0 for undetermined
 
@@ -175,7 +175,7 @@ Score tracking input modality: >0 for mouse, <0 for trackpad, 0 for undetermined
 
 > **get** **mode**(): `"kmt"` \| `"trackpad"` \| `"TBD"`
 
-Defined in: [packages/board/src/input-interpretation/input-state-machine/kmt-input-context.ts:708](https://github.com/ue-too/ue-too/blob/869d507317a2d8be79359e34a957c2cb9a03e24c/packages/board/src/input-interpretation/input-state-machine/kmt-input-context.ts#L708)
+Defined in: [packages/board/src/input-interpretation/input-state-machine/kmt-input-context.ts:706](https://github.com/ue-too/ue-too/blob/454bcd14d73823b9ce9a2152a4b45cddef4ad346/packages/board/src/input-interpretation/input-state-machine/kmt-input-context.ts#L706)
 
 The current input modality: 'kmt' (mouse), 'trackpad', or 'TBD' (to be determined)
 
@@ -195,7 +195,7 @@ The current input modality: 'kmt' (mouse), 'trackpad', or 'TBD' (to be determine
 
 > **addKmtTrackpadTrackScore**(): `void`
 
-Defined in: [packages/board/src/input-interpretation/input-state-machine/kmt-input-context.ts:737](https://github.com/ue-too/ue-too/blob/869d507317a2d8be79359e34a957c2cb9a03e24c/packages/board/src/input-interpretation/input-state-machine/kmt-input-context.ts#L737)
+Defined in: [packages/board/src/input-interpretation/input-state-machine/kmt-input-context.ts:736](https://github.com/ue-too/ue-too/blob/454bcd14d73823b9ce9a2152a4b45cddef4ad346/packages/board/src/input-interpretation/input-state-machine/kmt-input-context.ts#L736)
 
 Increases the score toward mouse
 
@@ -213,7 +213,7 @@ Increases the score toward mouse
 
 > **cancelCurrentAction**(): `void`
 
-Defined in: [packages/board/src/input-interpretation/input-state-machine/kmt-input-context.ts:764](https://github.com/ue-too/ue-too/blob/869d507317a2d8be79359e34a957c2cb9a03e24c/packages/board/src/input-interpretation/input-state-machine/kmt-input-context.ts#L764)
+Defined in: [packages/board/src/input-interpretation/input-state-machine/kmt-input-context.ts:763](https://github.com/ue-too/ue-too/blob/454bcd14d73823b9ce9a2152a4b45cddef4ad346/packages/board/src/input-interpretation/input-state-machine/kmt-input-context.ts#L763)
 
 Cancels the current action and resets cursor position
 
@@ -231,7 +231,7 @@ Cancels the current action and resets cursor position
 
 > **cleanup**(): `void`
 
-Defined in: [packages/board/src/input-interpretation/input-state-machine/kmt-input-context.ts:772](https://github.com/ue-too/ue-too/blob/869d507317a2d8be79359e34a957c2cb9a03e24c/packages/board/src/input-interpretation/input-state-machine/kmt-input-context.ts#L772)
+Defined in: [packages/board/src/input-interpretation/input-state-machine/kmt-input-context.ts:771](https://github.com/ue-too/ue-too/blob/454bcd14d73823b9ce9a2152a4b45cddef4ad346/packages/board/src/input-interpretation/input-state-machine/kmt-input-context.ts#L771)
 
 #### Returns
 
@@ -247,7 +247,7 @@ Defined in: [packages/board/src/input-interpretation/input-state-machine/kmt-inp
 
 > **enableInputModeDetection**(): `void`
 
-Defined in: [packages/board/src/input-interpretation/input-state-machine/kmt-input-context.ts:717](https://github.com/ue-too/ue-too/blob/869d507317a2d8be79359e34a957c2cb9a03e24c/packages/board/src/input-interpretation/input-state-machine/kmt-input-context.ts#L717)
+Defined in: [packages/board/src/input-interpretation/input-state-machine/kmt-input-context.ts:715](https://github.com/ue-too/ue-too/blob/454bcd14d73823b9ce9a2152a4b45cddef4ad346/packages/board/src/input-interpretation/input-state-machine/kmt-input-context.ts#L715)
 
 #### Returns
 
@@ -259,7 +259,7 @@ Defined in: [packages/board/src/input-interpretation/input-state-machine/kmt-inp
 
 > **setInitialCursorPosition**(`position`): `void`
 
-Defined in: [packages/board/src/input-interpretation/input-state-machine/kmt-input-context.ts:768](https://github.com/ue-too/ue-too/blob/869d507317a2d8be79359e34a957c2cb9a03e24c/packages/board/src/input-interpretation/input-state-machine/kmt-input-context.ts#L768)
+Defined in: [packages/board/src/input-interpretation/input-state-machine/kmt-input-context.ts:767](https://github.com/ue-too/ue-too/blob/454bcd14d73823b9ce9a2152a4b45cddef4ad346/packages/board/src/input-interpretation/input-state-machine/kmt-input-context.ts#L767)
 
 Sets the initial cursor position when starting a pan gesture
 
@@ -283,7 +283,7 @@ Sets the initial cursor position when starting a pan gesture
 
 > **setMode**(`mode`): `void`
 
-Defined in: [packages/board/src/input-interpretation/input-state-machine/kmt-input-context.ts:712](https://github.com/ue-too/ue-too/blob/869d507317a2d8be79359e34a957c2cb9a03e24c/packages/board/src/input-interpretation/input-state-machine/kmt-input-context.ts#L712)
+Defined in: [packages/board/src/input-interpretation/input-state-machine/kmt-input-context.ts:710](https://github.com/ue-too/ue-too/blob/454bcd14d73823b9ce9a2152a4b45cddef4ad346/packages/board/src/input-interpretation/input-state-machine/kmt-input-context.ts#L710)
 
 Sets the determined input modality
 
@@ -307,7 +307,7 @@ Sets the determined input modality
 
 > **setup**(): `void`
 
-Defined in: [packages/board/src/input-interpretation/input-state-machine/kmt-input-context.ts:774](https://github.com/ue-too/ue-too/blob/869d507317a2d8be79359e34a957c2cb9a03e24c/packages/board/src/input-interpretation/input-state-machine/kmt-input-context.ts#L774)
+Defined in: [packages/board/src/input-interpretation/input-state-machine/kmt-input-context.ts:773](https://github.com/ue-too/ue-too/blob/454bcd14d73823b9ce9a2152a4b45cddef4ad346/packages/board/src/input-interpretation/input-state-machine/kmt-input-context.ts#L773)
 
 #### Returns
 
@@ -323,7 +323,7 @@ Defined in: [packages/board/src/input-interpretation/input-state-machine/kmt-inp
 
 > **subtractKmtTrackpadTrackScore**(): `void`
 
-Defined in: [packages/board/src/input-interpretation/input-state-machine/kmt-input-context.ts:726](https://github.com/ue-too/ue-too/blob/869d507317a2d8be79359e34a957c2cb9a03e24c/packages/board/src/input-interpretation/input-state-machine/kmt-input-context.ts#L726)
+Defined in: [packages/board/src/input-interpretation/input-state-machine/kmt-input-context.ts:725](https://github.com/ue-too/ue-too/blob/454bcd14d73823b9ce9a2152a4b45cddef4ad346/packages/board/src/input-interpretation/input-state-machine/kmt-input-context.ts#L725)
 
 Decreases the score toward trackpad
 

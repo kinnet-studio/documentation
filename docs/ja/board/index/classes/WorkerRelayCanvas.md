@@ -2,7 +2,7 @@
 
 # クラス: WorkerRelayCanvas
 
-定義: [packages/board/src/input-interpretation/input-state-machine/kmt-input-context.ts:483](https://github.com/ue-too/ue-too/blob/869d507317a2d8be79359e34a957c2cb9a03e24c/packages/board/src/input-interpretation/input-state-machine/kmt-input-context.ts#L483)
+定義: [packages/board/src/input-interpretation/input-state-machine/kmt-input-context.ts:481](https://github.com/ue-too/ue-too/blob/454bcd14d73823b9ce9a2152a4b45cddef4ad346/packages/board/src/input-interpretation/input-state-machine/kmt-input-context.ts#L481)
 
 ## Description
 
@@ -20,7 +20,7 @@ This class only serves as a relay of the updated canvas dimensions and position 
 
 > **new WorkerRelayCanvas**(`canvas`, `webWorker`, `canvasDiemsionPublisher`): `WorkerRelayCanvas`
 
-定義: [packages/board/src/input-interpretation/input-state-machine/kmt-input-context.ts:491](https://github.com/ue-too/ue-too/blob/869d507317a2d8be79359e34a957c2cb9a03e24c/packages/board/src/input-interpretation/input-state-machine/kmt-input-context.ts#L491)
+定義: [packages/board/src/input-interpretation/input-state-machine/kmt-input-context.ts:489](https://github.com/ue-too/ue-too/blob/454bcd14d73823b9ce9a2152a4b45cddef4ad346/packages/board/src/input-interpretation/input-state-machine/kmt-input-context.ts#L489)
 
 #### パラメータ
 
@@ -48,7 +48,7 @@ This class only serves as a relay of the updated canvas dimensions and position 
 
 > **get** **detached**(): `boolean`
 
-定義: [packages/board/src/input-interpretation/input-state-machine/kmt-input-context.ts:550](https://github.com/ue-too/ue-too/blob/869d507317a2d8be79359e34a957c2cb9a03e24c/packages/board/src/input-interpretation/input-state-machine/kmt-input-context.ts#L550)
+定義: [packages/board/src/input-interpretation/input-state-machine/kmt-input-context.ts:548](https://github.com/ue-too/ue-too/blob/454bcd14d73823b9ce9a2152a4b45cddef4ad346/packages/board/src/input-interpretation/input-state-machine/kmt-input-context.ts#L548)
 
 Whether the canvas is currently detached from the DOM
 
@@ -70,7 +70,7 @@ Whether the canvas is currently detached from the DOM
 
 > **get** **dimensions**(): `object`
 
-定義: [packages/board/src/input-interpretation/input-state-machine/kmt-input-context.ts:542](https://github.com/ue-too/ue-too/blob/869d507317a2d8be79359e34a957c2cb9a03e24c/packages/board/src/input-interpretation/input-state-machine/kmt-input-context.ts#L542)
+定義: [packages/board/src/input-interpretation/input-state-machine/kmt-input-context.ts:540](https://github.com/ue-too/ue-too/blob/454bcd14d73823b9ce9a2152a4b45cddef4ad346/packages/board/src/input-interpretation/input-state-machine/kmt-input-context.ts#L540)
 
 Combined dimensions and position information
 
@@ -104,7 +104,7 @@ Combined dimensions and position information
 
 > **get** **height**(): `number`
 
-定義: [packages/board/src/input-interpretation/input-state-machine/kmt-input-context.ts:530](https://github.com/ue-too/ue-too/blob/869d507317a2d8be79359e34a957c2cb9a03e24c/packages/board/src/input-interpretation/input-state-machine/kmt-input-context.ts#L530)
+定義: [packages/board/src/input-interpretation/input-state-machine/kmt-input-context.ts:528](https://github.com/ue-too/ue-too/blob/454bcd14d73823b9ce9a2152a4b45cddef4ad346/packages/board/src/input-interpretation/input-state-machine/kmt-input-context.ts#L528)
 
 The canvas height in CSS pixels
 
@@ -126,7 +126,7 @@ The canvas height in CSS pixels
 
 > **get** **position**(): `Point`
 
-定義: [packages/board/src/input-interpretation/input-state-machine/kmt-input-context.ts:538](https://github.com/ue-too/ue-too/blob/869d507317a2d8be79359e34a957c2cb9a03e24c/packages/board/src/input-interpretation/input-state-machine/kmt-input-context.ts#L538)
+定義: [packages/board/src/input-interpretation/input-state-machine/kmt-input-context.ts:536](https://github.com/ue-too/ue-too/blob/454bcd14d73823b9ce9a2152a4b45cddef4ad346/packages/board/src/input-interpretation/input-state-machine/kmt-input-context.ts#L536)
 
 The top-left position of the canvas in window coordinates
 
@@ -148,7 +148,7 @@ The top-left position of the canvas in window coordinates
 
 > **get** **width**(): `number`
 
-定義: [packages/board/src/input-interpretation/input-state-machine/kmt-input-context.ts:526](https://github.com/ue-too/ue-too/blob/869d507317a2d8be79359e34a957c2cb9a03e24c/packages/board/src/input-interpretation/input-state-machine/kmt-input-context.ts#L526)
+定義: [packages/board/src/input-interpretation/input-state-machine/kmt-input-context.ts:524](https://github.com/ue-too/ue-too/blob/454bcd14d73823b9ce9a2152a4b45cddef4ad346/packages/board/src/input-interpretation/input-state-machine/kmt-input-context.ts#L524)
 
 The canvas width in CSS pixels
 
@@ -168,7 +168,7 @@ The canvas width in CSS pixels
 
 > **setCursor**(`style`): `void`
 
-定義: [packages/board/src/input-interpretation/input-state-machine/kmt-input-context.ts:554](https://github.com/ue-too/ue-too/blob/869d507317a2d8be79359e34a957c2cb9a03e24c/packages/board/src/input-interpretation/input-state-machine/kmt-input-context.ts#L554)
+定義: [packages/board/src/input-interpretation/input-state-machine/kmt-input-context.ts:552](https://github.com/ue-too/ue-too/blob/454bcd14d73823b9ce9a2152a4b45cddef4ad346/packages/board/src/input-interpretation/input-state-machine/kmt-input-context.ts#L552)
 
 Sets the CSS cursor style for visual feedback
 
@@ -192,7 +192,7 @@ Sets the CSS cursor style for visual feedback
 
 > **tearDown**(): `void`
 
-定義: [packages/board/src/input-interpretation/input-state-machine/kmt-input-context.ts:534](https://github.com/ue-too/ue-too/blob/869d507317a2d8be79359e34a957c2cb9a03e24c/packages/board/src/input-interpretation/input-state-machine/kmt-input-context.ts#L534)
+定義: [packages/board/src/input-interpretation/input-state-machine/kmt-input-context.ts:532](https://github.com/ue-too/ue-too/blob/454bcd14d73823b9ce9a2152a4b45cddef4ad346/packages/board/src/input-interpretation/input-state-machine/kmt-input-context.ts#L532)
 
 Cleanup method to dispose of resources and event listeners
 

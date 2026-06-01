@@ -4,7 +4,7 @@
 
 > **createHandlerChain**\<`T`, `Args`\>(...`handlers`): [`Handler`](../type-aliases/Handler.md)\<`T`, `Args`\>
 
-定義於: [packages/board/src/utils/handler-pipeline.ts:31](https://github.com/ue-too/ue-too/blob/869d507317a2d8be79359e34a957c2cb9a03e24c/packages/board/src/utils/handler-pipeline.ts#L31)
+定義於: [packages/board/src/utils/handler-pipeline.ts:31](https://github.com/ue-too/ue-too/blob/454bcd14d73823b9ce9a2152a4b45cddef4ad346/packages/board/src/utils/handler-pipeline.ts#L31)
 
 ## 型別參數
 

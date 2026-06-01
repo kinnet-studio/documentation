@@ -4,7 +4,7 @@
 
 > `const` **integerHelperFunctions**: [`AnimatableAttributeHelper`](../interfaces/AnimatableAttributeHelper.md)\<`number`\>
 
-定義於: [animatable-attribute.ts:222](https://github.com/ue-too/ue-too/blob/869d507317a2d8be79359e34a957c2cb9a03e24c/packages/animate/src/animatable-attribute.ts#L222)
+定義於: [animatable-attribute.ts:222](https://github.com/ue-too/ue-too/blob/454bcd14d73823b9ce9a2152a4b45cddef4ad346/packages/animate/src/animatable-attribute.ts#L222)
 
 Built-in interpolation helper for animating integer values.
 

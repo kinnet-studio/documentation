@@ -4,7 +4,7 @@
 
 > **createHexGrid**(`coordinator`, `width`, `height`, `name`, `variant`): `number`
 
-Defined in: [grid-system/hex-grid.ts:49](https://github.com/ue-too/ue-too/blob/869d507317a2d8be79359e34a957c2cb9a03e24c/packages/board-game-engine/src/grid-system/hex-grid.ts#L49)
+Defined in: [grid-system/hex-grid.ts:49](https://github.com/ue-too/ue-too/blob/454bcd14d73823b9ce9a2152a4b45cddef4ad346/packages/board-game-engine/src/grid-system/hex-grid.ts#L49)
 
 Creates a hexagonal grid with offset coordinates (q, r).
 

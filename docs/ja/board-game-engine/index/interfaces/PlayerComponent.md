@@ -2,7 +2,7 @@
 
 # インターフェイス: PlayerComponent
 
-定義: [player-system/player-component.ts:14](https://github.com/ue-too/ue-too/blob/869d507317a2d8be79359e34a957c2cb9a03e24c/packages/board-game-engine/src/player-system/player-component.ts#L14)
+定義: [player-system/player-component.ts:14](https://github.com/ue-too/ue-too/blob/454bcd14d73823b9ce9a2152a4b45cddef4ad346/packages/board-game-engine/src/player-system/player-component.ts#L14)
 
 ## プロパティ
 
@@ -10,7 +10,7 @@
 
 > **inPlay**: `boolean`
 
-定義: [player-system/player-component.ts:17](https://github.com/ue-too/ue-too/blob/869d507317a2d8be79359e34a957c2cb9a03e24c/packages/board-game-engine/src/player-system/player-component.ts#L17)
+定義: [player-system/player-component.ts:17](https://github.com/ue-too/ue-too/blob/454bcd14d73823b9ce9a2152a4b45cddef4ad346/packages/board-game-engine/src/player-system/player-component.ts#L17)
 
 ***
 
@@ -18,7 +18,7 @@
 
 > **name**: `string`
 
-定義: [player-system/player-component.ts:15](https://github.com/ue-too/ue-too/blob/869d507317a2d8be79359e34a957c2cb9a03e24c/packages/board-game-engine/src/player-system/player-component.ts#L15)
+定義: [player-system/player-component.ts:15](https://github.com/ue-too/ue-too/blob/454bcd14d73823b9ce9a2152a4b45cddef4ad346/packages/board-game-engine/src/player-system/player-component.ts#L15)
 
 ***
 
@@ -26,4 +26,4 @@
 
 > **playerNumber**: `number`
 
-定義: [player-system/player-component.ts:16](https://github.com/ue-too/ue-too/blob/869d507317a2d8be79359e34a957c2cb9a03e24c/packages/board-game-engine/src/player-system/player-component.ts#L16)
+定義: [player-system/player-component.ts:16](https://github.com/ue-too/ue-too/blob/454bcd14d73823b9ce9a2152a4b45cddef4ad346/packages/board-game-engine/src/player-system/player-component.ts#L16)

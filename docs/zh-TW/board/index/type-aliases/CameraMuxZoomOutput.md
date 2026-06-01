@@ -4,7 +4,7 @@
 
 > **CameraMuxZoomOutput** = \{ `allowPassThrough`: `true`; `anchorPoint`: `Point`; `delta`: `number`; \} \| \{ `allowPassThrough`: `true`; `anchorPoint?`: `undefined`; `delta`: `number`; \} \| \{ `allowPassThrough`: `false`; \}
 
-定義於: [packages/board/src/camera/camera-mux/interface.ts:64](https://github.com/ue-too/ue-too/blob/869d507317a2d8be79359e34a957c2cb9a03e24c/packages/board/src/camera/camera-mux/interface.ts#L64)
+定義於: [packages/board/src/camera/camera-mux/interface.ts:64](https://github.com/ue-too/ue-too/blob/454bcd14d73823b9ce9a2152a4b45cddef4ad346/packages/board/src/camera/camera-mux/interface.ts#L64)
 
 Discriminated union type for zoom input results.
 Indicates whether camera zooming is allowed and provides zoom parameters if accepted.

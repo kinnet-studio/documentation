@@ -2,7 +2,7 @@
 
 # インターフェイス: Event
 
-定義: [event-system/event.ts:1](https://github.com/ue-too/ue-too/blob/869d507317a2d8be79359e34a957c2cb9a03e24c/packages/board-game-engine/src/event-system/event.ts#L1)
+定義: [event-system/event.ts:1](https://github.com/ue-too/ue-too/blob/454bcd14d73823b9ce9a2152a4b45cddef4ad346/packages/board-game-engine/src/event-system/event.ts#L1)
 
 ## プロパティ
 
@@ -10,7 +10,7 @@
 
 > **data**: `Record`\<`string`, `unknown`\>
 
-定義: [event-system/event.ts:3](https://github.com/ue-too/ue-too/blob/869d507317a2d8be79359e34a957c2cb9a03e24c/packages/board-game-engine/src/event-system/event.ts#L3)
+定義: [event-system/event.ts:3](https://github.com/ue-too/ue-too/blob/454bcd14d73823b9ce9a2152a4b45cddef4ad346/packages/board-game-engine/src/event-system/event.ts#L3)
 
 ***
 
@@ -18,7 +18,7 @@
 
 > **timestamp**: `number`
 
-定義: [event-system/event.ts:4](https://github.com/ue-too/ue-too/blob/869d507317a2d8be79359e34a957c2cb9a03e24c/packages/board-game-engine/src/event-system/event.ts#L4)
+定義: [event-system/event.ts:4](https://github.com/ue-too/ue-too/blob/454bcd14d73823b9ce9a2152a4b45cddef4ad346/packages/board-game-engine/src/event-system/event.ts#L4)
 
 ***
 
@@ -26,4 +26,4 @@
 
 > **type**: `string`
 
-定義: [event-system/event.ts:2](https://github.com/ue-too/ue-too/blob/869d507317a2d8be79359e34a957c2cb9a03e24c/packages/board-game-engine/src/event-system/event.ts#L2)
+定義: [event-system/event.ts:2](https://github.com/ue-too/ue-too/blob/454bcd14d73823b9ce9a2152a4b45cddef4ad346/packages/board-game-engine/src/event-system/event.ts#L2)

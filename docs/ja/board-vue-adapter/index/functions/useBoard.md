@@ -4,7 +4,7 @@
 
 > **useBoard**(): `Board`
 
-定義: [useBoard.ts:20](https://github.com/ue-too/ue-too/blob/869d507317a2d8be79359e34a957c2cb9a03e24c/packages/board-vue-adapter/src/useBoard.ts#L20)
+定義: [useBoard.ts:20](https://github.com/ue-too/ue-too/blob/454bcd14d73823b9ce9a2152a4b45cddef4ad346/packages/board-vue-adapter/src/useBoard.ts#L20)
 
 ## 戻り値
 

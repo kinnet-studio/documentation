@@ -4,7 +4,7 @@
 
 > **CanvasDimensions** = `object`
 
-定義: [packages/board/src/input-interpretation/input-state-machine/kmt-input-context.ts:40](https://github.com/ue-too/ue-too/blob/869d507317a2d8be79359e34a957c2cb9a03e24c/packages/board/src/input-interpretation/input-state-machine/kmt-input-context.ts#L40)
+定義: [packages/board/src/input-interpretation/input-state-machine/kmt-input-context.ts:40](https://github.com/ue-too/ue-too/blob/454bcd14d73823b9ce9a2152a4b45cddef4ad346/packages/board/src/input-interpretation/input-state-machine/kmt-input-context.ts#L40)
 
 Canvas dimension and position information.
 
@@ -14,7 +14,7 @@ Canvas dimension and position information.
 
 > **height**: `number`
 
-定義: [packages/board/src/input-interpretation/input-state-machine/kmt-input-context.ts:42](https://github.com/ue-too/ue-too/blob/869d507317a2d8be79359e34a957c2cb9a03e24c/packages/board/src/input-interpretation/input-state-machine/kmt-input-context.ts#L42)
+定義: [packages/board/src/input-interpretation/input-state-machine/kmt-input-context.ts:42](https://github.com/ue-too/ue-too/blob/454bcd14d73823b9ce9a2152a4b45cddef4ad346/packages/board/src/input-interpretation/input-state-machine/kmt-input-context.ts#L42)
 
 The canvas height in CSS pixels
 
@@ -24,7 +24,7 @@ The canvas height in CSS pixels
 
 > **position**: `Point`
 
-定義: [packages/board/src/input-interpretation/input-state-machine/kmt-input-context.ts:43](https://github.com/ue-too/ue-too/blob/869d507317a2d8be79359e34a957c2cb9a03e24c/packages/board/src/input-interpretation/input-state-machine/kmt-input-context.ts#L43)
+定義: [packages/board/src/input-interpretation/input-state-machine/kmt-input-context.ts:43](https://github.com/ue-too/ue-too/blob/454bcd14d73823b9ce9a2152a4b45cddef4ad346/packages/board/src/input-interpretation/input-state-machine/kmt-input-context.ts#L43)
 
 The top-left position of the canvas in window coordinates
 
@@ -34,6 +34,6 @@ The top-left position of the canvas in window coordinates
 
 > **width**: `number`
 
-定義: [packages/board/src/input-interpretation/input-state-machine/kmt-input-context.ts:41](https://github.com/ue-too/ue-too/blob/869d507317a2d8be79359e34a957c2cb9a03e24c/packages/board/src/input-interpretation/input-state-machine/kmt-input-context.ts#L41)
+定義: [packages/board/src/input-interpretation/input-state-machine/kmt-input-context.ts:41](https://github.com/ue-too/ue-too/blob/454bcd14d73823b9ce9a2152a4b45cddef4ad346/packages/board/src/input-interpretation/input-state-machine/kmt-input-context.ts#L41)
 
 The canvas width in CSS pixels

@@ -4,7 +4,7 @@
 
 > **Guard**\<`Context`, `K`\> = `{ [P in K]: GuardEvaluation<Context> }`
 
-Defined in: [interface.ts:405](https://github.com/ue-too/ue-too/blob/869d507317a2d8be79359e34a957c2cb9a03e24c/packages/being/src/interface.ts#L405)
+Defined in: [interface.ts:405](https://github.com/ue-too/ue-too/blob/454bcd14d73823b9ce9a2152a4b45cddef4ad346/packages/being/src/interface.ts#L405)
 
 ## Type Parameters
 

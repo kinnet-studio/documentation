@@ -4,7 +4,7 @@
 
 > **SpatialIndexType** = `"quadtree"` \| `"dynamictree"` \| `"sap"`
 
-Defined in: [world.ts:23](https://github.com/ue-too/ue-too/blob/869d507317a2d8be79359e34a957c2cb9a03e24c/packages/dynamics/src/world.ts#L23)
+Defined in: [world.ts:23](https://github.com/ue-too/ue-too/blob/454bcd14d73823b9ce9a2152a4b45cddef4ad346/packages/dynamics/src/world.ts#L23)
 
 Spatial indexing algorithm types.
 

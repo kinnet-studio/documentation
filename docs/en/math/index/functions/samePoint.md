@@ -4,7 +4,7 @@
 
 > **samePoint**(`a`, `b`, `precision?`): `boolean`
 
-Defined in: [index.ts:864](https://github.com/ue-too/ue-too/blob/869d507317a2d8be79359e34a957c2cb9a03e24c/packages/math/src/index.ts#L864)
+Defined in: [index.ts:864](https://github.com/ue-too/ue-too/blob/454bcd14d73823b9ce9a2152a4b45cddef4ad346/packages/math/src/index.ts#L864)
 
 Checks if two points are approximately at the same location.
 

@@ -2,7 +2,7 @@
 
 # 介面: System
 
-定義於: [index.ts:1154](https://github.com/ue-too/ue-too/blob/869d507317a2d8be79359e34a957c2cb9a03e24c/packages/ecs/src/index.ts#L1154)
+定義於: [index.ts:1154](https://github.com/ue-too/ue-too/blob/454bcd14d73823b9ce9a2152a4b45cddef4ad346/packages/ecs/src/index.ts#L1154)
 
 System interface for processing entities with specific component combinations.
 
@@ -43,4 +43,4 @@ function updateMovement(deltaTime: number) {
 
 > **entities**: `Set`\<`number`\>
 
-定義於: [index.ts:1155](https://github.com/ue-too/ue-too/blob/869d507317a2d8be79359e34a957c2cb9a03e24c/packages/ecs/src/index.ts#L1155)
+定義於: [index.ts:1155](https://github.com/ue-too/ue-too/blob/454bcd14d73823b9ce9a2152a4b45cddef4ad346/packages/ecs/src/index.ts#L1155)

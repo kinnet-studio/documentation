@@ -4,7 +4,7 @@
 
 > **magnitude**(`a`): `number`
 
-定義於: [2dVector.ts:55](https://github.com/ue-too/ue-too/blob/869d507317a2d8be79359e34a957c2cb9a03e24c/packages/math/src/2dVector.ts#L55)
+定義於: [2dVector.ts:55](https://github.com/ue-too/ue-too/blob/454bcd14d73823b9ce9a2152a4b45cddef4ad346/packages/math/src/2dVector.ts#L55)
 
 ## 參數
 

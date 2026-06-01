@@ -4,4 +4,4 @@
 
 > `const` **ORTHO\_GRID\_COMPONENT**: `symbol`
 
-定義於: [grid-system/ortho-grid.ts:30](https://github.com/ue-too/ue-too/blob/869d507317a2d8be79359e34a957c2cb9a03e24c/packages/board-game-engine/src/grid-system/ortho-grid.ts#L30)
+定義於: [grid-system/ortho-grid.ts:30](https://github.com/ue-too/ue-too/blob/454bcd14d73823b9ce9a2152a4b45cddef4ad346/packages/board-game-engine/src/grid-system/ortho-grid.ts#L30)

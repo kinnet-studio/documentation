@@ -4,7 +4,7 @@
 
 > **createGlobalSystemName**(`key`): `symbol`
 
-定義: [index.ts:321](https://github.com/ue-too/ue-too/blob/869d507317a2d8be79359e34a957c2cb9a03e24c/packages/ecs/src/index.ts#L321)
+定義: [index.ts:321](https://github.com/ue-too/ue-too/blob/454bcd14d73823b9ce9a2152a4b45cddef4ad346/packages/ecs/src/index.ts#L321)
 
 Helper function to create a system name using Symbol.for().
 This creates a global symbol that can be looked up by string key,

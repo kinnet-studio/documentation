@@ -4,7 +4,7 @@
 
 > **drawCrossHair**(`context`, `pos`, `cameraZoomLevel`, `alignCoordinateSystem`, `size`, `color`): `void`
 
-Defined in: [packages/board/src/utils/drawing-utils.ts:18](https://github.com/ue-too/ue-too/blob/869d507317a2d8be79359e34a957c2cb9a03e24c/packages/board/src/utils/drawing-utils.ts#L18)
+Defined in: [packages/board/src/utils/drawing-utils.ts:18](https://github.com/ue-too/ue-too/blob/454bcd14d73823b9ce9a2152a4b45cddef4ad346/packages/board/src/utils/drawing-utils.ts#L18)
 
 ## Parameters
 

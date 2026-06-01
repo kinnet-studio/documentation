@@ -4,7 +4,7 @@
 
 > **createCameraMatrix**(`cameraPos`, `zoom`, `rotation`, `devicePixelRatio`, `canvasWidth`, `canvasHeight`): `object`
 
-定義於: [packages/board/src/camera/utils/matrix.ts:221](https://github.com/ue-too/ue-too/blob/869d507317a2d8be79359e34a957c2cb9a03e24c/packages/board/src/camera/utils/matrix.ts#L221)
+定義於: [packages/board/src/camera/utils/matrix.ts:221](https://github.com/ue-too/ue-too/blob/454bcd14d73823b9ce9a2152a4b45cddef4ad346/packages/board/src/camera/utils/matrix.ts#L221)
 
 Creates a camera transformation matrix from camera parameters.
 This matrix transforms world coordinates to canvas pixel coordinates.

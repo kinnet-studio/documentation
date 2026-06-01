@@ -2,7 +2,7 @@
 
 # 類別: ZoneHasEntityIndexPrecondition
 
-定義於: [zone-system/precondition.ts:71](https://github.com/ue-too/ue-too/blob/869d507317a2d8be79359e34a957c2cb9a03e24c/packages/board-game-engine/src/zone-system/precondition.ts#L71)
+定義於: [zone-system/precondition.ts:71](https://github.com/ue-too/ue-too/blob/454bcd14d73823b9ce9a2152a4b45cddef4ad346/packages/board-game-engine/src/zone-system/precondition.ts#L71)
 
 ## 實作
 
@@ -14,7 +14,7 @@
 
 > **new ZoneHasEntityIndexPrecondition**(`_coordinator`, `_zoneEntity`, `_entity`, `_index`): `ZoneHasEntityIndexPrecondition`
 
-定義於: [zone-system/precondition.ts:72](https://github.com/ue-too/ue-too/blob/869d507317a2d8be79359e34a957c2cb9a03e24c/packages/board-game-engine/src/zone-system/precondition.ts#L72)
+定義於: [zone-system/precondition.ts:72](https://github.com/ue-too/ue-too/blob/454bcd14d73823b9ce9a2152a4b45cddef4ad346/packages/board-game-engine/src/zone-system/precondition.ts#L72)
 
 #### 參數
 
@@ -44,7 +44,7 @@
 
 > **check**(): `boolean`
 
-定義於: [zone-system/precondition.ts:79](https://github.com/ue-too/ue-too/blob/869d507317a2d8be79359e34a957c2cb9a03e24c/packages/board-game-engine/src/zone-system/precondition.ts#L79)
+定義於: [zone-system/precondition.ts:79](https://github.com/ue-too/ue-too/blob/454bcd14d73823b9ce9a2152a4b45cddef4ad346/packages/board-game-engine/src/zone-system/precondition.ts#L79)
 
 #### 回傳
 

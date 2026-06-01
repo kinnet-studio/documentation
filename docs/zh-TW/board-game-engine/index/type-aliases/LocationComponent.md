@@ -4,7 +4,7 @@
 
 > **LocationComponent** = `object`
 
-定義於: [zone-system/zone-component.ts:22](https://github.com/ue-too/ue-too/blob/869d507317a2d8be79359e34a957c2cb9a03e24c/packages/board-game-engine/src/zone-system/zone-component.ts#L22)
+定義於: [zone-system/zone-component.ts:22](https://github.com/ue-too/ue-too/blob/454bcd14d73823b9ce9a2152a4b45cddef4ad346/packages/board-game-engine/src/zone-system/zone-component.ts#L22)
 
 ## 屬性
 
@@ -12,7 +12,7 @@
 
 > **location**: `Entity`
 
-定義於: [zone-system/zone-component.ts:23](https://github.com/ue-too/ue-too/blob/869d507317a2d8be79359e34a957c2cb9a03e24c/packages/board-game-engine/src/zone-system/zone-component.ts#L23)
+定義於: [zone-system/zone-component.ts:23](https://github.com/ue-too/ue-too/blob/454bcd14d73823b9ce9a2152a4b45cddef4ad346/packages/board-game-engine/src/zone-system/zone-component.ts#L23)
 
 ***
 
@@ -20,4 +20,4 @@
 
 > **sortIndex**: `number`
 
-定義於: [zone-system/zone-component.ts:24](https://github.com/ue-too/ue-too/blob/869d507317a2d8be79359e34a957c2cb9a03e24c/packages/board-game-engine/src/zone-system/zone-component.ts#L24)
+定義於: [zone-system/zone-component.ts:24](https://github.com/ue-too/ue-too/blob/454bcd14d73823b9ce9a2152a4b45cddef4ad346/packages/board-game-engine/src/zone-system/zone-component.ts#L24)

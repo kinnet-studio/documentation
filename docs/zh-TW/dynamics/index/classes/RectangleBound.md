@@ -2,7 +2,7 @@
 
 # 類別: RectangleBound
 
-定義於: [quadtree.ts:6](https://github.com/ue-too/ue-too/blob/869d507317a2d8be79359e34a957c2cb9a03e24c/packages/dynamics/src/quadtree.ts#L6)
+定義於: [quadtree.ts:6](https://github.com/ue-too/ue-too/blob/454bcd14d73823b9ce9a2152a4b45cddef4ad346/packages/dynamics/src/quadtree.ts#L6)
 
 ## 建構函式
 
@@ -10,7 +10,7 @@
 
 > **new RectangleBound**(`bottomLeft`, `width`, `height`): `RectangleBound`
 
-定義於: [quadtree.ts:11](https://github.com/ue-too/ue-too/blob/869d507317a2d8be79359e34a957c2cb9a03e24c/packages/dynamics/src/quadtree.ts#L11)
+定義於: [quadtree.ts:11](https://github.com/ue-too/ue-too/blob/454bcd14d73823b9ce9a2152a4b45cddef4ad346/packages/dynamics/src/quadtree.ts#L11)
 
 #### 參數
 
@@ -36,7 +36,7 @@
 
 > **getbottomLeft**(): `Point`
 
-定義於: [quadtree.ts:25](https://github.com/ue-too/ue-too/blob/869d507317a2d8be79359e34a957c2cb9a03e24c/packages/dynamics/src/quadtree.ts#L25)
+定義於: [quadtree.ts:25](https://github.com/ue-too/ue-too/blob/454bcd14d73823b9ce9a2152a4b45cddef4ad346/packages/dynamics/src/quadtree.ts#L25)
 
 #### 回傳
 
@@ -48,7 +48,7 @@
 
 > **getHeight**(): `number`
 
-定義於: [quadtree.ts:21](https://github.com/ue-too/ue-too/blob/869d507317a2d8be79359e34a957c2cb9a03e24c/packages/dynamics/src/quadtree.ts#L21)
+定義於: [quadtree.ts:21](https://github.com/ue-too/ue-too/blob/454bcd14d73823b9ce9a2152a4b45cddef4ad346/packages/dynamics/src/quadtree.ts#L21)
 
 #### 回傳
 
@@ -60,7 +60,7 @@
 
 > **getWidth**(): `number`
 
-定義於: [quadtree.ts:17](https://github.com/ue-too/ue-too/blob/869d507317a2d8be79359e34a957c2cb9a03e24c/packages/dynamics/src/quadtree.ts#L17)
+定義於: [quadtree.ts:17](https://github.com/ue-too/ue-too/blob/454bcd14d73823b9ce9a2152a4b45cddef4ad346/packages/dynamics/src/quadtree.ts#L17)
 
 #### 回傳
 

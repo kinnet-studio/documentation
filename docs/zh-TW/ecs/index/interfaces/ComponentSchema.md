@@ -2,7 +2,7 @@
 
 # 介面: ComponentSchema
 
-定義於: [index.ts:212](https://github.com/ue-too/ue-too/blob/454bcd14d73823b9ce9a2152a4b45cddef4ad346/packages/ecs/src/index.ts#L212)
+定義於: [index.ts:212](https://github.com/kinnet-studio/ue-too/blob/11b72200b1b18016a77852cb2769e3d421704115/packages/ecs/src/index.ts#L212)
 
 Schema definition for a component type that can be defined at runtime.
 
@@ -12,7 +12,7 @@ Schema definition for a component type that can be defined at runtime.
 
 > **componentName**: `symbol`
 
-定義於: [index.ts:214](https://github.com/ue-too/ue-too/blob/454bcd14d73823b9ce9a2152a4b45cddef4ad346/packages/ecs/src/index.ts#L214)
+定義於: [index.ts:214](https://github.com/kinnet-studio/ue-too/blob/11b72200b1b18016a77852cb2769e3d421704115/packages/ecs/src/index.ts#L214)
 
 The name of the component type (using Symbol for type safety)
 
@@ -22,6 +22,6 @@ The name of the component type (using Symbol for type safety)
 
 > **fields**: [`ComponentFieldDefinition`](../type-aliases/ComponentFieldDefinition.md)[]
 
-定義於: [index.ts:216](https://github.com/ue-too/ue-too/blob/454bcd14d73823b9ce9a2152a4b45cddef4ad346/packages/ecs/src/index.ts#L216)
+定義於: [index.ts:216](https://github.com/kinnet-studio/ue-too/blob/11b72200b1b18016a77852cb2769e3d421704115/packages/ecs/src/index.ts#L216)
 
 Array of field definitions

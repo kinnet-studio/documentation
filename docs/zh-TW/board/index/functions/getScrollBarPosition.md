@@ -4,7 +4,7 @@
 
 > **getScrollBarPosition**(`boardCamera`): `object`
 
-定義於: [packages/board/src/utils/scrollbar/scrollbar.ts:39](https://github.com/ue-too/ue-too/blob/454bcd14d73823b9ce9a2152a4b45cddef4ad346/packages/board/src/utils/scrollbar/scrollbar.ts#L39)
+定義於: [packages/board/src/utils/scrollbar/scrollbar.ts:39](https://github.com/kinnet-studio/ue-too/blob/11b72200b1b18016a77852cb2769e3d421704115/packages/board/src/utils/scrollbar/scrollbar.ts#L39)
 
 The returned position is relative to the boundaries. (0 to 1)
 

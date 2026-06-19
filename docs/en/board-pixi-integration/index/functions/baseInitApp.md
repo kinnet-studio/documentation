@@ -4,7 +4,7 @@
 
 > **baseInitApp**(`canvasElement`, `option`): `Promise`\<[`BaseAppComponents`](../interfaces/BaseAppComponents.md)\>
 
-Defined in: [init-app.ts:51](https://github.com/ue-too/ue-too/blob/454bcd14d73823b9ce9a2152a4b45cddef4ad346/packages/board-pixi-integration/src/init-app.ts#L51)
+Defined in: [init-app.ts:51](https://github.com/kinnet-studio/ue-too/blob/11b72200b1b18016a77852cb2769e3d421704115/packages/board-pixi-integration/src/init-app.ts#L51)
 
 ## Parameters
 

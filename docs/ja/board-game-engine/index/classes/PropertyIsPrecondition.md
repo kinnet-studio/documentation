@@ -2,7 +2,7 @@
 
 # クラス: PropertyIsPrecondition\<T\>
 
-定義: [action-system/precondition.ts:191](https://github.com/ue-too/ue-too/blob/454bcd14d73823b9ce9a2152a4b45cddef4ad346/packages/board-game-engine/src/action-system/precondition.ts#L191)
+定義: [action-system/precondition.ts:191](https://github.com/kinnet-studio/ue-too/blob/11b72200b1b18016a77852cb2769e3d421704115/packages/board-game-engine/src/action-system/precondition.ts#L191)
 
 Precondition that checks if a property in a component of an entity equals a certain value.
 Supports multiple types (number, string, boolean, etc.) and works with both custom schema
@@ -40,7 +40,7 @@ const precondition2 = new PropertyIsPrecondition<PlayerComponent>(
 
 > **new PropertyIsPrecondition**\<`T`\>(`coordinator`, `componentName`, `entity`, `property`, `value`): `PropertyIsPrecondition`\<`T`\>
 
-定義: [action-system/precondition.ts:200](https://github.com/ue-too/ue-too/blob/454bcd14d73823b9ce9a2152a4b45cddef4ad346/packages/board-game-engine/src/action-system/precondition.ts#L200)
+定義: [action-system/precondition.ts:200](https://github.com/kinnet-studio/ue-too/blob/11b72200b1b18016a77852cb2769e3d421704115/packages/board-game-engine/src/action-system/precondition.ts#L200)
 
 #### パラメータ
 
@@ -74,7 +74,7 @@ const precondition2 = new PropertyIsPrecondition<PlayerComponent>(
 
 > **check**(): `boolean`
 
-定義: [action-system/precondition.ts:214](https://github.com/ue-too/ue-too/blob/454bcd14d73823b9ce9a2152a4b45cddef4ad346/packages/board-game-engine/src/action-system/precondition.ts#L214)
+定義: [action-system/precondition.ts:214](https://github.com/kinnet-studio/ue-too/blob/11b72200b1b18016a77852cb2769e3d421704115/packages/board-game-engine/src/action-system/precondition.ts#L214)
 
 #### 戻り値
 

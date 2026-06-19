@@ -4,7 +4,7 @@
 
 > **Point** = `object`
 
-Defined in: [packages/curve/src/b-curve.ts:1851](https://github.com/ue-too/ue-too/blob/454bcd14d73823b9ce9a2152a4b45cddef4ad346/packages/curve/src/b-curve.ts#L1851)
+Defined in: [packages/curve/src/b-curve.ts:1851](https://github.com/kinnet-studio/ue-too/blob/11b72200b1b18016a77852cb2769e3d421704115/packages/curve/src/b-curve.ts#L1851)
 
 2D/3D point type.
 
@@ -14,7 +14,7 @@ Defined in: [packages/curve/src/b-curve.ts:1851](https://github.com/ue-too/ue-to
 
 > **x**: `number`
 
-Defined in: [packages/curve/src/b-curve.ts:1852](https://github.com/ue-too/ue-too/blob/454bcd14d73823b9ce9a2152a4b45cddef4ad346/packages/curve/src/b-curve.ts#L1852)
+Defined in: [packages/curve/src/b-curve.ts:1852](https://github.com/kinnet-studio/ue-too/blob/11b72200b1b18016a77852cb2769e3d421704115/packages/curve/src/b-curve.ts#L1852)
 
 ***
 
@@ -22,7 +22,7 @@ Defined in: [packages/curve/src/b-curve.ts:1852](https://github.com/ue-too/ue-to
 
 > **y**: `number`
 
-Defined in: [packages/curve/src/b-curve.ts:1853](https://github.com/ue-too/ue-too/blob/454bcd14d73823b9ce9a2152a4b45cddef4ad346/packages/curve/src/b-curve.ts#L1853)
+Defined in: [packages/curve/src/b-curve.ts:1853](https://github.com/kinnet-studio/ue-too/blob/11b72200b1b18016a77852cb2769e3d421704115/packages/curve/src/b-curve.ts#L1853)
 
 ***
 
@@ -30,4 +30,4 @@ Defined in: [packages/curve/src/b-curve.ts:1853](https://github.com/ue-too/ue-to
 
 > `optional` **z**: `number`
 
-Defined in: [packages/curve/src/b-curve.ts:1854](https://github.com/ue-too/ue-too/blob/454bcd14d73823b9ce9a2152a4b45cddef4ad346/packages/curve/src/b-curve.ts#L1854)
+Defined in: [packages/curve/src/b-curve.ts:1854](https://github.com/kinnet-studio/ue-too/blob/11b72200b1b18016a77852cb2769e3d421704115/packages/curve/src/b-curve.ts#L1854)

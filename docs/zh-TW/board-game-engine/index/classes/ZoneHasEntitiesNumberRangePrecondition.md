@@ -2,7 +2,7 @@
 
 # 類別: ZoneHasEntitiesNumberRangePrecondition
 
-定義於: [zone-system/precondition.ts:49](https://github.com/ue-too/ue-too/blob/454bcd14d73823b9ce9a2152a4b45cddef4ad346/packages/board-game-engine/src/zone-system/precondition.ts#L49)
+定義於: [zone-system/precondition.ts:49](https://github.com/kinnet-studio/ue-too/blob/11b72200b1b18016a77852cb2769e3d421704115/packages/board-game-engine/src/zone-system/precondition.ts#L49)
 
 ## 實作
 
@@ -14,7 +14,7 @@
 
 > **new ZoneHasEntitiesNumberRangePrecondition**(`_coordinator`, `_zoneEntity`, `_minCount`, `_maxCount`): `ZoneHasEntitiesNumberRangePrecondition`
 
-定義於: [zone-system/precondition.ts:50](https://github.com/ue-too/ue-too/blob/454bcd14d73823b9ce9a2152a4b45cddef4ad346/packages/board-game-engine/src/zone-system/precondition.ts#L50)
+定義於: [zone-system/precondition.ts:50](https://github.com/kinnet-studio/ue-too/blob/11b72200b1b18016a77852cb2769e3d421704115/packages/board-game-engine/src/zone-system/precondition.ts#L50)
 
 #### 參數
 
@@ -44,7 +44,7 @@
 
 > **check**(): `boolean`
 
-定義於: [zone-system/precondition.ts:57](https://github.com/ue-too/ue-too/blob/454bcd14d73823b9ce9a2152a4b45cddef4ad346/packages/board-game-engine/src/zone-system/precondition.ts#L57)
+定義於: [zone-system/precondition.ts:57](https://github.com/kinnet-studio/ue-too/blob/11b72200b1b18016a77852cb2769e3d421704115/packages/board-game-engine/src/zone-system/precondition.ts#L57)
 
 #### 回傳
 

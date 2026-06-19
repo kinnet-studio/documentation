@@ -4,4 +4,4 @@
 
 > `const` **DEFAULT\_BOARD\_CAMERA\_OPTIONS**: [`CameraOptions`](../type-aliases/CameraOptions.md)
 
-定義: [packages/board/src/camera/default-camera.ts:40](https://github.com/ue-too/ue-too/blob/454bcd14d73823b9ce9a2152a4b45cddef4ad346/packages/board/src/camera/default-camera.ts#L40)
+定義: [packages/board/src/camera/default-camera.ts:40](https://github.com/kinnet-studio/ue-too/blob/11b72200b1b18016a77852cb2769e3d421704115/packages/board/src/camera/default-camera.ts#L40)

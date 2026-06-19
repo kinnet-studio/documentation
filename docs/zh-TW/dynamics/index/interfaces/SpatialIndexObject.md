@@ -2,7 +2,7 @@
 
 # 介面: SpatialIndexObject
 
-定義於: [dynamic-tree.ts:7](https://github.com/ue-too/ue-too/blob/454bcd14d73823b9ce9a2152a4b45cddef4ad346/packages/dynamics/src/dynamic-tree.ts#L7)
+定義於: [dynamic-tree.ts:7](https://github.com/kinnet-studio/ue-too/blob/11b72200b1b18016a77852cb2769e3d421704115/packages/dynamics/src/dynamic-tree.ts#L7)
 
 Object that can be indexed spatially via AABB.
 
@@ -12,7 +12,7 @@ Object that can be indexed spatially via AABB.
 
 > **AABB**: `object`
 
-定義於: [dynamic-tree.ts:8](https://github.com/ue-too/ue-too/blob/454bcd14d73823b9ce9a2152a4b45cddef4ad346/packages/dynamics/src/dynamic-tree.ts#L8)
+定義於: [dynamic-tree.ts:8](https://github.com/kinnet-studio/ue-too/blob/11b72200b1b18016a77852cb2769e3d421704115/packages/dynamics/src/dynamic-tree.ts#L8)
 
 #### max
 

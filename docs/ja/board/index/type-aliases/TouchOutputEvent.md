@@ -4,7 +4,7 @@
 
 > **TouchOutputEvent** = \{ `delta`: `Point`; `type`: `"pan"`; \} \| \{ `anchorPointInViewPort`: `Point`; `delta`: `number`; `type`: `"zoom"`; \} \| \{ `type`: `"none"`; \}
 
-定義: [packages/board/src/input-interpretation/input-state-machine/touch-input-state-machine.ts:63](https://github.com/ue-too/ue-too/blob/454bcd14d73823b9ce9a2152a4b45cddef4ad346/packages/board/src/input-interpretation/input-state-machine/touch-input-state-machine.ts#L63)
+定義: [packages/board/src/input-interpretation/input-state-machine/touch-input-state-machine.ts:63](https://github.com/kinnet-studio/ue-too/blob/11b72200b1b18016a77852cb2769e3d421704115/packages/board/src/input-interpretation/input-state-machine/touch-input-state-machine.ts#L63)
 
 Output events produced by the touch state machine for the orchestrator.
 

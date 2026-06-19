@@ -4,7 +4,7 @@
 
 > `const` **NO\_OP**: `NOOP`
 
-定義: [interface.ts:88](https://github.com/ue-too/ue-too/blob/454bcd14d73823b9ce9a2152a4b45cddef4ad346/packages/being/src/interface.ts#L88)
+定義: [interface.ts:88](https://github.com/kinnet-studio/ue-too/blob/11b72200b1b18016a77852cb2769e3d421704115/packages/being/src/interface.ts#L88)
 
 No-operation function constant used as a placeholder for optional actions.
 

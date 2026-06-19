@@ -4,7 +4,7 @@
 
 > **projectPointOntoLine**(`point`, `lineStartPoint`, `lineEndPoint`): `object`
 
-Defined in: [packages/curve/src/line.ts:146](https://github.com/ue-too/ue-too/blob/454bcd14d73823b9ce9a2152a4b45cddef4ad346/packages/curve/src/line.ts#L146)
+Defined in: [packages/curve/src/line.ts:146](https://github.com/kinnet-studio/ue-too/blob/11b72200b1b18016a77852cb2769e3d421704115/packages/curve/src/line.ts#L146)
 
 ## Parameters
 

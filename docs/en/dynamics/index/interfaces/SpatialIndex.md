@@ -2,7 +2,7 @@
 
 # Interface: SpatialIndex\<T\>
 
-Defined in: [dynamic-tree.ts:15](https://github.com/ue-too/ue-too/blob/454bcd14d73823b9ce9a2152a4b45cddef4ad346/packages/dynamics/src/dynamic-tree.ts#L15)
+Defined in: [dynamic-tree.ts:15](https://github.com/kinnet-studio/ue-too/blob/11b72200b1b18016a77852cb2769e3d421704115/packages/dynamics/src/dynamic-tree.ts#L15)
 
 Interface for spatial indexing data structures.
 
@@ -18,7 +18,7 @@ Interface for spatial indexing data structures.
 
 > **clear**(): `void`
 
-Defined in: [dynamic-tree.ts:16](https://github.com/ue-too/ue-too/blob/454bcd14d73823b9ce9a2152a4b45cddef4ad346/packages/dynamics/src/dynamic-tree.ts#L16)
+Defined in: [dynamic-tree.ts:16](https://github.com/kinnet-studio/ue-too/blob/11b72200b1b18016a77852cb2769e3d421704115/packages/dynamics/src/dynamic-tree.ts#L16)
 
 #### Returns
 
@@ -30,7 +30,7 @@ Defined in: [dynamic-tree.ts:16](https://github.com/ue-too/ue-too/blob/454bcd14d
 
 > `optional` **draw**(`context`): `void`
 
-Defined in: [dynamic-tree.ts:19](https://github.com/ue-too/ue-too/blob/454bcd14d73823b9ce9a2152a4b45cddef4ad346/packages/dynamics/src/dynamic-tree.ts#L19)
+Defined in: [dynamic-tree.ts:19](https://github.com/kinnet-studio/ue-too/blob/11b72200b1b18016a77852cb2769e3d421704115/packages/dynamics/src/dynamic-tree.ts#L19)
 
 #### Parameters
 
@@ -48,7 +48,7 @@ Defined in: [dynamic-tree.ts:19](https://github.com/ue-too/ue-too/blob/454bcd14d
 
 > **insert**(`object`): `void`
 
-Defined in: [dynamic-tree.ts:17](https://github.com/ue-too/ue-too/blob/454bcd14d73823b9ce9a2152a4b45cddef4ad346/packages/dynamics/src/dynamic-tree.ts#L17)
+Defined in: [dynamic-tree.ts:17](https://github.com/kinnet-studio/ue-too/blob/11b72200b1b18016a77852cb2769e3d421704115/packages/dynamics/src/dynamic-tree.ts#L17)
 
 #### Parameters
 
@@ -66,7 +66,7 @@ Defined in: [dynamic-tree.ts:17](https://github.com/ue-too/ue-too/blob/454bcd14d
 
 > **retrieve**(`object`): `T`[]
 
-Defined in: [dynamic-tree.ts:18](https://github.com/ue-too/ue-too/blob/454bcd14d73823b9ce9a2152a4b45cddef4ad346/packages/dynamics/src/dynamic-tree.ts#L18)
+Defined in: [dynamic-tree.ts:18](https://github.com/kinnet-studio/ue-too/blob/11b72200b1b18016a77852cb2769e3d421704115/packages/dynamics/src/dynamic-tree.ts#L18)
 
 #### Parameters
 

@@ -1,4 +1,4 @@
-# @ue-too/math v0.17.6
+# @ue-too/math v0.17.7
 
 ## ドキュメント
 

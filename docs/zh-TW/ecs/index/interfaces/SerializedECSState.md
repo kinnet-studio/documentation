@@ -2,7 +2,7 @@
 
 # 介面: SerializedECSState
 
-定義於: [index.ts:370](https://github.com/ue-too/ue-too/blob/454bcd14d73823b9ce9a2152a4b45cddef4ad346/packages/ecs/src/index.ts#L370)
+定義於: [index.ts:370](https://github.com/kinnet-studio/ue-too/blob/11b72200b1b18016a77852cb2769e3d421704115/packages/ecs/src/index.ts#L370)
 
 Serialized representation of the entire ECS state.
 
@@ -12,7 +12,7 @@ Serialized representation of the entire ECS state.
 
 > **entities**: [`SerializedEntity`](SerializedEntity.md)[]
 
-定義於: [index.ts:372](https://github.com/ue-too/ue-too/blob/454bcd14d73823b9ce9a2152a4b45cddef4ad346/packages/ecs/src/index.ts#L372)
+定義於: [index.ts:372](https://github.com/kinnet-studio/ue-too/blob/11b72200b1b18016a77852cb2769e3d421704115/packages/ecs/src/index.ts#L372)
 
 Array of all entities with their component data
 
@@ -22,6 +22,6 @@ Array of all entities with their component data
 
 > `optional` **schemas**: [`SerializedComponentSchema`](SerializedComponentSchema.md)[]
 
-定義於: [index.ts:374](https://github.com/ue-too/ue-too/blob/454bcd14d73823b9ce9a2152a4b45cddef4ad346/packages/ecs/src/index.ts#L374)
+定義於: [index.ts:374](https://github.com/kinnet-studio/ue-too/blob/11b72200b1b18016a77852cb2769e3d421704115/packages/ecs/src/index.ts#L374)
 
 Optional: Array of component schemas (if using schema-based components)

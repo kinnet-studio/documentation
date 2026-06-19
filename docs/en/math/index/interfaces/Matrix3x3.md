@@ -2,7 +2,7 @@
 
 # Interface: Matrix3x3
 
-Defined in: [matrix.ts:31](https://github.com/ue-too/ue-too/blob/454bcd14d73823b9ce9a2152a4b45cddef4ad346/packages/math/src/matrix.ts#L31)
+Defined in: [matrix.ts:31](https://github.com/kinnet-studio/ue-too/blob/11b72200b1b18016a77852cb2769e3d421704115/packages/math/src/matrix.ts#L31)
 
 ## Properties
 
@@ -10,7 +10,7 @@ Defined in: [matrix.ts:31](https://github.com/ue-too/ue-too/blob/454bcd14d73823b
 
 > **a**: `number`
 
-Defined in: [matrix.ts:32](https://github.com/ue-too/ue-too/blob/454bcd14d73823b9ce9a2152a4b45cddef4ad346/packages/math/src/matrix.ts#L32)
+Defined in: [matrix.ts:32](https://github.com/kinnet-studio/ue-too/blob/11b72200b1b18016a77852cb2769e3d421704115/packages/math/src/matrix.ts#L32)
 
 ***
 
@@ -18,7 +18,7 @@ Defined in: [matrix.ts:32](https://github.com/ue-too/ue-too/blob/454bcd14d73823b
 
 > **b**: `number`
 
-Defined in: [matrix.ts:35](https://github.com/ue-too/ue-too/blob/454bcd14d73823b9ce9a2152a4b45cddef4ad346/packages/math/src/matrix.ts#L35)
+Defined in: [matrix.ts:35](https://github.com/kinnet-studio/ue-too/blob/11b72200b1b18016a77852cb2769e3d421704115/packages/math/src/matrix.ts#L35)
 
 ***
 
@@ -26,7 +26,7 @@ Defined in: [matrix.ts:35](https://github.com/ue-too/ue-too/blob/454bcd14d73823b
 
 > **c**: `number`
 
-Defined in: [matrix.ts:33](https://github.com/ue-too/ue-too/blob/454bcd14d73823b9ce9a2152a4b45cddef4ad346/packages/math/src/matrix.ts#L33)
+Defined in: [matrix.ts:33](https://github.com/kinnet-studio/ue-too/blob/11b72200b1b18016a77852cb2769e3d421704115/packages/math/src/matrix.ts#L33)
 
 ***
 
@@ -34,7 +34,7 @@ Defined in: [matrix.ts:33](https://github.com/ue-too/ue-too/blob/454bcd14d73823b
 
 > **d**: `number`
 
-Defined in: [matrix.ts:36](https://github.com/ue-too/ue-too/blob/454bcd14d73823b9ce9a2152a4b45cddef4ad346/packages/math/src/matrix.ts#L36)
+Defined in: [matrix.ts:36](https://github.com/kinnet-studio/ue-too/blob/11b72200b1b18016a77852cb2769e3d421704115/packages/math/src/matrix.ts#L36)
 
 ***
 
@@ -42,7 +42,7 @@ Defined in: [matrix.ts:36](https://github.com/ue-too/ue-too/blob/454bcd14d73823b
 
 > **e**: `number`
 
-Defined in: [matrix.ts:34](https://github.com/ue-too/ue-too/blob/454bcd14d73823b9ce9a2152a4b45cddef4ad346/packages/math/src/matrix.ts#L34)
+Defined in: [matrix.ts:34](https://github.com/kinnet-studio/ue-too/blob/11b72200b1b18016a77852cb2769e3d421704115/packages/math/src/matrix.ts#L34)
 
 ***
 
@@ -50,7 +50,7 @@ Defined in: [matrix.ts:34](https://github.com/ue-too/ue-too/blob/454bcd14d73823b
 
 > **f**: `number`
 
-Defined in: [matrix.ts:37](https://github.com/ue-too/ue-too/blob/454bcd14d73823b9ce9a2152a4b45cddef4ad346/packages/math/src/matrix.ts#L37)
+Defined in: [matrix.ts:37](https://github.com/kinnet-studio/ue-too/blob/11b72200b1b18016a77852cb2769e3d421704115/packages/math/src/matrix.ts#L37)
 
 ***
 
@@ -58,7 +58,7 @@ Defined in: [matrix.ts:37](https://github.com/ue-too/ue-too/blob/454bcd14d73823b
 
 > **g**: `number`
 
-Defined in: [matrix.ts:38](https://github.com/ue-too/ue-too/blob/454bcd14d73823b9ce9a2152a4b45cddef4ad346/packages/math/src/matrix.ts#L38)
+Defined in: [matrix.ts:38](https://github.com/kinnet-studio/ue-too/blob/11b72200b1b18016a77852cb2769e3d421704115/packages/math/src/matrix.ts#L38)
 
 ***
 
@@ -66,7 +66,7 @@ Defined in: [matrix.ts:38](https://github.com/ue-too/ue-too/blob/454bcd14d73823b
 
 > **h**: `number`
 
-Defined in: [matrix.ts:39](https://github.com/ue-too/ue-too/blob/454bcd14d73823b9ce9a2152a4b45cddef4ad346/packages/math/src/matrix.ts#L39)
+Defined in: [matrix.ts:39](https://github.com/kinnet-studio/ue-too/blob/11b72200b1b18016a77852cb2769e3d421704115/packages/math/src/matrix.ts#L39)
 
 ***
 
@@ -74,4 +74,4 @@ Defined in: [matrix.ts:39](https://github.com/ue-too/ue-too/blob/454bcd14d73823b
 
 > **i**: `number`
 
-Defined in: [matrix.ts:40](https://github.com/ue-too/ue-too/blob/454bcd14d73823b9ce9a2152a4b45cddef4ad346/packages/math/src/matrix.ts#L40)
+Defined in: [matrix.ts:40](https://github.com/kinnet-studio/ue-too/blob/11b72200b1b18016a77852cb2769e3d421704115/packages/math/src/matrix.ts#L40)

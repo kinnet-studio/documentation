@@ -2,7 +2,7 @@
 
 # Class: HexGridSystem
 
-Defined in: [grid-system/hex-grid.ts:100](https://github.com/ue-too/ue-too/blob/454bcd14d73823b9ce9a2152a4b45cddef4ad346/packages/board-game-engine/src/grid-system/hex-grid.ts#L100)
+Defined in: [grid-system/hex-grid.ts:100](https://github.com/kinnet-studio/ue-too/blob/11b72200b1b18016a77852cb2769e3d421704115/packages/board-game-engine/src/grid-system/hex-grid.ts#L100)
 
 ## Implements
 
@@ -14,7 +14,7 @@ Defined in: [grid-system/hex-grid.ts:100](https://github.com/ue-too/ue-too/blob/
 
 > **new HexGridSystem**(`coordinator`): `HexGridSystem`
 
-Defined in: [grid-system/hex-grid.ts:104](https://github.com/ue-too/ue-too/blob/454bcd14d73823b9ce9a2152a4b45cddef4ad346/packages/board-game-engine/src/grid-system/hex-grid.ts#L104)
+Defined in: [grid-system/hex-grid.ts:104](https://github.com/kinnet-studio/ue-too/blob/11b72200b1b18016a77852cb2769e3d421704115/packages/board-game-engine/src/grid-system/hex-grid.ts#L104)
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: [grid-system/hex-grid.ts:104](https://github.com/ue-too/ue-too/blob/
 
 > **entities**: `Set`\<`number`\>
 
-Defined in: [grid-system/hex-grid.ts:101](https://github.com/ue-too/ue-too/blob/454bcd14d73823b9ce9a2152a4b45cddef4ad346/packages/board-game-engine/src/grid-system/hex-grid.ts#L101)
+Defined in: [grid-system/hex-grid.ts:101](https://github.com/kinnet-studio/ue-too/blob/11b72200b1b18016a77852cb2769e3d421704115/packages/board-game-engine/src/grid-system/hex-grid.ts#L101)
 
 #### Implementation of
 
@@ -44,7 +44,7 @@ Defined in: [grid-system/hex-grid.ts:101](https://github.com/ue-too/ue-too/blob/
 
 > **addEntityToGridCell**(`grid`, `q`, `r`, `entity`, `direction`, `displace`): `void`
 
-Defined in: [grid-system/hex-grid.ts:138](https://github.com/ue-too/ue-too/blob/454bcd14d73823b9ce9a2152a4b45cddef4ad346/packages/board-game-engine/src/grid-system/hex-grid.ts#L138)
+Defined in: [grid-system/hex-grid.ts:138](https://github.com/kinnet-studio/ue-too/blob/11b72200b1b18016a77852cb2769e3d421704115/packages/board-game-engine/src/grid-system/hex-grid.ts#L138)
 
 #### Parameters
 
@@ -82,7 +82,7 @@ Defined in: [grid-system/hex-grid.ts:138](https://github.com/ue-too/ue-too/blob/
 
 > **getCellEntityAt**(`grid`, `q`, `r`): `number` \| `null`
 
-Defined in: [grid-system/hex-grid.ts:240](https://github.com/ue-too/ue-too/blob/454bcd14d73823b9ce9a2152a4b45cddef4ad346/packages/board-game-engine/src/grid-system/hex-grid.ts#L240)
+Defined in: [grid-system/hex-grid.ts:240](https://github.com/kinnet-studio/ue-too/blob/11b72200b1b18016a77852cb2769e3d421704115/packages/board-game-engine/src/grid-system/hex-grid.ts#L240)
 
 #### Parameters
 
@@ -108,7 +108,7 @@ Defined in: [grid-system/hex-grid.ts:240](https://github.com/ue-too/ue-too/blob/
 
 > **getEntireGridEntities**(`grid`): \{ `entities`: (`number` \| `null`)[][]; `hasHole`: `boolean`; \} \| `null`
 
-Defined in: [grid-system/hex-grid.ts:192](https://github.com/ue-too/ue-too/blob/454bcd14d73823b9ce9a2152a4b45cddef4ad346/packages/board-game-engine/src/grid-system/hex-grid.ts#L192)
+Defined in: [grid-system/hex-grid.ts:192](https://github.com/kinnet-studio/ue-too/blob/11b72200b1b18016a77852cb2769e3d421704115/packages/board-game-engine/src/grid-system/hex-grid.ts#L192)
 
 #### Parameters
 

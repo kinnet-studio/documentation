@@ -2,7 +2,7 @@
 
 # Interface: CArray
 
-Defined in: [index.ts:578](https://github.com/ue-too/ue-too/blob/454bcd14d73823b9ce9a2152a4b45cddef4ad346/packages/ecs/src/index.ts#L578)
+Defined in: [index.ts:578](https://github.com/kinnet-studio/ue-too/blob/11b72200b1b18016a77852cb2769e3d421704115/packages/ecs/src/index.ts#L578)
 
 **`Internal`**
 
@@ -14,7 +14,7 @@ Internal interface for component array lifecycle hooks.
 
 > **entityDestroyed**(`entity`): `void`
 
-Defined in: [index.ts:579](https://github.com/ue-too/ue-too/blob/454bcd14d73823b9ce9a2152a4b45cddef4ad346/packages/ecs/src/index.ts#L579)
+Defined in: [index.ts:579](https://github.com/kinnet-studio/ue-too/blob/11b72200b1b18016a77852cb2769e3d421704115/packages/ecs/src/index.ts#L579)
 
 #### Parameters
 

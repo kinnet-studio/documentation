@@ -4,7 +4,7 @@
 
 > **orthoProjection**(`interestPoint`, `origin`): `object`
 
-定義: [projection.ts:129](https://github.com/ue-too/ue-too/blob/454bcd14d73823b9ce9a2152a4b45cddef4ad346/packages/border/src/projection.ts#L129)
+定義: [projection.ts:129](https://github.com/kinnet-studio/ue-too/blob/11b72200b1b18016a77852cb2769e3d421704115/packages/border/src/projection.ts#L129)
 
 Projects a geographic coordinate to orthographic projection.
 

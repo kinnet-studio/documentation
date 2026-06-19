@@ -2,7 +2,7 @@
 
 # 介面: SerializedComponentSchema
 
-定義於: [index.ts:350](https://github.com/ue-too/ue-too/blob/454bcd14d73823b9ce9a2152a4b45cddef4ad346/packages/ecs/src/index.ts#L350)
+定義於: [index.ts:350](https://github.com/kinnet-studio/ue-too/blob/11b72200b1b18016a77852cb2769e3d421704115/packages/ecs/src/index.ts#L350)
 
 Serialized representation of a component schema for JSON storage.
 Component names are stored as strings (using Symbol.for keys for global symbols).
@@ -13,7 +13,7 @@ Component names are stored as strings (using Symbol.for keys for global symbols)
 
 > **componentName**: `string`
 
-定義於: [index.ts:351](https://github.com/ue-too/ue-too/blob/454bcd14d73823b9ce9a2152a4b45cddef4ad346/packages/ecs/src/index.ts#L351)
+定義於: [index.ts:351](https://github.com/kinnet-studio/ue-too/blob/11b72200b1b18016a77852cb2769e3d421704115/packages/ecs/src/index.ts#L351)
 
 ***
 
@@ -21,4 +21,4 @@ Component names are stored as strings (using Symbol.for keys for global symbols)
 
 > **fields**: `SerializedComponentField`[]
 
-定義於: [index.ts:352](https://github.com/ue-too/ue-too/blob/454bcd14d73823b9ce9a2152a4b45cddef4ad346/packages/ecs/src/index.ts#L352)
+定義於: [index.ts:352](https://github.com/kinnet-studio/ue-too/blob/11b72200b1b18016a77852cb2769e3d421704115/packages/ecs/src/index.ts#L352)

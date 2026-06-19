@@ -4,7 +4,7 @@
 
 > **Point** = `object`
 
-定義: [packages/curve/src/b-curve.ts:1851](https://github.com/ue-too/ue-too/blob/454bcd14d73823b9ce9a2152a4b45cddef4ad346/packages/curve/src/b-curve.ts#L1851)
+定義: [packages/curve/src/b-curve.ts:1851](https://github.com/kinnet-studio/ue-too/blob/11b72200b1b18016a77852cb2769e3d421704115/packages/curve/src/b-curve.ts#L1851)
 
 2D/3D point type.
 
@@ -14,7 +14,7 @@
 
 > **x**: `number`
 
-定義: [packages/curve/src/b-curve.ts:1852](https://github.com/ue-too/ue-too/blob/454bcd14d73823b9ce9a2152a4b45cddef4ad346/packages/curve/src/b-curve.ts#L1852)
+定義: [packages/curve/src/b-curve.ts:1852](https://github.com/kinnet-studio/ue-too/blob/11b72200b1b18016a77852cb2769e3d421704115/packages/curve/src/b-curve.ts#L1852)
 
 ***
 
@@ -22,7 +22,7 @@
 
 > **y**: `number`
 
-定義: [packages/curve/src/b-curve.ts:1853](https://github.com/ue-too/ue-too/blob/454bcd14d73823b9ce9a2152a4b45cddef4ad346/packages/curve/src/b-curve.ts#L1853)
+定義: [packages/curve/src/b-curve.ts:1853](https://github.com/kinnet-studio/ue-too/blob/11b72200b1b18016a77852cb2769e3d421704115/packages/curve/src/b-curve.ts#L1853)
 
 ***
 
@@ -30,4 +30,4 @@
 
 > `optional` **z**: `number`
 
-定義: [packages/curve/src/b-curve.ts:1854](https://github.com/ue-too/ue-too/blob/454bcd14d73823b9ce9a2152a4b45cddef4ad346/packages/curve/src/b-curve.ts#L1854)
+定義: [packages/curve/src/b-curve.ts:1854](https://github.com/kinnet-studio/ue-too/blob/11b72200b1b18016a77852cb2769e3d421704115/packages/curve/src/b-curve.ts#L1854)

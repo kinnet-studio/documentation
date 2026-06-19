@@ -2,7 +2,7 @@
 
 # クラス: ZoneHasEntitiesNumberPrecondition
 
-定義: [zone-system/precondition.ts:31](https://github.com/ue-too/ue-too/blob/454bcd14d73823b9ce9a2152a4b45cddef4ad346/packages/board-game-engine/src/zone-system/precondition.ts#L31)
+定義: [zone-system/precondition.ts:31](https://github.com/kinnet-studio/ue-too/blob/11b72200b1b18016a77852cb2769e3d421704115/packages/board-game-engine/src/zone-system/precondition.ts#L31)
 
 ## 実装
 
@@ -14,7 +14,7 @@
 
 > **new ZoneHasEntitiesNumberPrecondition**(`_coordinator`, `_zoneEntity`, `_minCount`): `ZoneHasEntitiesNumberPrecondition`
 
-定義: [zone-system/precondition.ts:32](https://github.com/ue-too/ue-too/blob/454bcd14d73823b9ce9a2152a4b45cddef4ad346/packages/board-game-engine/src/zone-system/precondition.ts#L32)
+定義: [zone-system/precondition.ts:32](https://github.com/kinnet-studio/ue-too/blob/11b72200b1b18016a77852cb2769e3d421704115/packages/board-game-engine/src/zone-system/precondition.ts#L32)
 
 #### パラメータ
 
@@ -40,7 +40,7 @@
 
 > **check**(): `boolean`
 
-定義: [zone-system/precondition.ts:38](https://github.com/ue-too/ue-too/blob/454bcd14d73823b9ce9a2152a4b45cddef4ad346/packages/board-game-engine/src/zone-system/precondition.ts#L38)
+定義: [zone-system/precondition.ts:38](https://github.com/kinnet-studio/ue-too/blob/11b72200b1b18016a77852cb2769e3d421704115/packages/board-game-engine/src/zone-system/precondition.ts#L38)
 
 #### 戻り値
 

@@ -4,7 +4,7 @@
 
 > **RGB** = `object`
 
-定義: [animatable-attribute.ts:266](https://github.com/ue-too/ue-too/blob/454bcd14d73823b9ce9a2152a4b45cddef4ad346/packages/animate/src/animatable-attribute.ts#L266)
+定義: [animatable-attribute.ts:266](https://github.com/kinnet-studio/ue-too/blob/11b72200b1b18016a77852cb2769e3d421704115/packages/animate/src/animatable-attribute.ts#L266)
 
 RGB color type for color animations.
 
@@ -18,7 +18,7 @@ Represents a color with red, green, and blue components (0-255).
 
 > **b**: `number`
 
-定義: [animatable-attribute.ts:266](https://github.com/ue-too/ue-too/blob/454bcd14d73823b9ce9a2152a4b45cddef4ad346/packages/animate/src/animatable-attribute.ts#L266)
+定義: [animatable-attribute.ts:266](https://github.com/kinnet-studio/ue-too/blob/11b72200b1b18016a77852cb2769e3d421704115/packages/animate/src/animatable-attribute.ts#L266)
 
 ***
 
@@ -26,7 +26,7 @@ Represents a color with red, green, and blue components (0-255).
 
 > **g**: `number`
 
-定義: [animatable-attribute.ts:266](https://github.com/ue-too/ue-too/blob/454bcd14d73823b9ce9a2152a4b45cddef4ad346/packages/animate/src/animatable-attribute.ts#L266)
+定義: [animatable-attribute.ts:266](https://github.com/kinnet-studio/ue-too/blob/11b72200b1b18016a77852cb2769e3d421704115/packages/animate/src/animatable-attribute.ts#L266)
 
 ***
 
@@ -34,4 +34,4 @@ Represents a color with red, green, and blue components (0-255).
 
 > **r**: `number`
 
-定義: [animatable-attribute.ts:266](https://github.com/ue-too/ue-too/blob/454bcd14d73823b9ce9a2152a4b45cddef4ad346/packages/animate/src/animatable-attribute.ts#L266)
+定義: [animatable-attribute.ts:266](https://github.com/kinnet-studio/ue-too/blob/11b72200b1b18016a77852cb2769e3d421704115/packages/animate/src/animatable-attribute.ts#L266)

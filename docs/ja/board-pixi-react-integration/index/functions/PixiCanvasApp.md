@@ -4,7 +4,7 @@
 
 > **PixiCanvasApp**(`__namedParameters`): `Element`
 
-定義: [board-pixi-react-integration/src/components/PixiCanvas.tsx:60](https://github.com/ue-too/ue-too/blob/454bcd14d73823b9ce9a2152a4b45cddef4ad346/packages/board-pixi-react-integration/src/components/PixiCanvas.tsx#L60)
+定義: [board-pixi-react-integration/src/components/PixiCanvas.tsx:69](https://github.com/kinnet-studio/ue-too/blob/11b72200b1b18016a77852cb2769e3d421704115/packages/board-pixi-react-integration/src/components/PixiCanvas.tsx#L69)
 
 ## パラメータ
 

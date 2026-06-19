@@ -34,8 +34,6 @@ runs:
   steps:
     - name: Checkout
       uses: actions/checkout@v4
-      with:
-        token: ${{ inputs.pat }}
 
     - name: Setup Bun
       id: setup-bun
